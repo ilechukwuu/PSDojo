@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Wofür steht $_ in Where-Object { $_.Status -eq 'Running' }?",
+        "en": "What does $_ stand for in Where-Object { $_.Status -eq 'Running' }?"
+      },
+      "options": {
+        "de": [
+          "Für alle Objekte der Pipeline zusammen",
+          "Für das Objekt, das gerade betrachtet wird",
+          "Für das Ergebnis des Filters",
+          "Für den Namen des Cmdlets"
+        ],
+        "en": [
+          "For all objects of the pipeline together",
+          "For the object that is being looked at right now",
+          "For the result of the filter",
+          "For the name of the cmdlet"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Welcher Operator prüft auf Gleichheit?",
+        "en": "Which operator tests for equality?"
+      },
+      "options": {
+        "de": [
+          "=",
+          "==",
+          "-eq",
+          "-is"
+        ],
+        "en": [
+          "=",
+          "==",
+          "-eq",
+          "-is"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was liefert '10' -gt '9'?",
+        "en": "What does '10' -gt '9' return?"
+      },
+      "options": {
+        "de": [
+          "True, weil 10 größer als 9 ist",
+          "Einen Fehler",
+          "1",
+          "False, weil beide als Text verglichen werden und 1 vor 9 kommt"
+        ],
+        "en": [
+          "True, because 10 is greater than 9",
+          "An error",
+          "1",
+          "False, because both are compared as text and 1 comes before 9"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was liefert 'FS-02' -eq 'fs-02'?",
+        "en": "What does 'FS-02' -eq 'fs-02' return?"
+      },
+      "options": {
+        "de": [
+          "True, Textvergleiche ignorieren Groß- und Kleinschreibung",
+          "False, die Schreibweise unterscheidet sich",
+          "Einen Fehler",
+          "FS-02"
+        ],
+        "en": [
+          "True, text comparisons ignore case",
+          "False, the case differs",
+          "An error",
+          "FS-02"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Du willst alle Dienste, deren Name mit SQL beginnt. Welche Bedingung?",
+        "en": "You want all services whose name starts with SQL. Which condition?"
+      },
+      "options": {
+        "de": [
+          "$_.Name -eq 'SQL*'",
+          "$_.Name -contains 'SQL'",
+          "$_.Name -like 'SQL*'",
+          "$_.Name -in 'SQL*'"
+        ],
+        "en": [
+          "$_.Name -eq 'SQL*'",
+          "$_.Name -contains 'SQL'",
+          "$_.Name -like 'SQL*'",
+          "$_.Name -in 'SQL*'"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was passiert bei Where-Object { $_.Status = 'Stopped' } mit einfachen Datenobjekten?",
+        "en": "What happens with Where-Object { $_.Status = 'Stopped' } on plain data objects?"
+      },
+      "options": {
+        "de": [
+          "Es filtert auf gestoppte Dienste",
+          "Es schreibt den Wert in jedes Objekt, und der Filter lässt nichts durch",
+          "Es meldet immer einen Syntaxfehler",
+          "Es liefert alle Objekte unverändert"
+        ],
+        "en": [
+          "It filters for stopped services",
+          "It writes the value into every object and the filter lets nothing through",
+          "It always reports a syntax error",
+          "It returns all objects unchanged"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Welche Bedingung findet Dienste, die laufen sollten, es aber nicht tun?",
+        "en": "Which condition finds services that should run but do not?"
+      },
+      "options": {
+        "de": [
+          "$_.Status -eq 'Stopped' -or $_.StartType -eq 'Automatic'",
+          "$_.Status -eq 'Stopped', $_.StartType -eq 'Automatic'",
+          "$_.Status -and $_.StartType",
+          "$_.Status -eq 'Stopped' -and $_.StartType -eq 'Automatic'"
+        ],
+        "en": [
+          "$_.Status -eq 'Stopped' -or $_.StartType -eq 'Automatic'",
+          "$_.Status -eq 'Stopped', $_.StartType -eq 'Automatic'",
+          "$_.Status -and $_.StartType",
+          "$_.Status -eq 'Stopped' -and $_.StartType -eq 'Automatic'"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "$Critical = 'Spooler', 'WinRM'. Welche Bedingung ist wahr, wenn der Dienstname einer dieser Werte ist?",
+        "en": "$Critical = 'Spooler', 'WinRM'. Which condition is true when the service name is one of these values?"
+      },
+      "options": {
+        "de": [
+          "$_.Name -like $Critical",
+          "$_.Name -in $Critical",
+          "$_.Name -eq $Critical",
+          "$_.Name -contains $Critical"
+        ],
+        "en": [
+          "$_.Name -like $Critical",
+          "$_.Name -in $Critical",
+          "$_.Name -eq $Critical",
+          "$_.Name -contains $Critical"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Was bedeutet filter left?",
+        "en": "What does filter left mean?"
+      },
+      "options": {
+        "de": [
+          "Where-Object immer an den Anfang der Zeile schreiben",
+          "Von rechts nach links lesen",
+          "So früh wie möglich filtern, am besten mit einem Parameter des ersten Befehls",
+          "Nur die linke Seite eines Vergleichs prüfen"
+        ],
+        "en": [
+          "Always write Where-Object at the start of the line",
+          "Read from right to left",
+          "Filter as early as possible, ideally with a parameter of the first command",
+          "Check only the left side of a comparison"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Ein Filter vergleicht ein Anmeldedatum mit -lt gegen einen Stichtag. Was passiert mit Konten, deren Datum leer ist?",
+        "en": "A filter compares a logon date with -lt against a cut-off date. What happens to accounts whose date is empty?"
+      },
+      "options": {
+        "de": [
+          "Sie lösen einen Fehler aus",
+          "Sie werden übersprungen",
+          "PowerShell fragt nach",
+          "Sie gelten als kleiner und kommen durch den Filter"
+        ],
+        "en": [
+          "They cause an error",
+          "They are skipped",
+          "PowerShell asks",
+          "They count as smaller and pass the filter"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

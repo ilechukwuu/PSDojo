@@ -1,0 +1,18 @@
+{
+  "id": "m08-e01",
+  "module": "m08",
+  "title": {
+    "de": "Where-Object: nur durchlassen, was passt",
+    "en": "Where-Object: let through only what matches"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m06-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Where-Object { Bedingung } lässt nur Objekte durch, für die die Bedingung wahr ist. $_ ist das aktuelle Objekt, -eq und -ne vergleichen.",
+    "en": "Where-Object { condition } lets through only objects for which the condition is true. $_ is the current object, -eq and -ne compare."
+  }
+}

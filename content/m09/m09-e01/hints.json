@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Sort-Object nimmt mehrere Eigenschaftsnamen, getrennt durch Kommas. Select-Object -Property macht dasselbe beim Auswählen.",
+    "Für reinen Text brauchst du -ExpandProperty statt -Property. Sort-Object -Unique entfernt danach die Doppelten.",
+    "Zeile 3 lautet Get-Service | Select-Object -ExpandProperty StartType | Sort-Object -Unique"
+  ],
+  "en": [
+    "Sort-Object takes several property names separated by commas. Select-Object -Property does the same for choosing.",
+    "For plain text you need -ExpandProperty instead of -Property. Sort-Object -Unique then removes the duplicates.",
+    "Line 3 is Get-Service | Select-Object -ExpandProperty StartType | Sort-Object -Unique"
+  ]
+}

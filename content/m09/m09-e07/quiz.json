@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was tut Sort-Object -Property Status, Name?",
+        "en": "What does Sort-Object -Property Status, Name do?"
+      },
+      "options": {
+        "de": [
+          "Es sortiert zweimal und behält das zweite Ergebnis",
+          "Es sortiert nach Status und bei gleichem Status nach Name",
+          "Es sortiert nach dem längeren der beiden Werte",
+          "Es meldet einen Fehler, erlaubt ist nur eine Eigenschaft"
+        ],
+        "en": [
+          "It sorts twice and keeps the second result",
+          "It sorts by status and within the same status by name",
+          "It sorts by the longer of the two values",
+          "It reports an error, only one property is allowed"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was liefert Get-Service | Select-Object -Property Name?",
+        "en": "What does Get-Service | Select-Object -Property Name return?"
+      },
+      "options": {
+        "de": [
+          "Eine Liste von Texten",
+          "Die vollständigen Dienstobjekte, nur anders angezeigt",
+          "Neue Objekte, die nur die Eigenschaft Name haben",
+          "Den Namen des ersten Dienstes"
+        ],
+        "en": [
+          "A list of texts",
+          "The complete service objects, just displayed differently",
+          "New objects that have only the property Name",
+          "The name of the first service"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Du brauchst die Dienstnamen als reine Textliste. Welcher Parameter?",
+        "en": "You need the service names as a plain list of text. Which parameter?"
+      },
+      "options": {
+        "de": [
+          "-Property Name",
+          "-First Name",
+          "-Unique Name",
+          "-ExpandProperty Name"
+        ],
+        "en": [
+          "-Property Name",
+          "-First Name",
+          "-Unique Name",
+          "-ExpandProperty Name"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Welche Eigenschaften hat ein Objekt, das Group-Object liefert?",
+        "en": "Which properties does an object returned by Group-Object have?"
+      },
+      "options": {
+        "de": [
+          "Count, Name und Group",
+          "Sum, Average und Count",
+          "Key und Value",
+          "Dieselben wie die gruppierten Objekte"
+        ],
+        "en": [
+          "Count, Name and Group",
+          "Sum, Average and Count",
+          "Key and Value",
+          "The same as the grouped objects"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Get-Process | Measure-Object -Property WorkingSet64 liefert ein Ergebnis, dessen Sum leer ist. Warum?",
+        "en": "Get-Process | Measure-Object -Property WorkingSet64 returns a result whose Sum is empty. Why?"
+      },
+      "options": {
+        "de": [
+          "WorkingSet64 ist keine Zahl",
+          "Der Schalter -Sum fehlt, ohne Schalter wird nur gezählt",
+          "Measure-Object kann nicht mit Prozessen umgehen",
+          "Die Summe ist zu groß"
+        ],
+        "en": [
+          "WorkingSet64 is not a number",
+          "The switch -Sum is missing, without a switch it only counts",
+          "Measure-Object cannot handle processes",
+          "The sum is too large"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Wie viele Objekte liefert Measure-Object, wenn 500 Dateien hineinlaufen?",
+        "en": "How many objects does Measure-Object return when 500 files flow in?"
+      },
+      "options": {
+        "de": [
+          "500",
+          "Eines pro Dateityp",
+          "Genau eines",
+          "Keines, es gibt nur Text aus"
+        ],
+        "en": [
+          "500",
+          "One per file type",
+          "Exactly one",
+          "None, it only prints text"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Welche berechnete Eigenschaft ist richtig geschrieben?",
+        "en": "Which calculated property is written correctly?"
+      },
+      "options": {
+        "de": [
+          "@{ Name = 'SizeMB'; Expression = $_.Length / 1MB }",
+          "@{ 'SizeMB' = { $_.Length / 1MB } }",
+          "( Name = 'SizeMB'; Expression = { $_.Length / 1MB } )",
+          "@{ Name = 'SizeMB'; Expression = { $_.Length / 1MB } }"
+        ],
+        "en": [
+          "@{ Name = 'SizeMB'; Expression = $_.Length / 1MB }",
+          "@{ 'SizeMB' = { $_.Length / 1MB } }",
+          "( Name = 'SizeMB'; Expression = { $_.Length / 1MB } )",
+          "@{ Name = 'SizeMB'; Expression = { $_.Length / 1MB } }"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Get-Process | Select-Object -Property Name | Sort-Object -Property WorkingSet64. Was ist das Problem?",
+        "en": "Get-Process | Select-Object -Property Name | Sort-Object -Property WorkingSet64. What is the problem?"
+      },
+      "options": {
+        "de": [
+          "Sort-Object muss immer am Anfang stehen",
+          "Nach dem Select-Object gibt es WorkingSet64 nicht mehr, sortiert wird nach nichts",
+          "Select-Object entfernt die Prozesse",
+          "Es gibt kein Problem"
+        ],
+        "en": [
+          "Sort-Object must always come first",
+          "After the Select-Object WorkingSet64 no longer exists, nothing is sorted by",
+          "Select-Object removes the processes",
+          "There is no problem"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Wozu dient eine berechnete Eigenschaft, deren Ausdruck nur { $_.Category } ist?",
+        "en": "What is a calculated property for whose expression is only { $_.Category }?"
+      },
+      "options": {
+        "de": [
+          "Sie löscht die Eigenschaft Category",
+          "Sie sortiert nach Category",
+          "Sie gibt den Wert unter einem neuen Namen weiter, also zum Umbenennen",
+          "Sie zählt die Kategorien"
+        ],
+        "en": [
+          "It deletes the property Category",
+          "It sorts by Category",
+          "It passes the value on under a new name, so for renaming",
+          "It counts the categories"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Warum ist Group-Object besser als mehrere feste Filter über dieselben Daten?",
+        "en": "Why is Group-Object better than several fixed filters over the same data?"
+      },
+      "options": {
+        "de": [
+          "Es ist kürzer zu tippen, sonst gleich",
+          "Es sortiert die Daten automatisch nach Größe",
+          "Es funktioniert auch ohne Daten",
+          "Es liest die Daten einmal und zeigt auch Werte, mit denen niemand gerechnet hat"
+        ],
+        "en": [
+          "It is shorter to type, otherwise the same",
+          "It sorts the data by size automatically",
+          "It also works without data",
+          "It reads the data once and also shows values nobody expected"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

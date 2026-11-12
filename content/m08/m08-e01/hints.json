@@ -1,0 +1,12 @@
+{
+  "de": [
+    "In den Klammern schreibst du: $_, dann einen Punkt und die Eigenschaft, dann den Operator, dann den Wert in Anführungszeichen.",
+    "Gleich ist -eq und ungleich ist -ne. Zeile 2 fragt nach allem außer Disabled.",
+    "Zeile 1 lautet Get-Service | Where-Object { $_.Status -eq 'Stopped' } und Zeile 2 benutzt $_.StartType -ne 'Disabled'"
+  ],
+  "en": [
+    "Inside the braces you write: $_ then a dot and the property, then the operator, then the value in quotes.",
+    "Equal is -eq and not equal is -ne. Line 2 asks for everything except Disabled.",
+    "Line 1 is Get-Service | Where-Object { $_.Status -eq 'Stopped' } and line 2 uses $_.StartType -ne 'Disabled'"
+  ]
+}

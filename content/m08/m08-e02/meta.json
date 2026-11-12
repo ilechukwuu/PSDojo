@@ -1,0 +1,18 @@
+{
+  "id": "m08-e02",
+  "module": "m08",
+  "title": {
+    "de": "Vergleiche vorhersagen: wahr oder falsch",
+    "en": "Predict comparisons: true or false"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m08-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Textvergleiche ignorieren Groß- und Kleinschreibung, -ceq nicht. Der linke Wert bestimmt, ob als Text oder als Zahl verglichen wird.",
+    "en": "Text comparisons ignore case, -ceq does not. The left value decides whether the comparison is done as text or as number."
+  }
+}

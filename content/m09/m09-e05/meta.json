@@ -1,0 +1,18 @@
+{
+  "id": "m09-e05",
+  "module": "m09",
+  "title": {
+    "de": "Kaputter Bericht: zu früh ausgewählt, falsch berechnet",
+    "en": "Broken report: selected too early, calculated wrong"
+  },
+  "type": "fix",
+  "order": 5,
+  "prerequisites": [
+    "m09-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Nach Select-Object gibt es nur noch die ausgewählten Eigenschaften. Expression braucht geschweifte Klammern. Für Text braucht es -ExpandProperty.",
+    "en": "After Select-Object only the selected properties exist. Expression needs curly braces. Text needs -ExpandProperty."
+  }
+}

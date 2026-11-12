@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Nach -Property steht eine Liste mit drei Einträgen, getrennt durch Kommas: der Name Name und zwei berechnete Eigenschaften.",
+    "Eine berechnete Eigenschaft ist @{ Name = 'MemoryMB'; Expression = { ... } }. Die neuen Objekte haben kein WorkingSet64 mehr, sortiere also nach MemoryMB.",
+    "Der zweite Eintrag lautet @{ Name = 'MemoryMB'; Expression = { [math]::Round($_.WorkingSet64 / 1MB) } } und der dritte @{ Name = 'Team'; Expression = { $_.Category } }"
+  ],
+  "en": [
+    "After -Property comes a list with three entries separated by commas: the name Name and two calculated properties.",
+    "A calculated property is @{ Name = 'MemoryMB'; Expression = { ... } }. The new objects no longer have WorkingSet64, so sort by MemoryMB.",
+    "The second entry is @{ Name = 'MemoryMB'; Expression = { [math]::Round($_.WorkingSet64 / 1MB) } } and the third is @{ Name = 'Team'; Expression = { $_.Category } }"
+  ]
+}

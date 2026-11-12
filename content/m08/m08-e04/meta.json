@@ -1,0 +1,18 @@
+{
+  "id": "m08-e04",
+  "module": "m08",
+  "title": {
+    "de": "Drei Filter, die nichts oder das Falsche liefern",
+    "en": "Three filters that return nothing or the wrong thing"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m08-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Im Filter vergleicht -eq, nicht =. Platzhalter brauchen -like. Jede Eigenschaft braucht $_ davor.",
+    "en": "In a filter -eq compares, not =. Wildcards need -like. Every property needs $_ in front."
+  }
+}

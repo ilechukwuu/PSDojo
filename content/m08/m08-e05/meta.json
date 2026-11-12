@@ -1,0 +1,18 @@
+{
+  "id": "m08-e05",
+  "module": "m08",
+  "title": {
+    "de": "Früh filtern: beim Befehl statt danach",
+    "en": "Filter early: at the command instead of after it"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m08-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Was der erste Befehl selbst filtern kann, filtert er schneller als Where-Object danach. Where-Object bleibt für alles, wofür es keinen Parameter gibt.",
+    "en": "What the first command can filter itself, it filters faster than Where-Object after it. Where-Object remains for everything that has no parameter."
+  }
+}

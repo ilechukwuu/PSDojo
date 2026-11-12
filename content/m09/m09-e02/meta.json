@@ -1,0 +1,18 @@
+{
+  "id": "m09-e02",
+  "module": "m09",
+  "title": {
+    "de": "Gruppieren und Messen: Zahlen für den Bericht",
+    "en": "Group and measure: numbers for the report"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m09-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Group-Object bildet Gruppen mit Name, Count und Group. Measure-Object -Property rechnet Sum, Average, Maximum und Minimum.",
+    "en": "Group-Object forms groups with Name, Count and Group. Measure-Object -Property calculates Sum, Average, Maximum and Minimum."
+  }
+}

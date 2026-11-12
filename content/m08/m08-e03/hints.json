@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Listen 1 und 3 brauchen zwei Vergleiche, verknüpft in einem Klammerpaar. Liste 2 braucht einen Platzhalter.",
+    "Beide Bedingungen müssen gelten, das Wort dazwischen ist also -and. Beginnt mit Nordwind ist -like 'Nordwind*'. Ist einer der Namen ist -in $CriticalNames.",
+    "Zeile 1 benutzt $_.Status -eq 'Stopped' -and $_.StartType -eq 'Automatic' und Zeile 3 benutzt $_.Name -in $CriticalNames -and $_.Status -ne 'Running'"
+  ],
+  "en": [
+    "Lists 1 and 3 need two comparisons joined inside one pair of braces. List 2 needs a wildcard.",
+    "Both conditions must hold, so the word between them is -and. Starts with Nordwind is -like 'Nordwind*'. Is one of the names is -in $CriticalNames.",
+    "Line 1 uses $_.Status -eq 'Stopped' -and $_.StartType -eq 'Automatic' and line 3 uses $_.Name -in $CriticalNames -and $_.Status -ne 'Running'"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "m09",
+  "part": 1,
+  "order": 9,
+  "track": "core",
+  "title": {
+    "de": "Sortieren, Gruppieren, Messen, Auswählen",
+    "en": "Sorting, grouping, measuring, selecting"
+  },
+  "prerequisites": [
+    "m08"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m09-e06",
+  "module": "m09",
+  "title": {
+    "de": "Einmal holen, einmal gruppieren",
+    "en": "Fetch once, group once"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m09-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Group-Object ersetzt mehrere Filter über dieselben Daten. Die Zahl pro Gruppe steht in Count, die Gruppe findet man über Name.",
+    "en": "Group-Object replaces several filters over the same data. The number per group is in Count, and a group is found by its Name."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m08-e03",
+  "module": "m08",
+  "title": {
+    "de": "Bedingungen verknüpfen: -and, -or, -like, -in",
+    "en": "Combine conditions: -and, -or, -like, -in"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m08-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "-and verlangt beide Bedingungen, -or eine von beiden, -not kehrt um. -like vergleicht mit Platzhaltern, -in prüft gegen eine Liste.",
+    "en": "-and needs both conditions, -or one of them, -not reverses. -like compares with wildcards, -in checks against a list."
+  }
+}

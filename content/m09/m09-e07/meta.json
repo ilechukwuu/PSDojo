@@ -1,0 +1,19 @@
+{
+  "id": "m09-e07",
+  "module": "m09",
+  "title": {
+    "de": "Quiz: Sortieren, Gruppieren, Messen, Auswählen",
+    "en": "Quiz: Sorting, grouping, measuring, selecting"
+  },
+  "type": "quiz",
+  "order": 7,
+  "prerequisites": [
+    "m09-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

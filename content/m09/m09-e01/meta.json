@@ -1,0 +1,18 @@
+{
+  "id": "m09-e01",
+  "module": "m09",
+  "title": {
+    "de": "Sortieren und Eigenschaften auswählen",
+    "en": "Sort and select properties"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m08-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Sort-Object sortiert nach einer oder mehreren Eigenschaften. Select-Object -Property baut schmale Objekte, -ExpandProperty liefert nur die Werte.",
+    "en": "Sort-Object sorts by one or several properties. Select-Object -Property builds narrow objects, -ExpandProperty returns only the values."
+  }
+}

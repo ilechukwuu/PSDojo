@@ -1,0 +1,18 @@
+{
+  "id": "m09-e03",
+  "module": "m09",
+  "title": {
+    "de": "Was kommt heraus: Objekte, Text oder Gruppen",
+    "en": "What comes out: objects, text or groups"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m09-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "-Property liefert Objekte, -ExpandProperty Werte, Group-Object Gruppen mit Count. Was der nächste Befehl sieht, hängt davon ab.",
+    "en": "-Property returns objects, -ExpandProperty values, Group-Object groups with Count. What the next command sees depends on that."
+  }
+}

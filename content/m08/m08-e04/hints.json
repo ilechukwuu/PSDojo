@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Vergleiche jede Bedingung mit dem Muster $_.Eigenschaft -Operator 'Wert'. In jeder stimmt etwas nicht.",
+    "Zeile 1 benutzt das Zeichen für die Zuweisung. Zeile 2 benutzt einen Platzhalter mit einem Operator, der ihn nicht versteht. In Zeile 3 fehlt etwas vor Status.",
+    "Die drei Bedingungen lauten $_.Status -eq 'Stopped', dann $_.Name -like 'Nordwind*', dann $_.Status -eq 'Running'"
+  ],
+  "en": [
+    "Compare each condition with the pattern $_.Property -operator 'value'. Something is off in every one of them.",
+    "Line 1 uses the sign for assigning. Line 2 uses a wildcard with an operator that does not understand it. Line 3 is missing something in front of Status.",
+    "The three conditions are $_.Status -eq 'Stopped', then $_.Name -like 'Nordwind*', then $_.Status -eq 'Running'"
+  ]
+}

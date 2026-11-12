@@ -1,0 +1,13 @@
+{
+  "id": "m08",
+  "part": 1,
+  "order": 8,
+  "track": "core",
+  "title": {
+    "de": "Filtern und Vergleichsoperatoren",
+    "en": "Filtering and comparison operators"
+  },
+  "prerequisites": [
+    "m06"
+  ]
+}

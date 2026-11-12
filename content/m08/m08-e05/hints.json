@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Get-Service hat einen Parameter -Name, der Platzhalter versteht und mehrere Namen annimmt.",
+    "In Zeile 1 bleibt nur der Statusvergleich in den Klammern. In Zeile 2 stehen die zwei Namen durch ein Komma getrennt hinter -Name.",
+    "Zeile 1 lautet Get-Service -Name Nordwind* | Where-Object { $_.Status -eq 'Stopped' } und Zeile 2 lautet Get-Service -Name MSSQLSERVER, SQLSERVERAGENT"
+  ],
+  "en": [
+    "Get-Service has a parameter -Name that understands wildcards and takes several names.",
+    "In line 1 only the status comparison stays inside the braces. In line 2 the two names are separated by a comma after -Name.",
+    "Line 1 is Get-Service -Name Nordwind* | Where-Object { $_.Status -eq 'Stopped' } and line 2 is Get-Service -Name MSSQLSERVER, SQLSERVERAGENT"
+  ]
+}

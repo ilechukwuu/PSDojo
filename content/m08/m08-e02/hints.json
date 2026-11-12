@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Prüfe bei jeder Zeile zwei Dinge: Ist der linke Wert Text oder eine Zahl, und versteht der Operator Platzhalter.",
+    "In Zeile 2 sind beide Werte Text, sie werden also Zeichen für Zeichen verglichen. In Zeile 3 ist der linke Wert eine Zahl.",
+    "Als Text ist '100' nicht größer als '25', weil 1 vor 2 kommt. -eq versteht den Stern nicht, -like schon. Vergleiche ignorieren die Schreibweise, auch bei -contains."
+  ],
+  "en": [
+    "For each line check two things: is the left value text or a number, and does the operator understand wildcards.",
+    "In line 2 both values are text, so they are compared character by character. In line 3 the left value is a number.",
+    "As text '100' is not greater than '25' because 1 comes before 2. -eq does not understand the star, -like does. Comparisons ignore case, also inside -contains."
+  ]
+}

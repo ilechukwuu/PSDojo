@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die erste Pipeline aus und lies den Fehler. Prüfe dann Befehl für Befehl, welche Eigenschaften an jeder Stelle noch existieren.",
+    "Der Wert von Expression braucht geschweifte Klammern. Nach dem Select-Object haben die Objekte Name und MemoryMB, sonst nichts. Für die Namensliste sind Objekte das Falsche.",
+    "Nutze Expression = { [math]::Round($_.WorkingSet64 / 1MB) }, sortiere nach MemoryMB und nimm in der letzten Zeile Select-Object -ExpandProperty Name."
+  ],
+  "en": [
+    "Run the first pipeline and read the error. Then check, command by command, which properties still exist at each point.",
+    "The value of Expression needs curly braces. After the Select-Object the objects have Name and MemoryMB, nothing else. For the name list objects are the wrong thing.",
+    "Use Expression = { [math]::Round($_.WorkingSet64 / 1MB) }, sort by MemoryMB, and use Select-Object -ExpandProperty Name in the last line."
+  ]
+}

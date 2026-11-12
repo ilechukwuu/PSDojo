@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Zeile 1 leitet die Dienste in Group-Object, Zeile 2 die Prozesse in Measure-Object. Beide brauchen -Property.",
+    "Measure-Object rechnet nur, was du verlangst. Ergänze die Schalter -Sum, -Average und -Maximum.",
+    "Zeile 2 lautet Get-Process | Measure-Object -Property WorkingSet64 -Sum -Average -Maximum und Zeile 3 lautet [math]::Round($Memory.Sum / 1MB)"
+  ],
+  "en": [
+    "Line 1 pipes the services into Group-Object, line 2 pipes the processes into Measure-Object. Both need -Property.",
+    "Measure-Object only calculates what you ask for. Add the switches -Sum, -Average and -Maximum.",
+    "Line 2 is Get-Process | Measure-Object -Property WorkingSet64 -Sum -Average -Maximum and line 3 is [math]::Round($Memory.Sum / 1MB)"
+  ]
+}

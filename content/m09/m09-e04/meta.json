@@ -1,0 +1,18 @@
+{
+  "id": "m09-e04",
+  "module": "m09",
+  "title": {
+    "de": "Berechnete Eigenschaften: Megabyte statt Bytes",
+    "en": "Calculated properties: megabytes instead of bytes"
+  },
+  "type": "write",
+  "order": 4,
+  "prerequisites": [
+    "m09-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine berechnete Eigenschaft ist @{ Name = '...'; Expression = { ... } } in Select-Object. Im Ausdruck steht $_ für das aktuelle Objekt.",
+    "en": "A calculated property is @{ Name = '...'; Expression = { ... } } in Select-Object. Inside the expression $_ stands for the current object."
+  }
+}

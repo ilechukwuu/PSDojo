@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die erste Zeile wird zu $Groups = Get-Service | Group-Object -Property Status. Danach wird Get-Service nicht mehr gebraucht.",
+    "Jede Gruppe hat einen Name, das ist der Status, und einen Count. Filtere die Gruppen nach Name und lies Count.",
+    "$RunningCount = ($Groups | Where-Object { $_.Name -eq 'Running' }).Count und dasselbe mit 'Stopped' für $StoppedCount"
+  ],
+  "en": [
+    "The first line becomes $Groups = Get-Service | Group-Object -Property Status. After that Get-Service is not needed again.",
+    "Each group has a Name, which is the status, and a Count. Filter the groups by Name and read Count.",
+    "$RunningCount = ($Groups | Where-Object { $_.Name -eq 'Running' }).Count and the same with 'Stopped' for $StoppedCount"
+  ]
+}

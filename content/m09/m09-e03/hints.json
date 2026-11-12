@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Gehe jede Pipeline Schritt für Schritt durch und frage, was nach jedem Befehl fließt.",
+    "Nach Group-Object gibt es Gruppen, keine Dienste. Zähle die unterschiedlichen Werte der Eigenschaft, nach der gruppiert wird.",
+    "Es gibt drei Starttypen. Vier Dienste sind gestoppt und drei laufen. Automatic steht im Alphabet vorn, und von seinen zwei Diensten kommt Spooler vor WinRM. Es gibt zwei unterschiedliche Statuswerte."
+  ],
+  "en": [
+    "Go through each pipeline step by step and ask what kind of thing is flowing after each command.",
+    "After Group-Object there are groups, not services. Count the distinct values of the property that is grouped by.",
+    "There are three start types. Four services are stopped and three are running. Automatic comes first in the alphabet, and of its two services Spooler comes before WinRM. There are two distinct status values."
+  ]
+}
