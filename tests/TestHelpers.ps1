@@ -16,14 +16,21 @@ function New-DojoTestContent {
 
         [string[]]$Reviewed = @(),
 
-        [switch]$ApproveAll
+        [switch]$ApproveAll,
+
+        [string[]]$Module = @('m01')
     )
 
     $source = Join-Path -Path (Get-DojoRepoRoot) -ChildPath 'content'
     if (Test-Path -LiteralPath $Destination) {
         Remove-Item -LiteralPath $Destination -Recurse -Force
     }
-    Copy-Item -LiteralPath $source -Destination $Destination -Recurse
+    $null = New-Item -Path $Destination -ItemType Directory -Force
+    foreach ($folder in (Get-ChildItem -LiteralPath $source -Directory)) {
+        if ($folder.Name.StartsWith('_') -or $Module -contains $folder.Name) {
+            Copy-Item -LiteralPath $folder.FullName -Destination (Join-Path -Path $Destination -ChildPath $folder.Name) -Recurse
+        }
+    }
     $encoding = New-Object -TypeName System.Text.UTF8Encoding -ArgumentList $false
     foreach ($file in (Get-ChildItem -LiteralPath $Destination -Filter 'meta.json' -Recurse)) {
         $id = Split-Path -Path $file.DirectoryName -Leaf
@@ -82,5 +89,6 @@ function Get-DojoHostText {
         [scriptblock]$ScriptBlock
     )
 
-    return ((& $ScriptBlock 6>&1 3>&1 | Out-String))
+    $lines = & $ScriptBlock 6>&1 3>&1 | ForEach-Object { [string]$_ }
+    return (@($lines) -join [Environment]::NewLine)
 }

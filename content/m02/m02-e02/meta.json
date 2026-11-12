@@ -1,0 +1,18 @@
+{
+  "id": "m02-e02",
+  "module": "m02",
+  "title": {
+    "de": "Kommentare und Regionen: aus einer Notiz wird ein Skript",
+    "en": "Comments and regions: turn a note into a script"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m02-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "# kommentiert eine Zeile, <# #> einen Block. #region und #endregion bilden einklappbare Abschnitte.",
+    "en": "# comments one line, <# #> a block. #region and #endregion form foldable sections."
+  }
+}

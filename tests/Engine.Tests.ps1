@@ -46,7 +46,7 @@ Describe 'Module import' {
         $command = "`$env:PSModulePath = '$empty'; try { Import-Module -Name '$manifest' -ErrorAction Stop; 'IMPORTED' } catch { `$_.Exception.Message }"
         $output = (& $shell -NoProfile -NonInteractive -Command $command | Out-String)
         $output | Should -Not -Match 'IMPORTED'
-        $output | Should -Match 'Install-Module -Name Pester -MinimumVersion'
+        $output | Should -Match 'Install-Module -Name Pester -MinimumVersion 5\.3\.0 -MaximumVersion 5\.99\.99'
     }
 }
 

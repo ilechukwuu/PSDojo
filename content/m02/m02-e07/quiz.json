@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Du hast in einem Skript auf einem Server eine einzelne Zeile markiert und willst nur diese ausführen. Welche Taste?",
+        "en": "You selected a single line in a script on a server and want to run only that line. Which key?"
+      },
+      "options": {
+        "de": [
+          "F5",
+          "F8",
+          "F9",
+          "F10"
+        ],
+        "en": [
+          "F5",
+          "F8",
+          "F9",
+          "F10"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Welche PowerShell-Version kann die ISE ausführen?",
+        "en": "Which PowerShell version can the ISE run?"
+      },
+      "options": {
+        "de": [
+          "Nur PowerShell 7",
+          "Windows PowerShell 5.1 und PowerShell 7",
+          "Nur Windows PowerShell 5.1",
+          "Jede Version, die installiert ist"
+        ],
+        "en": [
+          "Only PowerShell 7",
+          "Windows PowerShell 5.1 and PowerShell 7",
+          "Only Windows PowerShell 5.1",
+          "Every version that is installed"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was bewirken #region und #endregion, wenn das Skript läuft?",
+        "en": "What do #region and #endregion do when the script runs?"
+      },
+      "options": {
+        "de": [
+          "Nichts, es sind Kommentare. Sie bilden nur einklappbare Abschnitte im Editor",
+          "Sie begrenzen den Gültigkeitsbereich von Variablen",
+          "Der Code dazwischen wird übersprungen",
+          "Sie fangen Fehler im Abschnitt ab"
+        ],
+        "en": [
+          "Nothing, they are comments. They only form foldable sections in the editor",
+          "They limit the scope of variables",
+          "The code between them is skipped",
+          "They catch errors inside the section"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Die halbe Datei hat plötzlich die Farbe von Text. Was ist die wahrscheinlichste Ursache?",
+        "en": "Half the file suddenly has the color of text. What is the most likely cause?"
+      },
+      "options": {
+        "de": [
+          "Die Datei ist nicht gespeichert",
+          "Ein Cmdlet-Name ist falsch geschrieben",
+          "Die Ausführungsrichtlinie blockiert das Skript",
+          "Ein Anführungszeichen wurde nicht geschlossen"
+        ],
+        "en": [
+          "The file is not saved",
+          "A cmdlet name is misspelled",
+          "The execution policy blocks the script",
+          "A quote was not closed"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Ein Skript enthält in Zeile 20 einen Syntaxfehler. Was passiert beim Start mit den Zeilen 1 bis 19?",
+        "en": "A script has a syntax error in line 20. What happens to lines 1 to 19 when you start it?"
+      },
+      "options": {
+        "de": [
+          "Sie laufen, dann bricht das Skript ab",
+          "Sie laufen nicht. PowerShell führt gar nichts aus, bis der Fehler behoben ist",
+          "Sie laufen, Zeile 20 wird übersprungen",
+          "Sie laufen nur im Debugger"
+        ],
+        "en": [
+          "They run, then the script stops",
+          "They do not run. PowerShell runs nothing at all until the error is fixed",
+          "They run and line 20 is skipped",
+          "They only run in the debugger"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Mit welcher Taste setzt du in ISE und VS Code einen Haltepunkt?",
+        "en": "Which key sets a breakpoint in ISE and VS Code?"
+      },
+      "options": {
+        "de": [
+          "F5",
+          "F8",
+          "F9",
+          "F11"
+        ],
+        "en": [
+          "F5",
+          "F8",
+          "F9",
+          "F11"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Das Skript steht an einem Haltepunkt. Was tut F10?",
+        "en": "The script is stopped at a breakpoint. What does F10 do?"
+      },
+      "options": {
+        "de": [
+          "Es beendet das Debuggen",
+          "Es läuft bis zum nächsten Haltepunkt weiter",
+          "Es entfernt den Haltepunkt",
+          "Es führt die hervorgehobene Zeile aus und hält danach wieder an"
+        ],
+        "en": [
+          "It ends debugging",
+          "It continues to the next breakpoint",
+          "It removes the breakpoint",
+          "It runs the highlighted line and stops again"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Woran erkennst du in der Konsole, dass das Skript gerade angehalten ist?",
+        "en": "How does the console show that the script is currently stopped?"
+      },
+      "options": {
+        "de": [
+          "Die Eingabezeile beginnt mit [DBG]",
+          "Die Konsole ist gesperrt",
+          "Der Hintergrund wird rot",
+          "Es erscheint die Meldung Paused"
+        ],
+        "en": [
+          "The prompt starts with [DBG]",
+          "The console is locked",
+          "The background turns red",
+          "The message Paused appears"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "$PSVersionTable.PSEdition liefert Desktop. Was läuft dort?",
+        "en": "$PSVersionTable.PSEdition returns Desktop. What is running there?"
+      },
+      "options": {
+        "de": [
+          "PowerShell 7 unter Windows",
+          "Windows PowerShell 5.1",
+          "Die PowerShell ISE, egal mit welcher Version",
+          "PowerShell auf einem Desktop-Betriebssystem statt auf einem Server"
+        ],
+        "en": [
+          "PowerShell 7 on Windows",
+          "Windows PowerShell 5.1",
+          "The PowerShell ISE, whatever the version",
+          "PowerShell on a desktop operating system instead of a server"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Ein Skript läuft im Editor, scheitert aber als geplante Aufgabe an einer leeren Variablen. Was ist die typische Ursache?",
+        "en": "A script runs in the editor but fails as a scheduled task because a variable is empty. What is the typical cause?"
+      },
+      "options": {
+        "de": [
+          "Geplante Aufgaben können keine Variablen benutzen",
+          "Der Editor führt Skripte mit höheren Rechten aus",
+          "Die Variable stammte aus der offenen Sitzung des Editors und wird im Skript nie gesetzt",
+          "Die geplante Aufgabe benutzt einen anderen Zeichensatz"
+        ],
+        "en": [
+          "Scheduled tasks cannot use variables",
+          "The editor runs scripts with higher privileges",
+          "The variable came from the open session of the editor and is never set in the script",
+          "The scheduled task uses a different character set"
+        ]
+      },
+      "answer": "c"
+    }
+  ]
+}

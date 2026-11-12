@@ -1,0 +1,18 @@
+{
+  "id": "m02-e01",
+  "module": "m02",
+  "title": {
+    "de": "F8: nur ausführen, was markiert ist",
+    "en": "F8: run only what you select"
+  },
+  "type": "predict",
+  "order": 1,
+  "prerequisites": [
+    "m01-e08"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "F5 führt die ganze Datei aus, F8 nur die Markierung oder die aktuelle Zeile. Das gilt in ISE und VS Code.",
+    "en": "F5 runs the whole file, F8 runs only the selection or the current line. That holds for ISE and VS Code."
+  }
+}

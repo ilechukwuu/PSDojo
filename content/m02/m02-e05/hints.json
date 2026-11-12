@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jedes Semikolon markiert die Stelle, an der eine neue Zeile beginnen soll. Drücke dort Enter und lösche das Semikolon.",
+    "Es sind sieben Anweisungen, die fertige Datei hat also sieben Zeilen. In VS Code setzt Umschalt+Alt+F danach die Leerzeichen für dich.",
+    "Jede Zeile sieht aus wie diese: $LimitGB = 50  Die Zeile mit der Rechnung lautet $FreeGB = $LimitGB - $UsedGB und vor dem Dollarzeichen steht nichts."
+  ],
+  "en": [
+    "Every semicolon marks the place where a new line should start. Press Enter there and delete the semicolon.",
+    "There are seven statements, so the finished file has seven lines. In VS Code Shift+Alt+F then adds the spaces for you.",
+    "Each line looks like this one: $LimitGB = 50  The line with the calculation reads $FreeGB = $LimitGB - $UsedGB and nothing stands in front of the dollar sign."
+  ]
+}

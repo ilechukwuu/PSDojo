@@ -1,0 +1,18 @@
+{
+  "id": "m02-e05",
+  "module": "m02",
+  "title": {
+    "de": "Lesbar machen: eine Anweisung pro Zeile",
+    "en": "Make it readable: one statement per line"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m02-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Anweisung pro Zeile, Leerzeichen um das Gleichheitszeichen, keine Tabulatoren. VS Code formatiert mit Umschalt+Alt+F.",
+    "en": "One statement per line, spaces around the equals sign, no tabs. VS Code formats with Shift+Alt+F."
+  }
+}

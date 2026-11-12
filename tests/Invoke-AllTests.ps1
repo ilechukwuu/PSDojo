@@ -5,11 +5,12 @@ param(
 )
 
 $minimum = [version]'5.3.0'
-$pester = Get-Module -ListAvailable -Name Pester | Where-Object { $_.Version -ge $minimum } | Sort-Object -Property Version -Descending | Select-Object -First 1
+$maximum = [version]'5.99.99'
+$pester = Get-Module -ListAvailable -Name Pester | Where-Object { $_.Version -ge $minimum -and $_.Version -le $maximum } | Sort-Object -Property Version -Descending | Select-Object -First 1
 if (-not $pester) {
-    throw "Pester $minimum or newer is required. Install-Module -Name Pester -MinimumVersion $minimum -Scope CurrentUser -Force -SkipPublisherCheck"
+    throw "Pester 5 is required. Install-Module -Name Pester -MinimumVersion $minimum -MaximumVersion $maximum -Scope CurrentUser -Force -SkipPublisherCheck"
 }
-Import-Module -Name Pester -MinimumVersion $minimum
+Import-Module -Name Pester -MinimumVersion $minimum -MaximumVersion $maximum
 
 $paths = foreach ($name in $Suite) {
     Join-Path -Path $PSScriptRoot -ChildPath "$name.Tests.ps1"

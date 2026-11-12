@@ -3,7 +3,8 @@ BeforeDiscovery {
     $root = Get-DojoRepoRoot
     $engineCases = @(
         foreach ($folder in 'module', 'tests') {
-            foreach ($file in (Get-ChildItem -LiteralPath (Join-Path -Path $root -ChildPath $folder) -Include '*.ps1', '*.psm1', '*.psd1' -Recurse)) {
+            $files = Get-ChildItem -LiteralPath (Join-Path -Path $root -ChildPath $folder) -File -Recurse | Where-Object { '.ps1', '.psm1', '.psd1' -contains $_.Extension }
+            foreach ($file in $files) {
                 @{ Name = $file.FullName.Substring($root.Length + 1); File = $file.FullName }
             }
         }

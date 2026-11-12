@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Antwort besteht aus einer Variablen, einem Punkt und einem Eigenschaftsnamen. Nichts steht in Anführungszeichen.",
+    "Der Hostname ist $Host.Name. Die beiden anderen Werte kommen aus $PSVersionTable, einer aus PSVersion und einer aus PSEdition.",
+    "Die drei rechten Seiten lauten $Host.Name, dann $PSVersionTable.PSVersion.Major, dann $PSVersionTable.PSEdition"
+  ],
+  "en": [
+    "Each answer is a variable, a dot and a property name. Nothing is in quotes.",
+    "The host name is $Host.Name. The other two values come from $PSVersionTable, one from PSVersion and one from PSEdition.",
+    "The three right-hand sides are $Host.Name, then $PSVersionTable.PSVersion.Major, then $PSVersionTable.PSEdition"
+  ]
+}

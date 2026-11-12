@@ -1,0 +1,18 @@
+{
+  "id": "m02-e06",
+  "module": "m02",
+  "title": {
+    "de": "Wo läuft mein Skript: Host, Version, Edition",
+    "en": "Where does my script run: host, version, edition"
+  },
+  "type": "write",
+  "order": 6,
+  "prerequisites": [
+    "m02-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "$Host.Name nennt das Programm, $PSVersionTable.PSVersion die Version, $PSVersionTable.PSEdition Desktop oder Core.",
+    "en": "$Host.Name names the program, $PSVersionTable.PSVersion the version, $PSVersionTable.PSEdition Desktop or Core."
+  }
+}

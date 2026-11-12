@@ -10,7 +10,7 @@ Describe 'Find the right commands for TS-03' {
     }
 
     It 'ProcessCommands holds nothing but Process commands' {
-        $other = @($ProcessCommands | Where-Object { $_.Noun -ne 'Process' }).Name -join ', '
+        $other = @($ProcessCommands | Where-Object { $_.Name -notlike '*-Process' }).Name -join ', '
         $other | Should -Be '' -Because 'only commands with the noun Process belong in the list'
     }
 
@@ -19,7 +19,7 @@ Describe 'Find the right commands for TS-03' {
     }
 
     It 'StopCommands holds nothing but Stop commands' {
-        $other = @($StopCommands | Where-Object { $_.Verb -ne 'Stop' }).Name -join ', '
+        $other = @($StopCommands | Where-Object { $_.Name -notlike 'Stop-*' }).Name -join ', '
         $other | Should -Be '' -Because 'only commands with the verb Stop belong in the list'
     }
 

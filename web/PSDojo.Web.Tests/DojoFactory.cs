@@ -120,6 +120,11 @@ public sealed class DojoFactory : WebApplicationFactory<Program>
         Directory.CreateDirectory(target);
         foreach (var file in Directory.GetFiles(source, "*", SearchOption.AllDirectories))
         {
+            var top = Path.GetRelativePath(source, file).Split(Path.DirectorySeparatorChar)[0];
+            if (top != "m01" && !top.StartsWith('_'))
+            {
+                continue;
+            }
             var destination = file.Replace(source, target);
             if (Path.GetFileName(file) != "meta.json")
             {

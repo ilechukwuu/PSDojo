@@ -12,16 +12,17 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $minimum = [version]'5.3.0'
+$maximum = [version]'5.99.99'
 $repo = Split-Path -Path $PSScriptRoot -Parent
 $context = Join-Path -Path $PSScriptRoot -ChildPath 'image'
 $modules = Join-Path -Path $context -ChildPath '_modules'
 
 $pester = Get-Module -ListAvailable -Name Pester |
-    Where-Object { $_.Version -ge $minimum } |
+    Where-Object { $_.Version -ge $minimum -and $_.Version -le $maximum } |
     Sort-Object -Property Version -Descending |
     Select-Object -First 1
 if (-not $pester) {
-    throw "Pester $minimum or newer must be installed on this machine. It is copied into the image, so the build needs no gallery access."
+    throw "Pester 5 ($minimum or newer, not Pester 6) must be installed on this machine. It is copied into the image, so the build needs no gallery access."
 }
 
 if (Test-Path -LiteralPath $modules) {

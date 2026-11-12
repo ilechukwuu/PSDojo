@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Behebe die erste markierte Stelle und schau dann erneut hin. Nach jeder Korrektur wandern die Wellenlinien, weil der Editor ein Stück weiter lesen kann.",
+    "In Zeile 3 fehlt ein schließendes Anführungszeichen. Zeile 4 öffnet eine Klammer, die nie geschlossen wird. Schau in Zeile 5 genau auf den Teil, der mit $( beginnt.",
+    "Zeile 3 endet mit 'TS-03'. Zeile 4 endet mit 'E:'). In Zeile 5 muss der Teil $($Drives.Count) lauten, mit einer schließenden Klammer direkt nach Count."
+  ],
+  "en": [
+    "Fix the first marked spot, then look again. After each fix the squiggles move, because the editor can read a bit further.",
+    "Line 3 is missing a closing quote. Line 4 opens a parenthesis that is never closed. In line 5 look closely at the part that starts with $( .",
+    "Line 3 ends with 'TS-03'. Line 4 ends with 'E:'). In line 5 the part must read $($Drives.Count) with a closing parenthesis directly after Count."
+  ]
+}

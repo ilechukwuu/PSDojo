@@ -1,0 +1,18 @@
+{
+  "id": "m02-e03",
+  "module": "m02",
+  "title": {
+    "de": "Rote Wellenlinien: Syntaxfehler vor dem Start finden",
+    "en": "Red squiggles: find syntax errors before you run"
+  },
+  "type": "fix",
+  "order": 3,
+  "prerequisites": [
+    "m02-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Der Editor markiert Syntaxfehler, bevor etwas läuft: fehlende Anführungszeichen, Klammern und geschweifte Klammern.",
+    "en": "The editor marks syntax errors before anything runs: missing quotes, parentheses and braces."
+  }
+}

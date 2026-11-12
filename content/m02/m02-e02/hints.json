@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Ein Blockkommentar beginnt mit <# in einer eigenen Zeile und endet mit #> in einer eigenen Zeile. Alles dazwischen wird ignoriert.",
+    "Eine Region besteht aus zwei Zeilen: #region Settings über den Zeilen und #endregion darunter. Dasselbe gilt für Report.",
+    "Die Datei beginnt mit <#, dann eine Zeile mit Purpose, eine Zeile mit Author, dann #>. Der einzeilige Kommentar beginnt mit # und steht zwischen #region Report und der Zeile mit $QueueCount."
+  ],
+  "en": [
+    "A block comment starts with <# on its own line and ends with #> on its own line. Everything between them is ignored.",
+    "A region is two lines: #region Settings above the lines and #endregion below them. Do the same for Report.",
+    "The file starts with <#, then a line with Purpose, a line with Author, then #>. The single-line comment starts with # and sits between #region Report and the $QueueCount line."
+  ]
+}

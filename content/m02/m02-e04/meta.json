@@ -1,0 +1,18 @@
+{
+  "id": "m02-e04",
+  "module": "m02",
+  "title": {
+    "de": "Der Debugger: Schritt für Schritt durch die Schleife",
+    "en": "The debugger: step through the loop"
+  },
+  "type": "predict",
+  "order": 4,
+  "prerequisites": [
+    "m02-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "F9 setzt einen Haltepunkt, F5 startet, F10 geht eine Zeile weiter. Am Haltepunkt liest du Variablen in der Konsole.",
+    "en": "F9 sets a breakpoint, F5 starts, F10 moves one line on. At a breakpoint you read variables in the console."
+  }
+}

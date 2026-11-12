@@ -1,7 +1,7 @@
 $script:DojoCheckScript = @'
-param($TestsPath, $ScriptPath, $StopOnFailure, $MinPester)
+param($TestsPath, $ScriptPath, $StopOnFailure, $MinPester, $MaxPester)
 
-Import-Module -Name Pester -MinimumVersion $MinPester -ErrorAction Stop
+Import-Module -Name Pester -MinimumVersion $MinPester -MaximumVersion $MaxPester -ErrorAction Stop
 
 $container = New-PesterContainer -Path $TestsPath -Data @{ SolutionPath = $ScriptPath }
 $configuration = New-PesterConfiguration
@@ -163,6 +163,7 @@ function Invoke-DojoCheck {
                 ScriptPath    = $ScriptPath
                 StopOnFailure = $stopOnFailure
                 MinPester     = $script:MinPester.ToString()
+                MaxPester     = $script:MaxPester.ToString()
             })
         $handle = $shell.BeginInvoke()
         if ($handle.AsyncWaitHandle.WaitOne($TimeoutSeconds * 1000)) {

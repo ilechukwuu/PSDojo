@@ -1,0 +1,13 @@
+{
+  "id": "m02",
+  "part": 1,
+  "order": 2,
+  "track": "core",
+  "title": {
+    "de": "Die Editoren: ISE und VS Code",
+    "en": "The editors: ISE and VS Code"
+  },
+  "prerequisites": [
+    "m01"
+  ]
+}

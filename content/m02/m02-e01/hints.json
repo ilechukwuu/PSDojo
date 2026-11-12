@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Klicke in Zeile 4, markiere die ganze Zeile und drücke F8. Das Ergebnis erscheint in der Konsole.",
+    "Übernimm, was die Konsole zeigt. Das erste Ergebnis ist eine Zahl ohne Prozentzeichen, die beiden anderen sind Text in Anführungszeichen.",
+    "Die erste Zeile gibt 15 aus. Die zweite gibt den Servernamen in Kleinbuchstaben mit der Domäne aus. Die dritte gibt einen englischen Wochentag aus."
+  ],
+  "en": [
+    "Click into line 4 so the cursor is in it, select the whole line and press F8. The result appears in the console pane.",
+    "Copy what the console shows. The first result is a number without a percent sign, the other two are text in quotes.",
+    "The first line prints 15. The second prints the server name in lower case with the domain. The third prints an English weekday."
+  ]
+}
