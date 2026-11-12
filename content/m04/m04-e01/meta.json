@@ -1,0 +1,18 @@
+{
+  "id": "m04-e01",
+  "module": "m04",
+  "title": {
+    "de": "Provider und Laufwerke auflisten",
+    "en": "List providers and drives"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m03-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Provider stellt einen Datenspeicher als Laufwerk bereit. Get-PSProvider listet Provider, Get-PSDrive die Laufwerke.",
+    "en": "A provider presents a data store as a drive. Get-PSProvider lists providers, Get-PSDrive the drives."
+  }
+}

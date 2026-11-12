@@ -1,0 +1,12 @@
+{
+  "de": [
+    "New-PSDrive braucht -Name, -PSProvider und -Root. Der Wert von -Root ist die Variable $Root.",
+    "Ein Laufwerk spricht man mit seinem Namen und einem Doppelpunkt an. Ohne Doppelpunkt sucht PowerShell am aktuellen Ort einen Ordner mit diesem Namen.",
+    "Schritt 1 lautet New-PSDrive -Name Reports -PSProvider FileSystem -Root $Root und die zwei Pfade lauten Reports: und Reports:2026-03.csv"
+  ],
+  "en": [
+    "New-PSDrive needs -Name, -PSProvider and -Root. The value of -Root is the variable $Root.",
+    "A drive is addressed by its name and a colon. Without the colon PowerShell looks for a folder of that name in the current location.",
+    "Step 1 is New-PSDrive -Name Reports -PSProvider FileSystem -Root $Root and the two paths are Reports: and Reports:2026-03.csv"
+  ]
+}

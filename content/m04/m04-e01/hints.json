@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Zwei Cmdlets reichen: eines listet Provider, das andere Laufwerke.",
+    "Get-PSDrive lässt sich auf zwei Arten eingrenzen: über den Namen des Laufwerks oder über den Provider dahinter.",
+    "Zeile 3 lautet Get-PSDrive -PSProvider FileSystem und Zeile 4 lautet Get-PSDrive -Name Env"
+  ],
+  "en": [
+    "Two cmdlets are enough: one lists providers, the other lists drives.",
+    "Get-PSDrive can be narrowed in two ways: by the name of the drive or by the provider behind it.",
+    "Line 3 is Get-PSDrive -PSProvider FileSystem and line 4 is Get-PSDrive -Name Env"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die Zeilen einzeln mit F8 aus. Jede Fehlermeldung nennt den Wert, den PowerShell nicht akzeptiert, und listet meist die erlaubten.",
+    "In Zeile 1 gehört die Eigenschaft hinter die schließende Klammer des Aufrufs. In den Zeilen 2 und 3 ist das Wort Folder kein gültiger Wert.",
+    "Zeile 1 lautet (Get-Item -Path Alias:gci).Definition, Zeile 2 braucht -PathType Container und Zeile 3 braucht -ItemType Directory."
+  ],
+  "en": [
+    "Run the lines one by one with F8. Each error message names the value PowerShell does not accept and usually lists the allowed ones.",
+    "In line 1 the property belongs behind the closing parenthesis of the call. In lines 2 and 3 the word Folder is not a valid value.",
+    "Line 1 is (Get-Item -Path Alias:gci).Definition, line 2 needs -PathType Container and line 3 needs -ItemType Directory."
+  ]
+}

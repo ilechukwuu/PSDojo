@@ -1,0 +1,18 @@
+{
+  "id": "m04-e04",
+  "module": "m04",
+  "title": {
+    "de": "Kaputtes Inventarskript: Pfade und Item-Typen",
+    "en": "Broken inventory script: paths and item types"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m04-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Eigenschaft liest man mit Punkt am Objekt, nicht im Pfad. Test-Path kennt -PathType, New-Item kennt -ItemType Directory.",
+    "en": "A property is read with a dot on the object, not inside the path. Test-Path has -PathType, New-Item has -ItemType Directory."
+  }
+}

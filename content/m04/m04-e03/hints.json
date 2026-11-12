@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schau auf den Laufwerksnamen am Anfang jedes Pfads und auf das Cmdlet davor.",
+    "Get-ChildItem auf einem Registrierungsschlüssel listet Unterschlüssel, keine Werte. Werte sind Eigenschaften des Schlüssels.",
+    "Get-ItemProperty liest Werte. Cert: ist das Zertifikatlaufwerk. HKCU: gehört dem aktuellen Benutzer. Das Ablaufdatum steht in NotAfter."
+  ],
+  "en": [
+    "Look at the drive name at the start of each path and at the cmdlet in front of it.",
+    "Get-ChildItem on a registry key lists subkeys, not values. Values are properties of the key.",
+    "Get-ItemProperty reads values. Cert: is the certificate drive. HKCU: belongs to the current user. The expiry date is in NotAfter."
+  ]
+}

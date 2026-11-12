@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jeder Pfad in dieser Übung beginnt mit Env: und danach dem Namen der Variablen.",
+    "Get-Item liefert das ganze Item. Für den Wert allein setzt du den Aufruf in runde Klammern und liest die Eigenschaft Value.",
+    "Zeile 2 lautet (Get-Item -Path Env:DOJO_SITE).Value und Schritt 3 lautet New-Item -Path Env:DOJO_TICKET -Value 'INC-4711'"
+  ],
+  "en": [
+    "Every path in this exercise starts with Env: followed by the name of the variable.",
+    "Get-Item returns the whole item. To get only its value put the call in parentheses and read the property Value.",
+    "Line 2 is (Get-Item -Path Env:DOJO_SITE).Value and step 3 is New-Item -Path Env:DOJO_TICKET -Value 'INC-4711'"
+  ]
+}

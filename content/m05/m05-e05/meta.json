@@ -1,0 +1,18 @@
+{
+  "id": "m05-e05",
+  "module": "m05",
+  "title": {
+    "de": "Wegwerfvariablen durch eine Pipeline ersetzen",
+    "en": "Replace throwaway variables with one pipeline"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m05-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Pipeline ersetzt Hilfsvariablen, die nur das Ergebnis zum nächsten Befehl tragen. Lange Pipelines bricht man nach dem | um.",
+    "en": "One pipeline replaces helper variables that only carry a result to the next command. Long pipelines are broken after the |."
+  }
+}

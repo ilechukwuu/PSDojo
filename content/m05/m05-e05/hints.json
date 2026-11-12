@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Ersetze jede Hilfsvariable durch den Befehl, der sie gefüllt hat. $b ist $a, in Sort-Object geleitet, und $a ist Get-Process.",
+    "Auch die Anzahl braucht keinen Helfer. Setze die Pipeline in runde Klammern und lies die Eigenschaft direkt.",
+    "Die Datei hat zwei Zuweisungen: $Report = Get-Process | Sort-Object -Property WorkingSet64 -Descending | Select-Object -First 3 und $ReportCount = ($Report | Measure-Object).Count"
+  ],
+  "en": [
+    "Replace each helper variable with the command that filled it. $b is $a piped into Sort-Object, and $a is Get-Process.",
+    "The count needs no helper either. Put the pipeline in parentheses and read the property directly.",
+    "The file has two assignments: $Report = Get-Process | Sort-Object -Property WorkingSet64 -Descending | Select-Object -First 3 and $ReportCount = ($Report | Measure-Object).Count"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m05-e03",
+  "module": "m05",
+  "title": {
+    "de": "Gerissene Pipelines reparieren",
+    "en": "Repair broken pipelines"
+  },
+  "type": "fix",
+  "order": 3,
+  "prerequisites": [
+    "m05-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Nur | verbindet Befehle. Ein Semikolon trennt sie. Das Pipe-Zeichen steht am Zeilenende, nicht am Zeilenanfang.",
+    "en": "Only | connects commands. A semicolon separates them. The pipe character goes at the end of a line, not at the start."
+  }
+}

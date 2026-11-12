@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schau in der ersten Pipeline auf das Zeichen zwischen den Befehlen, in der zweiten auf die Reihenfolge der Befehle und in der dritten auf die Position der Pipe-Zeichen.",
+    "Die erste Pipeline braucht eine Pipe, wo das Semikolon steht. In der zweiten muss das Sortieren vor dem Begrenzen kommen.",
+    "Verschiebe in der dritten Pipeline jedes Pipe-Zeichen vom Zeilenanfang ans Ende der Zeile darüber."
+  ],
+  "en": [
+    "Look at the character between the commands in the first pipeline, at the order of the commands in the second and at the position of the pipe characters in the third.",
+    "The first pipeline needs a pipe where the semicolon is. In the second, sorting must come before limiting.",
+    "In the third pipeline move each pipe character from the start of a line to the end of the line above it."
+  ]
+}

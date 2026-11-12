@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was ist ein Provider in PowerShell?",
+        "en": "What is a provider in PowerShell?"
+      },
+      "options": {
+        "de": [
+          "Ein Dienst, der Skripte im Hintergrund ausführt",
+          "Ein Adapter, der einen Datenspeicher als Laufwerk bereitstellt",
+          "Ein Modul mit zusätzlichen Cmdlets",
+          "Ein Benutzerkonto mit besonderen Rechten"
+        ],
+        "en": [
+          "A service that runs scripts in the background",
+          "An adapter that presents a data store as a drive",
+          "A module with additional cmdlets",
+          "A user account with special rights"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Welcher Aufruf listet alle Umgebungsvariablen?",
+        "en": "Which call lists all environment variables?"
+      },
+      "options": {
+        "de": [
+          "Get-PSDrive -Name Env",
+          "Get-Item -Path Env",
+          "Get-ChildItem -Path Env:",
+          "Get-PSProvider -PSProvider Environment"
+        ],
+        "en": [
+          "Get-PSDrive -Name Env",
+          "Get-Item -Path Env",
+          "Get-ChildItem -Path Env:",
+          "Get-PSProvider -PSProvider Environment"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Wie liest du die Werte, die in einem Registrierungsschlüssel stehen?",
+        "en": "How do you read the values stored inside a registry key?"
+      },
+      "options": {
+        "de": [
+          "Get-ChildItem auf den Schlüssel",
+          "Get-Content auf den Schlüssel",
+          "Get-Item mit dem Wertnamen im Pfad",
+          "Get-ItemProperty auf den Schlüssel"
+        ],
+        "en": [
+          "Get-ChildItem on the key",
+          "Get-Content on the key",
+          "Get-Item with the value name in the path",
+          "Get-ItemProperty on the key"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Welches Laufwerk enthält die Einstellungen des angemeldeten Benutzers?",
+        "en": "Which drive holds the settings of the signed-in user?"
+      },
+      "options": {
+        "de": [
+          "HKCU:",
+          "HKLM:",
+          "Cert:",
+          "Env:"
+        ],
+        "en": [
+          "HKCU:",
+          "HKLM:",
+          "Cert:",
+          "Env:"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Du prüfst mit Test-Path, ob D:\\Reports ein Ordner ist. Welcher Zusatz stellt das sicher?",
+        "en": "You check with Test-Path whether D:\\Reports is a folder. Which addition makes sure of that?"
+      },
+      "options": {
+        "de": [
+          "-ItemType Directory",
+          "-PathType Container",
+          "-PathType Leaf",
+          "-Recurse"
+        ],
+        "en": [
+          "-ItemType Directory",
+          "-PathType Container",
+          "-PathType Leaf",
+          "-Recurse"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Welcher Aufruf legt im Dateisystem einen Ordner an?",
+        "en": "Which call creates a folder in the file system?"
+      },
+      "options": {
+        "de": [
+          "New-Item -Path D:\\Archive -ItemType Folder",
+          "New-Item -Path D:\\Archive -PathType Container",
+          "New-Item -Path D:\\Archive -ItemType Directory",
+          "New-PSDrive -Name Archive -Root D:\\"
+        ],
+        "en": [
+          "New-Item -Path D:\\Archive -ItemType Folder",
+          "New-Item -Path D:\\Archive -PathType Container",
+          "New-Item -Path D:\\Archive -ItemType Directory",
+          "New-PSDrive -Name Archive -Root D:\\"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Ein Skript beginnt mit Set-Location D:\\Temp und löscht dann mit einem relativen Pfad. Laufwerk D: ist offline. Was passiert?",
+        "en": "A script starts with Set-Location D:\\Temp and then deletes with a relative path. Drive D: is offline. What happens?"
+      },
+      "options": {
+        "de": [
+          "Das Skript bricht sofort ab",
+          "Der Löschbefehl wartet, bis D: wieder da ist",
+          "PowerShell fragt nach einem anderen Laufwerk",
+          "Set-Location scheitert, und der Löschbefehl läuft am aktuellen Ort der Sitzung"
+        ],
+        "en": [
+          "The script stops at once",
+          "The delete command waits until D: is back",
+          "PowerShell asks for another drive",
+          "Set-Location fails and the delete command runs in the current location of the session"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Wie lange existiert ein mit New-PSDrive ohne -Persist angelegtes Laufwerk?",
+        "en": "How long does a drive created with New-PSDrive without -Persist exist?"
+      },
+      "options": {
+        "de": [
+          "Bis zum Neustart des Rechners",
+          "Bis zum Ende der aktuellen PowerShell-Sitzung",
+          "Dauerhaft für den Benutzer",
+          "Bis jemand den Explorer schließt"
+        ],
+        "en": [
+          "Until the machine is restarted",
+          "Until the current PowerShell session ends",
+          "Permanently for the user",
+          "Until someone closes Explorer"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Was passiert mit den Daten, wenn du Remove-PSDrive auf ein Laufwerk anwendest?",
+        "en": "What happens to the data when you use Remove-PSDrive on a drive?"
+      },
+      "options": {
+        "de": [
+          "Sie werden gelöscht",
+          "Sie werden in den Papierkorb verschoben",
+          "Nichts, nur das Laufwerk verschwindet aus der Sitzung",
+          "Sie werden schreibgeschützt"
+        ],
+        "en": [
+          "They are deleted",
+          "They are moved to the recycle bin",
+          "Nothing, only the drive disappears from the session",
+          "They become read-only"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Welche Provider gibt es nur unter Windows?",
+        "en": "Which providers exist only on Windows?"
+      },
+      "options": {
+        "de": [
+          "FileSystem und Environment",
+          "Alias und Variable",
+          "Environment und Function",
+          "Registry und Certificate"
+        ],
+        "en": [
+          "FileSystem and Environment",
+          "Alias and Variable",
+          "Environment and Function",
+          "Registry and Certificate"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

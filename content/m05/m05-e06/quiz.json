@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was wandert in PowerShell durch die Pipe?",
+        "en": "What travels through the pipe in PowerShell?"
+      },
+      "options": {
+        "de": [
+          "Textzeilen",
+          "Objekte mit all ihren Eigenschaften",
+          "Nur die Eigenschaften, die auf dem Bildschirm zu sehen wären",
+          "Dateien"
+        ],
+        "en": [
+          "Lines of text",
+          "Objects with all their properties",
+          "Only the properties that would be visible on screen",
+          "Files"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was liefert Get-Process ; Sort-Object -Property Name an Sort-Object?",
+        "en": "What does Get-Process ; Sort-Object -Property Name hand to Sort-Object?"
+      },
+      "options": {
+        "de": [
+          "Alle Prozesse",
+          "Den ersten Prozess",
+          "Nichts, das Semikolon trennt zwei eigenständige Befehle",
+          "Eine Fehlermeldung"
+        ],
+        "en": [
+          "All processes",
+          "The first process",
+          "Nothing, the semicolon separates two independent commands",
+          "An error message"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Du willst die drei größten Dateien. Welche Pipeline ist richtig?",
+        "en": "You want the three largest files. Which pipeline is right?"
+      },
+      "options": {
+        "de": [
+          "Get-ChildItem | Select-Object -First 3 | Sort-Object -Property Length -Descending",
+          "Get-ChildItem | Sort-Object -Property Length | Select-Object -First 3",
+          "Get-ChildItem ; Sort-Object -Property Length -Descending ; Select-Object -First 3",
+          "Get-ChildItem | Sort-Object -Property Length -Descending | Select-Object -First 3"
+        ],
+        "en": [
+          "Get-ChildItem | Select-Object -First 3 | Sort-Object -Property Length -Descending",
+          "Get-ChildItem | Sort-Object -Property Length | Select-Object -First 3",
+          "Get-ChildItem ; Sort-Object -Property Length -Descending ; Select-Object -First 3",
+          "Get-ChildItem | Sort-Object -Property Length -Descending | Select-Object -First 3"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Warum kann Sort-Object nicht jedes Objekt sofort weiterreichen?",
+        "en": "Why can Sort-Object not pass each object on at once?"
+      },
+      "options": {
+        "de": [
+          "Es muss alle Objekte kennen, bevor es weiß, welches zuerst kommt",
+          "Es ist langsamer als andere Cmdlets",
+          "Es schreibt die Objekte erst in eine Datei",
+          "Es kann nur Text sortieren"
+        ],
+        "en": [
+          "It has to know all objects before it knows which one comes first",
+          "It is slower than other cmdlets",
+          "It writes the objects to a file first",
+          "It can only sort text"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Wo steht das Pipe-Zeichen, wenn eine Pipeline über mehrere Zeilen geht und auch in Windows PowerShell 5.1 laufen soll?",
+        "en": "Where does the pipe character go when a pipeline spans several lines and must also run in Windows PowerShell 5.1?"
+      },
+      "options": {
+        "de": [
+          "Am Anfang jeder Folgezeile",
+          "Am Ende jeder Zeile, die fortgesetzt wird",
+          "In einer eigenen Zeile",
+          "Das ist egal"
+        ],
+        "en": [
+          "At the start of every following line",
+          "At the end of every line that continues",
+          "On a line of its own",
+          "It does not matter"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was tut Tee-Object -Variable Snapshot mitten in einer Pipeline?",
+        "en": "What does Tee-Object -Variable Snapshot do in the middle of a pipeline?"
+      },
+      "options": {
+        "de": [
+          "Es beendet die Pipeline und speichert das Ergebnis",
+          "Es liest die Variable und fügt ihren Inhalt ein",
+          "Es speichert die Objekte in $Snapshot und reicht sie unverändert weiter",
+          "Es schreibt die Objekte auf den Bildschirm"
+        ],
+        "en": [
+          "It ends the pipeline and stores the result",
+          "It reads the variable and inserts its content",
+          "It stores the objects in $Snapshot and hands them on unchanged",
+          "It writes the objects to the screen"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Welche Eigenschaft des Ergebnisses von Measure-Object nennt die Anzahl der Objekte?",
+        "en": "Which property of the result of Measure-Object gives the number of objects?"
+      },
+      "options": {
+        "de": [
+          "Length",
+          "Total",
+          "Sum",
+          "Count"
+        ],
+        "en": [
+          "Length",
+          "Total",
+          "Sum",
+          "Count"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Eine Pipeline liefert etwas Unerwartetes. Was ist der beste erste Schritt?",
+        "en": "A pipeline returns something unexpected. What is the best first step?"
+      },
+      "options": {
+        "de": [
+          "Die Reihenfolge der Befehle zufällig ändern",
+          "Sie nach dem ersten Befehl abschneiden, das Ergebnis ansehen und Befehl für Befehl anhängen",
+          "Alles in eine Zeile schreiben",
+          "Jeden Befehl in Anführungszeichen setzen"
+        ],
+        "en": [
+          "Change the order of the commands at random",
+          "Cut it off after the first command, look at the result and add command by command",
+          "Write everything on one line",
+          "Put every command in quotes"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Wann lohnt sich eine Variable statt einer durchgehenden Pipeline?",
+        "en": "When is a variable worth having instead of one continuous pipeline?"
+      },
+      "options": {
+        "de": [
+          "Immer, Pipelines sind langsamer",
+          "Nie, Variablen verbrauchen Speicher",
+          "Nur in der ISE",
+          "Wenn das Ergebnis mehrfach gebraucht wird oder der Name etwas erklärt"
+        ],
+        "en": [
+          "Always, pipelines are slower",
+          "Never, variables use memory",
+          "Only in the ISE",
+          "When the result is needed more than once or the name explains something"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Ein Skript enthält in zwei Zeilen untereinander: Get-Service -Name Nordwind* und Restart-Service. Was passiert unbeaufsichtigt?",
+        "en": "A script has on two lines below each other: Get-Service -Name Nordwind* and Restart-Service. What happens unattended?"
+      },
+      "options": {
+        "de": [
+          "Die Dienste werden neu gestartet",
+          "Alle Dienste des Servers werden neu gestartet",
+          "Restart-Service hat keine Eingabe, fragt nach einem Namen und das Skript hängt",
+          "Die zweite Zeile wird übersprungen"
+        ],
+        "en": [
+          "The services are restarted",
+          "All services of the server are restarted",
+          "Restart-Service has no input, asks for a name and the script hangs",
+          "The second line is skipped"
+        ]
+      },
+      "answer": "c"
+    }
+  ]
+}

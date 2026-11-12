@@ -1,0 +1,18 @@
+{
+  "id": "m04-e02",
+  "module": "m04",
+  "title": {
+    "de": "Umgebungsvariablen über das Laufwerk Env:",
+    "en": "Environment variables through the drive Env:"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m04-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Die Item-Cmdlets arbeiten auf jedem Laufwerk: Get-Item, Get-ChildItem, New-Item, Test-Path, Remove-Item.",
+    "en": "The item cmdlets work on every drive: Get-Item, Get-ChildItem, New-Item, Test-Path, Remove-Item."
+  }
+}

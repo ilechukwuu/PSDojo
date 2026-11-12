@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Zeile beginnt mit Get-Process und einem Pipe-Zeichen. Was nach der Pipe steht, entscheidet, was mit den Prozessen passiert.",
+    "Die Reihenfolge der Befehle zählt. Erst alle Prozesse sortieren, dann die ersten zwei der sortierten Liste nehmen.",
+    "Zeile 2 lautet Get-Process | Sort-Object -Property WorkingSet64 -Descending | Select-Object -First 2 und Zeile 3 setzt die Pipeline in runde Klammern und liest .Count"
+  ],
+  "en": [
+    "Every line starts with Get-Process followed by a pipe character. What comes after the pipe decides what happens to the processes.",
+    "The order of the commands matters. First sort all processes, then take the first two of the sorted list.",
+    "Line 2 is Get-Process | Sort-Object -Property WorkingSet64 -Descending | Select-Object -First 2 and line 3 puts the pipeline in parentheses and reads .Count"
+  ]
+}

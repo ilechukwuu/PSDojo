@@ -1,0 +1,18 @@
+{
+  "id": "m04-e03",
+  "module": "m04",
+  "title": {
+    "de": "Registrierung und Zertifikate: gleiche Cmdlets, anderer Inhalt",
+    "en": "Registry and certificates: same cmdlets, different content"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m04-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "HKLM: und HKCU: sind die Registrierung, Cert: die Zertifikatspeicher. Schlüssel sind Items, Werte sind Item-Eigenschaften.",
+    "en": "HKLM: and HKCU: are the registry, Cert: the certificate stores. Keys are items, values are item properties."
+  }
+}

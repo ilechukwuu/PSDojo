@@ -1,0 +1,18 @@
+{
+  "id": "m05-e01",
+  "module": "m05",
+  "title": {
+    "de": "Befehle verketten: die erste Pipeline",
+    "en": "Chain commands: the first pipeline"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m03-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Das Pipe-Zeichen | reicht die Objekte eines Befehls an den nächsten weiter. Sort-Object sortiert, Select-Object -First begrenzt.",
+    "en": "The pipe character | hands the objects of one command to the next. Sort-Object sorts, Select-Object -First limits."
+  }
+}

@@ -187,13 +187,17 @@ Describe 'Exercise <Id>' -ForEach $exerciseCases {
         }
         $result = Invoke-DojoPrivate -ScriptBlock { param($e, $p) Invoke-DojoCheck -Exercise $e -ScriptPath $p } -ArgumentList $exercise, (Join-Path -Path $Path -ChildPath 'wrong.ps1')
         $result.Passed | Should -BeFalse
-        $result.Kind | Should -BeIn @('TestFailed', 'ScriptError')
+        $allowed = @('TestFailed', 'ScriptError')
+        if ($exercise.Type -eq 'fix') {
+            $allowed += 'SyntaxError'
+        }
+        $result.Kind | Should -BeIn $allowed
 
         if ($exercise.Type -eq 'quiz') {
             $result.FailedTests.Count | Should -BeGreaterThan 0
             $result.Expected | Should -Be '' -Because 'a quiz must not reveal the right answer'
         }
-        elseif ($result.Kind -eq 'ScriptError') {
+        elseif ($result.Kind -eq 'ScriptError' -or $result.Kind -eq 'SyntaxError') {
             $result.Message | Should -Not -BeNullOrEmpty
             $result.Line | Should -BeGreaterThan 0 -Because 'a script error must point to the line'
         }

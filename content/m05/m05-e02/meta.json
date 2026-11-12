@@ -1,0 +1,18 @@
+{
+  "id": "m05-e02",
+  "module": "m05",
+  "title": {
+    "de": "Ein Objekt nach dem anderen: was kommt hinten heraus",
+    "en": "One object at a time: what comes out at the end"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m05-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Jeder Befehl in der Pipeline arbeitet mit dem Ergebnis des vorherigen. Die Reihenfolge der Befehle bestimmt das Ergebnis.",
+    "en": "Every command in a pipeline works with the result of the one before. The order of the commands decides the result."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "m05",
+  "part": 1,
+  "order": 5,
+  "track": "core",
+  "title": {
+    "de": "Die Pipeline",
+    "en": "The pipeline"
+  },
+  "prerequisites": [
+    "m03"
+  ]
+}

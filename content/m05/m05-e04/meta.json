@@ -1,0 +1,18 @@
+{
+  "id": "m05-e04",
+  "module": "m05",
+  "title": {
+    "de": "Tee-Object: Zwischenergebnis behalten",
+    "en": "Tee-Object: keep an intermediate result"
+  },
+  "type": "write",
+  "order": 4,
+  "prerequisites": [
+    "m05-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Tee-Object -Variable speichert, was vorbeikommt, in einer Variablen und reicht es unverändert weiter. Der Name steht ohne $.",
+    "en": "Tee-Object -Variable stores what passes by in a variable and hands it on unchanged. The name is written without $."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m04-e07",
+  "module": "m04",
+  "title": {
+    "de": "Quiz: Provider und Laufwerke",
+    "en": "Quiz: Providers and drives"
+  },
+  "type": "quiz",
+  "order": 7,
+  "prerequisites": [
+    "m04-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

@@ -1,0 +1,13 @@
+{
+  "id": "m04",
+  "part": 1,
+  "order": 4,
+  "track": "core",
+  "title": {
+    "de": "Provider und Laufwerke",
+    "en": "Providers and drives"
+  },
+  "prerequisites": [
+    "m03"
+  ]
+}

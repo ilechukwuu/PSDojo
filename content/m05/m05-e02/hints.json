@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Gehe jede Pipeline Befehl für Befehl durch und notiere, was nach jedem Schritt übrig ist.",
+    "Ohne -Descending steht der kleinste Wert vorn. In Pipeline 2 erreichen nur C und D überhaupt Sort-Object.",
+    "Pipeline 1: E hat am wenigsten freien Platz. Pipeline 2: Von C und D ist D der größere. Pipeline 3: Measure-Object sieht nur die drei Objekte, die Select-Object durchgelassen hat."
+  ],
+  "en": [
+    "Go through each pipeline one command at a time and write down what is left after each step.",
+    "Without -Descending the smallest value comes first. In pipeline 2 only C and D ever reach Sort-Object.",
+    "Pipeline 1: E has the least free space. Pipeline 2: of C and D the larger one is D. Pipeline 3: Measure-Object only sees the three objects that Select-Object let through."
+  ]
+}

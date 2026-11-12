@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Überlege für jeden Befehl, wo er im Moment läuft. Dieser Ort, voll ausgeschrieben, wird sein Pfad.",
+    "Ein voller Pfad sieht aus wie \"$Root/reports\" in doppelten Anführungszeichen. Die Readme liegt eine Ebene tiefer, im Ordner reports.",
+    "Die drei Pfade sind \"$Root/reports\", \"$Root/archive\" und \"$Root/reports/readme.txt\". Keine Zeile mit Set-Location oder cd bleibt übrig."
+  ],
+  "en": [
+    "Work out where each command runs at the moment. That place, written in full, becomes its path.",
+    "A full path looks like \"$Root/reports\" in double quotes. The readme lies one level deeper, in the folder reports.",
+    "The three paths are \"$Root/reports\", \"$Root/archive\" and \"$Root/reports/readme.txt\". No line with Set-Location or cd remains."
+  ]
+}

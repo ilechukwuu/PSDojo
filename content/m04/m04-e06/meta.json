@@ -1,0 +1,18 @@
+{
+  "id": "m04-e06",
+  "module": "m04",
+  "title": {
+    "de": "Ein eigenes Laufwerk für die Berichtsfreigabe",
+    "en": "A drive of your own for the report share"
+  },
+  "type": "write",
+  "order": 6,
+  "prerequisites": [
+    "m04-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "New-PSDrive -Name -PSProvider -Root legt ein Laufwerk für die Sitzung an. Danach ist Name: ein gültiger Pfadanfang.",
+    "en": "New-PSDrive -Name -PSProvider -Root creates a drive for the session. After that Name: is a valid start of a path."
+  }
+}

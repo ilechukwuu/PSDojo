@@ -1,0 +1,18 @@
+{
+  "id": "m04-e05",
+  "module": "m04",
+  "title": {
+    "de": "Ohne Ortswechsel: volle Pfade statt Set-Location",
+    "en": "Stay where you are: full paths instead of Set-Location"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m04-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Skripte wechseln den Ort nicht. Jeder Befehl bekommt einen vollen Pfad, dann hängt nichts vom aktuellen Ort ab.",
+    "en": "Scripts do not change location. Every command gets a full path, so nothing depends on the current location."
+  }
+}

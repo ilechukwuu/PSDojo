@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Tee-Object steht direkt nach Get-Process, bevor sortiert oder begrenzt wird. So sieht es jeden Prozess.",
+    "Der Variablenname nach -Variable hat kein Dollarzeichen: Tee-Object -Variable AllProcesses. Später benutzt du sie als $AllProcesses.",
+    "Zeile 1 lautet Get-Process | Tee-Object -Variable AllProcesses | Sort-Object -Property WorkingSet64 -Descending | Select-Object -First 1 und Zeile 2 lautet ($AllProcesses | Measure-Object).Count"
+  ],
+  "en": [
+    "Tee-Object goes directly after Get-Process, before anything is sorted or limited. That way it sees every process.",
+    "The variable name after -Variable has no dollar sign: Tee-Object -Variable AllProcesses. Later you use it as $AllProcesses.",
+    "Line 1 is Get-Process | Tee-Object -Variable AllProcesses | Sort-Object -Property WorkingSet64 -Descending | Select-Object -First 1 and line 2 is ($AllProcesses | Measure-Object).Count"
+  ]
+}
