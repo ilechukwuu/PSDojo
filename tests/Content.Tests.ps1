@@ -72,6 +72,8 @@ Describe 'Module <ModuleId>' -ForEach $moduleCases {
     It 'has a valid module.json' {
         $module | Should -Not -BeNullOrEmpty
         $module.Part | Should -BeIn @(1, 2, 3, 4)
+        $module.Kind | Should -BeIn @('standard', 'capstone')
+        $module.Track | Should -BeIn @('core', 'advanced')
         $module.Order | Should -BeGreaterThan 0
         $module.Title['de'] | Should -Not -BeNullOrEmpty
         $module.Title['en'] | Should -Not -BeNullOrEmpty

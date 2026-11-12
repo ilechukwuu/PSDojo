@@ -298,5 +298,6 @@ Describe 'Capstone modules' {
     It 'default to the kind standard' {
         $env:PSDOJO_CONTENT = Join-Path -Path (Get-DojoRepoRoot) -ChildPath 'content'
         @(Invoke-DojoPrivate -ScriptBlock { Get-DojoModuleList })[0].Kind | Should -Be 'standard'
+        @(Invoke-DojoPrivate -ScriptBlock { Get-DojoModuleList })[0].Track | Should -Be 'core'
     }
 }

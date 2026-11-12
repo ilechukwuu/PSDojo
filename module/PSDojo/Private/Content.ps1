@@ -27,6 +27,8 @@ module.json
     prerequisites  array    module ids
     kind           string   optional. standard (default) or capstone. A capstone module does not
                             have to mix all exercise types or end with a quiz.
+    track          string   optional. core (default) or advanced. Core modules form the path
+                            for the first year, advanced modules follow later.
 
 production.<lang>.md
     The "what goes wrong in production" note. Shown when the module is completed.
@@ -205,6 +207,7 @@ function Get-DojoModuleList {
                 Title         = $data['title']
                 Prerequisites = @($data['prerequisites'] | Where-Object { $_ })
                 Kind          = $(if ($data['kind']) { [string]$data['kind'] } else { 'standard' })
+                Track         = $(if ($data['track']) { [string]$data['track'] } else { 'core' })
                 Path          = $folder.FullName
             })
     }

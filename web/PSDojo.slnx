@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PSDojo.Web.Tests/PSDojo.Web.Tests.csproj" />
+  <Project Path="PSDojo.Web/PSDojo.Web.csproj" />
+</Solution>
