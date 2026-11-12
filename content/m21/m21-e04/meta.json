@@ -1,0 +1,18 @@
+{
+  "id": "m21-e04",
+  "module": "m21",
+  "title": {
+    "de": "XML lesen",
+    "en": "Read XML"
+  },
+  "type": "write",
+  "order": 4,
+  "prerequisites": [
+    "m21-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "[xml] vor dem Dateiinhalt macht daraus ein Dokument. Elemente und Attribute erreicht man mit Punkten, Select-Xml sucht mit XPath.",
+    "en": "[xml] in front of the file content turns it into a document. Elements and attributes are reached with dots, Select-Xml searches with XPath."
+  }
+}

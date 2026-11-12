@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Welchen Typ haben die Werte, die Import-Csv liefert?",
+        "en": "Which type do the values returned by Import-Csv have?"
+      },
+      "options": {
+        "de": [
+          "Den Typ, den sie beim Export hatten",
+          "Immer Text",
+          "Zahlen, wenn sie wie Zahlen aussehen",
+          "Das hängt vom Trennzeichen ab"
+        ],
+        "en": [
+          "The type they had when exported",
+          "Always text",
+          "Numbers when they look like numbers",
+          "That depends on the delimiter"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Eine CSV-Datei mit Semikolons wird ohne -Delimiter gelesen. Was passiert?",
+        "en": "A CSV file with semicolons is read without -Delimiter. What happens?"
+      },
+      "options": {
+        "de": [
+          "PowerShell erkennt das Trennzeichen selbst",
+          "Es gibt einen Fehler",
+          "Jede Zeile wird zu einem Objekt mit einer einzigen Spalte",
+          "Die Datei wird übersprungen"
+        ],
+        "en": [
+          "PowerShell detects the delimiter itself",
+          "There is an error",
+          "Every line becomes an object with a single column",
+          "The file is skipped"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Wozu dient -NoTypeInformation bei Export-Csv?",
+        "en": "What is -NoTypeInformation for with Export-Csv?"
+      },
+      "options": {
+        "de": [
+          "Es entfernt die Kopfzeile",
+          "Es wandelt alle Werte in Text um",
+          "Es verhindert Anführungszeichen",
+          "Es verhindert die #TYPE-Zeile, die Windows PowerShell 5.1 sonst schreibt"
+        ],
+        "en": [
+          "It removes the header line",
+          "It converts all values to text",
+          "It prevents quotes",
+          "It prevents the #TYPE line that Windows PowerShell 5.1 otherwise writes"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Warum braucht Get-Content vor ConvertFrom-Json den Schalter -Raw?",
+        "en": "Why does Get-Content need the switch -Raw in front of ConvertFrom-Json?"
+      },
+      "options": {
+        "de": [
+          "Damit die Datei als ein Text ankommt und nicht Zeile für Zeile",
+          "Damit Umlaute richtig gelesen werden",
+          "Damit die Datei nicht gesperrt wird",
+          "Damit Kommentare entfernt werden"
+        ],
+        "en": [
+          "So that the file arrives as one text and not line by line",
+          "So that umlauts are read correctly",
+          "So that the file is not locked",
+          "So that comments are removed"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Was passiert mit Daten, die tiefer als zwei Ebenen liegen, bei ConvertTo-Json ohne -Depth?",
+        "en": "What happens to data deeper than two levels with ConvertTo-Json without -Depth?"
+      },
+      "options": {
+        "de": [
+          "Sie werden vollständig geschrieben",
+          "Sie werden durch einen Text mit dem Typnamen ersetzt",
+          "Es gibt immer einen Fehler",
+          "Sie werden weggelassen"
+        ],
+        "en": [
+          "They are written completely",
+          "They are replaced by a text with the type name",
+          "There is always an error",
+          "They are left out"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Wie liest du eine XML-Datei in ein Dokument, durch das du mit Punkten gehen kannst?",
+        "en": "How do you read an XML file into a document you can walk through with dots?"
+      },
+      "options": {
+        "de": [
+          "Import-Xml -Path inventory.xml",
+          "Get-Content -Path inventory.xml | ConvertFrom-Xml",
+          "[xml]$Doc = Get-Content -Path inventory.xml -Raw",
+          "$Doc = Get-Content -Path inventory.xml -AsXml"
+        ],
+        "en": [
+          "Import-Xml -Path inventory.xml",
+          "Get-Content -Path inventory.xml | ConvertFrom-Xml",
+          "[xml]$Doc = Get-Content -Path inventory.xml -Raw",
+          "$Doc = Get-Content -Path inventory.xml -AsXml"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Eine CSV-Spalte FreeGB enthält 100, 20 und 9. Wie sortiert Sort-Object -Property FreeGB?",
+        "en": "A CSV column FreeGB holds 100, 20 and 9. How does Sort-Object -Property FreeGB sort?"
+      },
+      "options": {
+        "de": [
+          "9, 20, 100",
+          "100, 9, 20",
+          "Gar nicht",
+          "100, 20, 9, weil als Text sortiert wird"
+        ],
+        "en": [
+          "9, 20, 100",
+          "100, 9, 20",
+          "Not at all",
+          "100, 20, 9, because it sorts as text"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum soll man CSV-Zeilen nicht selbst mit Semikolons zusammenkleben?",
+        "en": "Why should CSV lines not be glued together with semicolons by hand?"
+      },
+      "options": {
+        "de": [
+          "Das ist langsamer",
+          "Ein Wert, der selbst ein Semikolon enthält, verschiebt die Spalten",
+          "Semikolons sind in Dateien verboten",
+          "Die Datei wird dann zu groß"
+        ],
+        "en": [
+          "That is slower",
+          "A value that itself contains a semicolon shifts the columns",
+          "Semicolons are forbidden in files",
+          "The file then gets too large"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

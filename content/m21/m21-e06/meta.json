@@ -1,0 +1,18 @@
+{
+  "id": "m21-e06",
+  "module": "m21",
+  "title": {
+    "de": "Export-Csv statt selbstgebauter Textzeilen",
+    "en": "Export-Csv instead of home-made text lines"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m21-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Export-Csv schreibt Kopfzeile, Trennzeichen und Anführungszeichen selbst richtig. Selbstgebaute Zeilen brechen, sobald ein Wert das Trennzeichen enthält.",
+    "en": "Export-Csv writes header, delimiter and quotes correctly by itself. Home-made lines break as soon as a value contains the delimiter."
+  }
+}

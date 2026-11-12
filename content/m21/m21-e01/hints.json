@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Import-Csv braucht -Path und wegen der Semikolons -Delimiter ';'. Export-Csv braucht dasselbe Trennzeichen.",
+    "Die Spalte FreeGB ist Text. Setze [int] vor $_.FreeGB, damit der Vergleich mit Zahlen geschieht.",
+    "$Low = $Rows | Where-Object { [int]$_.FreeGB -lt 20 } und $Low | Export-Csv -Path \"$Folder/low.csv\" -Delimiter ';' -NoTypeInformation -Encoding UTF8"
+  ],
+  "en": [
+    "Import-Csv needs -Path and, because of the semicolons, -Delimiter ';'. Export-Csv needs the same delimiter.",
+    "The column FreeGB is text. Put [int] in front of $_.FreeGB so that the comparison is done with numbers.",
+    "$Low = $Rows | Where-Object { [int]$_.FreeGB -lt 20 } and $Low | Export-Csv -Path \"$Folder/low.csv\" -Delimiter ';' -NoTypeInformation -Encoding UTF8"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m21-e01",
+  "module": "m21",
+  "title": {
+    "de": "CSV lesen und schreiben",
+    "en": "Read and write CSV"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m17-e07",
+    "m19-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Import-Csv macht aus jeder Zeile ein Objekt, alle Werte sind Text. Export-Csv schreibt Objekte zurück. -Delimiter nennt das Trennzeichen.",
+    "en": "Import-Csv turns every row into an object, all values are text. Export-Csv writes objects back. -Delimiter names the separator."
+  }
+}

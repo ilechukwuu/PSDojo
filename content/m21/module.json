@@ -1,0 +1,14 @@
+{
+  "id": "m21",
+  "part": 1,
+  "order": 21,
+  "track": "core",
+  "title": {
+    "de": "Datenformate: CSV, JSON, XML",
+    "en": "Data formats: CSV, JSON, XML"
+  },
+  "prerequisites": [
+    "m17",
+    "m19"
+  ]
+}

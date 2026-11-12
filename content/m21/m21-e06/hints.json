@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Schleife und die Kopfzeile verschwinden ganz. Die Objekte in $Disks enthalten schon alles, sie brauchen nur die richtige Spaltenreihenfolge.",
+    "Select-Object -Property Server, Note, FreeGB legt die Spalten fest. Export-Csv braucht dann den Pfad, das Trennzeichen und die zwei Schalter.",
+    "$Disks | Select-Object -Property Server, Note, FreeGB | Export-Csv -Path \"$Folder/report.csv\" -Delimiter ';' -NoTypeInformation -Encoding UTF8"
+  ],
+  "en": [
+    "The loop and the header line disappear completely. The objects in $Disks already hold everything, they only need the right column order.",
+    "Select-Object -Property Server, Note, FreeGB sets the columns. Export-Csv then needs the path, the delimiter and the two switches.",
+    "$Disks | Select-Object -Property Server, Note, FreeGB | Export-Csv -Path \"$Folder/report.csv\" -Delimiter ';' -NoTypeInformation -Encoding UTF8"
+  ]
+}

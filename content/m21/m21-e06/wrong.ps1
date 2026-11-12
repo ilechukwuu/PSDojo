@@ -1,0 +1,12 @@
+param($Folder = '.')
+$Disks = @(
+    [pscustomobject]@{ Server = 'FS-01'; FreeGB = 210; Note = 'Data' }
+    [pscustomobject]@{ Server = 'FS-02'; FreeGB = 9; Note = 'Archive; old' }
+    [pscustomobject]@{ Server = 'FS-03'; FreeGB = 100; Note = 'Profiles' }
+)
+
+# Weekly disk report as CSV
+
+$Disks |
+    Select-Object -Property Server, Note, FreeGB |
+    Export-Csv -Path "$Folder/report.csv" -NoTypeInformation -Encoding UTF8

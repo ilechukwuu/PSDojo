@@ -1,0 +1,18 @@
+{
+  "id": "m21-e05",
+  "module": "m21",
+  "title": {
+    "de": "Drei Formatfehler im Kapazitätsbericht",
+    "en": "Three format mistakes in the capacity report"
+  },
+  "type": "fix",
+  "order": 5,
+  "prerequisites": [
+    "m21-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Das Trennzeichen muss zur Datei passen, Zahlen aus CSV brauchen eine Umwandlung, und ConvertTo-Json braucht -Depth.",
+    "en": "The delimiter has to fit the file, numbers from CSV need converting, and ConvertTo-Json needs -Depth."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Das Dokument ist [xml]$Doc = Get-Content ... -Raw. Von dort führen Punkte nach unten: zuerst das Wurzelelement, dann der Elementname.",
+    "Attribute wie name und site liest man wie Eigenschaften. Die RAM-Werte sind Text, lass sie also von Measure-Object -Sum addieren.",
+    "$Servers = $Doc.inventory.server, $Names = $Servers.name, $HamburgNames = ($Servers | Where-Object { $_.site -eq 'Hamburg' }).name und $TotalRam = [int]($Servers.ramGB | Measure-Object -Sum).Sum"
+  ],
+  "en": [
+    "The document is [xml]$Doc = Get-Content ... -Raw. From there dots lead down: the root element first, then the element name.",
+    "Attributes such as name and site are read like properties. The RAM values are text, so let Measure-Object -Sum add them.",
+    "$Servers = $Doc.inventory.server, $Names = $Servers.name, $HamburgNames = ($Servers | Where-Object { $_.site -eq 'Hamburg' }).name and $TotalRam = [int]($Servers.ramGB | Measure-Object -Sum).Sum"
+  ]
+}

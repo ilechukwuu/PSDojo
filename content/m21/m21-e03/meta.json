@@ -1,0 +1,18 @@
+{
+  "id": "m21-e03",
+  "module": "m21",
+  "title": {
+    "de": "Text bleibt Text, Tiefe bleibt zwei",
+    "en": "Text stays text, depth stays two"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m21-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "CSV-Werte sind Text: Sie sortieren und vergleichen sich wie Text. JSON behält Zahlen. ConvertTo-Json ohne -Depth kappt bei Ebene zwei.",
+    "en": "CSV values are text: they sort and compare like text. JSON keeps numbers. ConvertTo-Json without -Depth cuts off at level two."
+  }
+}

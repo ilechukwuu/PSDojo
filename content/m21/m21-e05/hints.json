@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Sieh dir nach der ersten Zeile $Rows[0] | Format-List -Property * an. Öffne dann summary.json und schau, was dort steht, wo die Zeilen stehen sollten.",
+    "Die Datei ist durch Semikolons getrennt. Die Summe darf nicht mit + aus Texten gebaut werden. Die Zeilen liegen in der Zusammenfassung drei Ebenen tief.",
+    "Ergänze -Delimiter ';' bei Import-Csv, nutze ($Rows | Measure-Object -Property FreeGB -Sum).Sum für die Summe und ergänze -Depth 5 bei ConvertTo-Json."
+  ],
+  "en": [
+    "Look at $Rows[0] | Format-List -Property * after the first line. Then open summary.json and look at what stands where the rows should be.",
+    "The file is separated by semicolons. The sum must not be built with + from texts. The rows lie three levels deep in the summary.",
+    "Add -Delimiter ';' to Import-Csv, use ($Rows | Measure-Object -Property FreeGB -Sum).Sum for the total and add -Depth 5 to ConvertTo-Json."
+  ]
+}

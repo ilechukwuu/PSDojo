@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Entscheide zuerst bei jedem Wert, ob er in diesem Moment Text oder eine Zahl ist. Werte aus CSV sind Text, die Zahl im JSON hat keine Anführungszeichen.",
+    "Als Text kommt 100 vor 20 und 20 vor 9, weil die ersten Zeichen entscheiden. Text plus Text fügt zusammen.",
+    "Als Text sortiert ist die erste Zeile FS-01. Als Zahlen sortiert ist es FS-03. Zeile 3 ergibt den Text 10020. Measure-Object addiert 100, 20 und 9. Die JSON-Zahl ergibt 200."
+  ],
+  "en": [
+    "Decide first for each value whether it is text or a number at that moment. Values from CSV are text, the number in the JSON has no quotes.",
+    "As text, 100 comes before 20 and 20 before 9, because the first characters decide. Text plus text joins.",
+    "Sorted as text the first row is FS-01. Sorted as numbers it is FS-03. Line 3 gives the text 10020. Measure-Object adds 100, 20 and 9. The JSON number adds up to 200."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Lesen ist Get-Content mit -Raw, geleitet in ConvertFrom-Json. Danach erreichst du die Werte mit Punkten, wie Eigenschaften.",
+    "Der zweite Server ist servers[1]. ConvertTo-Json braucht -Depth, denn die Laufwerke liegen drei Ebenen tief.",
+    "$WarnPercent = $Config.thresholds.warnPercent, $ServerNames = $Config.servers.name, $DriveCount = @($Config.servers[1].drives).Count und $Config | ConvertTo-Json -Depth 5 | Set-Content -Path \"$Folder/copy.json\" -Encoding UTF8"
+  ],
+  "en": [
+    "Reading is Get-Content with -Raw piped into ConvertFrom-Json. After that the values are reached with dots, like properties.",
+    "The second server is servers[1]. ConvertTo-Json needs -Depth, because the drives lie three levels deep.",
+    "$WarnPercent = $Config.thresholds.warnPercent, $ServerNames = $Config.servers.name, $DriveCount = @($Config.servers[1].drives).Count and $Config | ConvertTo-Json -Depth 5 | Set-Content -Path \"$Folder/copy.json\" -Encoding UTF8"
+  ]
+}

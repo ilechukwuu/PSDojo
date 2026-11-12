@@ -1,0 +1,19 @@
+{
+  "id": "m21-e07",
+  "module": "m21",
+  "title": {
+    "de": "Quiz: Datenformate: CSV, JSON, XML",
+    "en": "Quiz: Data formats: CSV, JSON, XML"
+  },
+  "type": "quiz",
+  "order": 7,
+  "prerequisites": [
+    "m21-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

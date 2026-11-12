@@ -1,0 +1,18 @@
+{
+  "id": "m21-e02",
+  "module": "m21",
+  "title": {
+    "de": "JSON lesen und schreiben",
+    "en": "Read and write JSON"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m21-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Get-Content -Raw | ConvertFrom-Json liest JSON in Objekte. ConvertTo-Json schreibt sie zurück und braucht -Depth für verschachtelte Daten.",
+    "en": "Get-Content -Raw | ConvertFrom-Json reads JSON into objects. ConvertTo-Json writes them back and needs -Depth for nested data."
+  }
+}
