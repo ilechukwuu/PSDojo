@@ -1,0 +1,13 @@
+{
+  "id": "m03",
+  "part": 1,
+  "order": 3,
+  "track": "core",
+  "title": {
+    "de": "Das Hilfesystem",
+    "en": "The help system"
+  },
+  "prerequisites": [
+    "m01"
+  ]
+}

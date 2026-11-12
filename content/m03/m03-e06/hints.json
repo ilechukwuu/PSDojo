@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Frage wird durch eine Zeile der Tabelle beantwortet. Vergleiche für Frage 1 die Zeile zu den Platzhalterzeichen.",
+    "Position? Named heißt, der Name muss geschrieben werden. Ein Schalter, der fehlt, hat seinen Standardwert.",
+    "Nur -LiteralPath hat bei den Platzhalterzeichen false. Seine Position ist Named. Der Standardwert von -Recurse ist False."
+  ],
+  "en": [
+    "Each question is answered by one line of the table. For question 1 compare the line about wildcard characters.",
+    "Position? Named means the name must be written. A switch that is left out has its default value.",
+    "Only -LiteralPath has false for wildcard characters. Its position is Named. The default of -Recurse is False."
+  ]
+}

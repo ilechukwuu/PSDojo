@@ -1,0 +1,18 @@
+{
+  "id": "m03-e06",
+  "module": "m03",
+  "title": {
+    "de": "Parameterdetails lesen: Pflicht, Position, Pipeline",
+    "en": "Read parameter details: required, position, pipeline"
+  },
+  "type": "predict",
+  "order": 6,
+  "prerequisites": [
+    "m03-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Get-Help -Parameter zeigt pro Parameter: Pflicht oder nicht, Position, Standardwert, Pipeline-Eingabe, Platzhalter.",
+    "en": "Get-Help -Parameter shows for each parameter: required or not, position, default value, pipeline input, wildcards."
+  }
+}

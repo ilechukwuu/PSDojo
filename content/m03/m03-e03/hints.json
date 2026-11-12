@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Zeilen 1 und 2 sind einfache Aufrufe von Get-Command mit den Parametern aus der Lektion. Die Zeilen 3 und 4 lesen eine Eigenschaft eines Befehlsobjekts.",
+    "Um eine Eigenschaft zu lesen, setze den Aufruf in runde Klammern und hänge einen Punkt an: (Get-Command -Name Get-Content).Parameters.Keys",
+    "Zeile 1 lautet Get-Command -ParameterName Encoding -CommandType Cmdlet und Zeile 4 lautet (Get-Command -Name Get-Content).ModuleName"
+  ],
+  "en": [
+    "Lines 1 and 2 are plain Get-Command calls with the parameters from the lesson. Lines 3 and 4 read a property of one command object.",
+    "To read a property put the call in parentheses and add a dot: (Get-Command -Name Get-Content).Parameters.Keys",
+    "Line 1 is Get-Command -ParameterName Encoding -CommandType Cmdlet and line 4 is (Get-Command -Name Get-Content).ModuleName"
+  ]
+}

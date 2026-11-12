@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Du willst nur die Beispiele zu Restart-Service sehen. Welcher Aufruf?",
+        "en": "You want to see only the examples for Restart-Service. Which call?"
+      },
+      "options": {
+        "de": [
+          "Get-Help -Name Restart-Service -Full",
+          "Get-Help -Name Restart-Service -Examples",
+          "Get-Command -Name Restart-Service -Examples",
+          "Get-Help -Name Restart-Service -Parameter Examples"
+        ],
+        "en": [
+          "Get-Help -Name Restart-Service -Full",
+          "Get-Help -Name Restart-Service -Examples",
+          "Get-Command -Name Restart-Service -Examples",
+          "Get-Help -Name Restart-Service -Parameter Examples"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was bedeutet [-Force] in einem Syntaxdiagramm?",
+        "en": "What does [-Force] mean in a syntax diagram?"
+      },
+      "options": {
+        "de": [
+          "Ein Pflichtparameter, der einen Wert braucht",
+          "Ein positionaler Parameter",
+          "Ein optionaler Schalter ohne Wert",
+          "Ein Parameter, der mehrere Werte annimmt"
+        ],
+        "en": [
+          "A required parameter that needs a value",
+          "A positional parameter",
+          "An optional switch without a value",
+          "A parameter that takes several values"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was bedeutet [-Name] <string[]> in einem Syntaxdiagramm?",
+        "en": "What does [-Name] <string[]> mean in a syntax diagram?"
+      },
+      "options": {
+        "de": [
+          "Der Parameter ist optional und nimmt einen Wert",
+          "Der Wert ist Pflicht, der Name darf fehlen, mehrere Werte sind erlaubt",
+          "Der Parameter ist ein Schalter",
+          "Der Name ist Pflicht, der Wert darf fehlen"
+        ],
+        "en": [
+          "The parameter is optional and takes one value",
+          "The value is required, the name may be left out, several values are allowed",
+          "The parameter is a switch",
+          "The name is required, the value may be left out"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Ein Cmdlet zeigt in der Syntax drei Zeilen. Was heißt das?",
+        "en": "A cmdlet shows three lines in its syntax. What does that mean?"
+      },
+      "options": {
+        "de": [
+          "Es gibt drei Versionen des Cmdlets",
+          "Man muss es dreimal aufrufen",
+          "Die Hilfe ist beschädigt",
+          "Es hat drei Parametersätze, deren Parameter man nicht mischen kann"
+        ],
+        "en": [
+          "There are three versions of the cmdlet",
+          "It has to be called three times",
+          "The help is damaged",
+          "It has three parameter sets whose parameters cannot be mixed"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Get-Help zeigt für ein Cmdlet nur die Syntax, keine Beschreibung. Was ist die wahrscheinlichste Ursache?",
+        "en": "Get-Help shows only the syntax for a cmdlet, no description. What is the most likely cause?"
+      },
+      "options": {
+        "de": [
+          "Die ausführlichen Hilfedateien sind nicht installiert, Update-Help lädt sie",
+          "Das Cmdlet existiert nicht",
+          "Die Ausführungsrichtlinie blockiert die Hilfe",
+          "Get-Help funktioniert nur mit Administratorrechten"
+        ],
+        "en": [
+          "The detailed help files are not installed, Update-Help downloads them",
+          "The cmdlet does not exist",
+          "The execution policy blocks the help",
+          "Get-Help only works with administrator rights"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Du weißt, dass du einen Parameter ComputerName brauchst, aber nicht, welche Cmdlets ihn haben. Welcher Aufruf hilft?",
+        "en": "You know you need a parameter ComputerName but not which cmdlets have it. Which call helps?"
+      },
+      "options": {
+        "de": [
+          "Get-Help -Parameter ComputerName",
+          "Get-Command -Name ComputerName",
+          "Get-Command -ParameterName ComputerName",
+          "Get-Command -Noun ComputerName"
+        ],
+        "en": [
+          "Get-Help -Parameter ComputerName",
+          "Get-Command -Name ComputerName",
+          "Get-Command -ParameterName ComputerName",
+          "Get-Command -Noun ComputerName"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Die Hilfe zeigt für einen Parameter: Required? true. Was passiert in einem unbeaufsichtigten Skript, wenn der Wert fehlt?",
+        "en": "The help shows for a parameter: Required? true. What happens in an unattended script when the value is missing?"
+      },
+      "options": {
+        "de": [
+          "Der Standardwert wird benutzt",
+          "Der Parameter wird ignoriert",
+          "Das Cmdlet läuft mit allen Objekten",
+          "PowerShell hält an und wartet auf eine Eingabe, das Skript hängt"
+        ],
+        "en": [
+          "The default value is used",
+          "The parameter is ignored",
+          "The cmdlet runs against all objects",
+          "PowerShell stops and waits for input, the script hangs"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Die Hilfe zeigt: Position? Named. Was heißt das?",
+        "en": "The help shows: Position? Named. What does that mean?"
+      },
+      "options": {
+        "de": [
+          "Der Parameter steht an erster Stelle",
+          "Der Parametername muss geschrieben werden",
+          "Der Parameter ist ein Schalter",
+          "Der Parameter ist Pflicht"
+        ],
+        "en": [
+          "The parameter comes first",
+          "The parameter name must be written",
+          "The parameter is a switch",
+          "The parameter is required"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Warum gehört -Rec statt -Recurse nicht in ein Skript?",
+        "en": "Why does -Rec instead of -Recurse not belong in a script?"
+      },
+      "options": {
+        "de": [
+          "Abgekürzte Parameter sind langsamer",
+          "Abkürzungen funktionieren nur in der ISE",
+          "Die Abkürzung kann mehrdeutig werden, wenn eine neue Version einen Parameter ergänzt",
+          "Abkürzungen sind nur für Schalter erlaubt"
+        ],
+        "en": [
+          "Shortened parameters are slower",
+          "Shortened names only work in the ISE",
+          "The shortened name can become ambiguous when a new version adds a parameter",
+          "Shortened names are only allowed for switches"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Ein Ordner heißt Berichte[2026]. Welcher Parameter von Get-ChildItem liest den Namen wörtlich?",
+        "en": "A folder is named Reports[2026]. Which parameter of Get-ChildItem reads the name literally?"
+      },
+      "options": {
+        "de": [
+          "-Path",
+          "-Filter",
+          "-Name",
+          "-LiteralPath"
+        ],
+        "en": [
+          "-Path",
+          "-Filter",
+          "-Name",
+          "-LiteralPath"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

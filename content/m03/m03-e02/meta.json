@@ -1,0 +1,18 @@
+{
+  "id": "m03-e02",
+  "module": "m03",
+  "title": {
+    "de": "Syntax lesen: was die Klammern bedeuten",
+    "en": "Read syntax: what the brackets mean"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m03-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eckige Klammern um einen Parameter: optional. Eckige Klammern nur um den Namen: positional. <string[]>: mehrere Werte. Kein Typ: Schalter.",
+    "en": "Square brackets around a parameter: optional. Square brackets around the name only: positional. <string[]>: several values. No type: switch."
+  }
+}

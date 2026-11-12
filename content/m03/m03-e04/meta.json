@@ -1,0 +1,18 @@
+{
+  "id": "m03-e04",
+  "module": "m03",
+  "title": {
+    "de": "Geratene Parameter: die Hilfe kennt den richtigen Namen",
+    "en": "Guessed parameters: the help knows the right name"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m03-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Meldet PowerShell einen unbekannten Parameter, zeigen Get-Help -Parameter * oder Get-Command -Syntax die echten Namen.",
+    "en": "When PowerShell reports an unknown parameter, Get-Help -Parameter * or Get-Command -Syntax show the real names."
+  }
+}

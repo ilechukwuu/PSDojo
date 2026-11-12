@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Gib die Syntax jedes Cmdlets mit Get-Command -Syntax aus. Positionale Parameter sind die mit Klammern um den Namen, in ihrer Reihenfolge.",
+    "Bei Get-ChildItem ist die erste Position -Path und die zweite -Filter. -Rec, -F und -Com sind abgekürzte Namen.",
+    "Die vollen Namen sind -Path, -Filter, -Recurse, dann -Format, dann -Name und -CommandType."
+  ],
+  "en": [
+    "Print the syntax of each cmdlet with Get-Command -Syntax. The positional parameters are the ones with brackets around the name, in order.",
+    "For Get-ChildItem the first position is -Path and the second is -Filter. -Rec, -F and -Com are shortened names.",
+    "The full names are -Path, -Filter, -Recurse, then -Format, then -Name and -CommandType."
+  ]
+}

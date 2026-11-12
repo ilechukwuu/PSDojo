@@ -1,0 +1,18 @@
+{
+  "id": "m03-e01",
+  "module": "m03",
+  "title": {
+    "de": "Get-Help: erst lesen, dann stoppen",
+    "en": "Get-Help: read first, stop second"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m01-e08"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Get-Help -Name zeigt die Hilfe zu einem Befehl, -Parameter die Details eines Parameters, -Examples die Beispiele.",
+    "en": "Get-Help -Name shows the help for a command, -Parameter the details of one parameter, -Examples the examples."
+  }
+}

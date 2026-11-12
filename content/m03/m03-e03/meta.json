@@ -1,0 +1,18 @@
+{
+  "id": "m03-e03",
+  "module": "m03",
+  "title": {
+    "de": "Get-Command genauer: Parameter und Module durchsuchen",
+    "en": "Get-Command in depth: search parameters and modules"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m03-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Get-Command -ParameterName sucht Befehle mit einem Parameter, -Module listet ein Modul, .Parameters.Keys nennt alle Parameter.",
+    "en": "Get-Command -ParameterName finds commands with a parameter, -Module lists a module, .Parameters.Keys names all parameters."
+  }
+}

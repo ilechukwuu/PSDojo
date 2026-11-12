@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schau, wo die eckigen Klammern stehen: um den ganzen Parameter oder nur um seinen Namen.",
+    "Ein Schalter hat nach seinem Namen keinen Typ in spitzen Klammern. Ein Parameter, der mehrere Werte annimmt, hat [] innerhalb der spitzen Klammern.",
+    "Name ist der einzige Parameter von Restart-Service, der nicht ganz in Klammern steht. Force, PassThru, WhatIf und Confirm haben keinen Typ. LogName ist positional, der Name darf also fehlen."
+  ],
+  "en": [
+    "Look at where the square brackets are: around the whole parameter, or only around its name.",
+    "A switch has no type in angle brackets after its name. A parameter that takes several values has [] inside the angle brackets.",
+    "Name is the only parameter of Restart-Service that is not fully inside brackets. Force, PassThru, WhatIf and Confirm have no type. LogName is positional, so the name may be left out."
+  ]
+}

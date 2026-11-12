@@ -1,0 +1,18 @@
+{
+  "id": "m03-e05",
+  "module": "m03",
+  "title": {
+    "de": "Ausschreiben: volle Parameternamen statt Kürzel",
+    "en": "Spell it out: full parameter names instead of shortcuts"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m03-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "In Skripten steht jeder Parameter mit vollem Namen. Get-Command -Syntax zeigt Namen und Reihenfolge positionaler Parameter.",
+    "en": "In scripts every parameter is written with its full name. Get-Command -Syntax shows names and the order of positional parameters."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Alle vier Zeilen beginnen mit Get-Help -Name Stop-Process. Die Zeilen 2 bis 4 hängen je einen weiteren Parameter an.",
+    "Die Beispiele brauchen den Schalter -Examples. Die Hilfe zu einem Parameter braucht -Parameter und danach den Parameternamen ohne Bindestrich.",
+    "Zeile 2 lautet Get-Help -Name Stop-Process -Examples und Zeile 3 lautet Get-Help -Name Stop-Process -Parameter Force"
+  ],
+  "en": [
+    "All four lines start with Get-Help -Name Stop-Process. Lines 2 to 4 add one more parameter each.",
+    "The examples need the switch -Examples. The help for one parameter needs -Parameter followed by the parameter name without a hyphen.",
+    "Line 2 is Get-Help -Name Stop-Process -Examples and line 3 is Get-Help -Name Stop-Process -Parameter Force"
+  ]
+}

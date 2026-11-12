@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe eine Zeile mit F8 aus und lies, welchen Parameternamen PowerShell ablehnt. Gib dann die Syntax dieses Cmdlets aus.",
+    "Get-Command -Name Get-Command -Syntax zeigt einen Parameter, der begrenzt, wie viele Ergebnisse zurückkommen. Get-Command -Name Get-Date -Syntax zeigt den Parameter, der aus einem Datum Text macht.",
+    "Die drei richtigen Namen sind -Definition, -TotalCount und -Format."
+  ],
+  "en": [
+    "Run one line with F8 and read which parameter name PowerShell rejects. Then print the syntax of that cmdlet.",
+    "Get-Command -Name Get-Command -Syntax shows a parameter that limits how many results come back. Get-Command -Name Get-Date -Syntax shows the parameter that turns a date into text.",
+    "The three correct names are -Definition, -TotalCount and -Format."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m03-e07",
+  "module": "m03",
+  "title": {
+    "de": "Quiz: Das Hilfesystem",
+    "en": "Quiz: The help system"
+  },
+  "type": "quiz",
+  "order": 7,
+  "prerequisites": [
+    "m03-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}
