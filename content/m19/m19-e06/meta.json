@@ -1,0 +1,18 @@
+{
+  "id": "m19-e06",
+  "module": "m19",
+  "title": {
+    "de": "Zählschleife und += durch foreach ersetzen",
+    "en": "Replace the counting loop and += with foreach"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m19-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "foreach über die Liste ist kürzer und sicherer als for mit Index. Das Ergebnis der Schleife zuweisen statt in der Schleife mit += anhängen.",
+    "en": "foreach over the list is shorter and safer than for with an index. Assign the result of the loop instead of appending with += inside it."
+  }
+}

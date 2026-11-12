@@ -1,0 +1,12 @@
+{
+  "de": [
+    "In den Klammern von ForEach-Object ist $_ der aktuelle Dienst. Der Block erzeugt einen Wert pro Dienst.",
+    "Eine Eigenschaft von $_ in einem Text braucht $( ) um sich herum, wie jede andere Eigenschaft.",
+    "$Lines = Get-Service -Name Nordwind* | ForEach-Object { \"$($_.Name) is $($_.Status)\" } und die zweite Pipeline endet mit ForEach-Object { $_.Name.ToUpper() }"
+  ],
+  "en": [
+    "Inside the braces of ForEach-Object $_ is the current service. The block produces one value per service.",
+    "A property of $_ inside a text needs $( ) around it, like any other property.",
+    "$Lines = Get-Service -Name Nordwind* | ForEach-Object { \"$($_.Name) is $($_.Status)\" } and the second pipeline ends with ForEach-Object { $_.Name.ToUpper() }"
+  ]
+}

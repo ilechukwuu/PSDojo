@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schreibe $Report = foreach ($Disk in $Disks) { ... }. Rechne im Block den Prozentwert aus, entscheide den Zustand mit if und else, und lass den Block mit dem neuen Objekt enden.",
+    "Das Objekt wird im Block nicht zugewiesen. Es steht einfach als letzte Anweisung da, und das foreach sammelt eines pro Durchlauf.",
+    "Im Block: $Percent = [math]::Round($Disk.FreeGB / $Disk.SizeGB * 100), dann ein if, das $State setzt, dann [pscustomobject]@{ Server = $Disk.Server; FreePercent = $Percent; State = $State }"
+  ],
+  "en": [
+    "Write $Report = foreach ($Disk in $Disks) { ... }. Inside the block calculate the percentage, decide the state with if and else, and let the block end with the new object.",
+    "The object is not assigned inside the block. It just stands there as the last statement, and the foreach collects one per pass.",
+    "Inside the block: $Percent = [math]::Round($Disk.FreeGB / $Disk.SizeGB * 100), then an if that sets $State, then [pscustomobject]@{ Server = $Disk.Server; FreePercent = $Percent; State = $State }"
+  ]
+}

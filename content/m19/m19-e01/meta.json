@@ -1,0 +1,19 @@
+{
+  "id": "m19-e01",
+  "module": "m19",
+  "title": {
+    "de": "foreach: jede Zeile einer Liste bearbeiten",
+    "en": "foreach: process every row of a list"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m18-e06",
+    "m16-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "foreach ($Element in $Liste) { } führt den Block einmal pro Element aus. Was der Block erzeugt, lässt sich als Ganzes einer Variablen zuweisen.",
+    "en": "foreach ($item in $list) { } runs the block once per element. What the block produces can be assigned to a variable as a whole."
+  }
+}

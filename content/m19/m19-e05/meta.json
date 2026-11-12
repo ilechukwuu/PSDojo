@@ -1,0 +1,18 @@
+{
+  "id": "m19-e05",
+  "module": "m19",
+  "title": {
+    "de": "Drei Schleifenfehler im Bericht",
+    "en": "Three loop mistakes in the report"
+  },
+  "type": "fix",
+  "order": 5,
+  "prerequisites": [
+    "m19-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "In der Schleife mit der Schleifenvariablen arbeiten, nicht mit der Liste. Bis -lt Count zählen, nicht -le. continue überspringt, break beendet alles.",
+    "en": "Inside the loop work with the loop variable, not with the list. Count to -lt Count, not -le. continue skips, break ends everything."
+  }
+}

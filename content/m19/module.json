@@ -1,0 +1,14 @@
+{
+  "id": "m19",
+  "part": 1,
+  "order": 19,
+  "track": "core",
+  "title": {
+    "de": "Schleifen",
+    "en": "Loops"
+  },
+  "prerequisites": [
+    "m18",
+    "m16"
+  ]
+}

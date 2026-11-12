@@ -1,0 +1,18 @@
+{
+  "id": "m19-e02",
+  "module": "m19",
+  "title": {
+    "de": "ForEach-Object: die Schleife in der Pipeline",
+    "en": "ForEach-Object: the loop in the pipeline"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m19-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "ForEach-Object { } führt den Block für jedes Objekt der Pipeline aus. $_ ist das aktuelle Objekt. Was der Block erzeugt, fließt weiter.",
+    "en": "ForEach-Object { } runs the block for every object in the pipeline. $_ is the current object. What the block produces flows on."
+  }
+}

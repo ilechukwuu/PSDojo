@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die Datei aus und zähle die Elemente der drei Variablen. Vier Server sollten vier, vier und drei Ergebnisse liefern.",
+    "In der ersten Schleife ist ein Buchstabe zu viel. In der zweiten erlaubt die Bedingung einen Durchlauf zu viel. In der dritten beendet das falsche Schlüsselwort die Schleife zu früh.",
+    "Nutze \"Checking $Server\", die Bedingung $i -lt $Servers.Count und continue statt break."
+  ],
+  "en": [
+    "Run the file and count the elements of the three variables. Four servers should give four, four and three results.",
+    "In the first loop one letter is too many. In the second the condition allows one pass too many. In the third the wrong keyword ends the loop early.",
+    "Use \"Checking $Server\", the condition $i -lt $Servers.Count, and continue instead of break."
+  ]
+}

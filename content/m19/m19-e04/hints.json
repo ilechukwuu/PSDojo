@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Schleife ist do { ... } until ( ... ). Lies im Block zuerst die Antwort und zähle danach den Versuch, damit Versuch 1 die Position 0 liest.",
+    "Die Bedingung nach until hat zwei Teile, verbunden mit -or: Der Status ist OK, oder die Versuche haben die Höchstzahl erreicht.",
+    "do { $Status = $Responses[$Attempt]; $Attempt++ } until ($Status -eq 'OK' -or $Attempt -ge $MaxAttempts) und danach $Succeeded = $Status -eq 'OK'"
+  ],
+  "en": [
+    "The loop is do { ... } until ( ... ). Inside the block read the answer first and count the attempt afterwards, so that attempt 1 reads position 0.",
+    "The condition after until has two parts joined with -or: the status is OK, or the attempts have reached the maximum.",
+    "do { $Status = $Responses[$Attempt]; $Attempt++ } until ($Status -eq 'OK' -or $Attempt -ge $MaxAttempts) and then $Succeeded = $Status -eq 'OK'"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m19-e04",
+  "module": "m19",
+  "title": {
+    "de": "Warten mit Obergrenze: do und until",
+    "en": "Wait with an upper limit: do and until"
+  },
+  "type": "write",
+  "order": 4,
+  "prerequisites": [
+    "m19-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Warteschleife braucht zwei Ausgänge: das Ziel ist erreicht oder die Höchstzahl der Versuche ist verbraucht.",
+    "en": "A waiting loop needs two ways out: the goal is reached or the maximum number of attempts is used up."
+  }
+}

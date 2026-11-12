@@ -1,0 +1,18 @@
+{
+  "id": "m19-e03",
+  "module": "m19",
+  "title": {
+    "de": "for, while, do: wie oft läuft der Block",
+    "en": "for, while, do: how often does the block run"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m19-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "for zählt, while prüft vor jedem Durchlauf, do prüft danach und läuft mindestens einmal. break verlässt die Schleife, continue springt zum nächsten Durchlauf.",
+    "en": "for counts, while checks before every pass, do checks afterwards and runs at least once. break leaves the loop, continue jumps to the next pass."
+  }
+}

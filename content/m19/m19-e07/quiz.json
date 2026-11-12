@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Wie oft läuft der Block von foreach ($Server in $Servers), wenn $Servers leer ist?",
+        "en": "How often does the block of foreach ($Server in $Servers) run when $Servers is empty?"
+      },
+      "options": {
+        "de": [
+          "Einmal mit $null",
+          "Gar nicht",
+          "Es gibt einen Fehler",
+          "Endlos"
+        ],
+        "en": [
+          "Once with $null",
+          "Not at all",
+          "There is an error",
+          "Forever"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was ist $_ in Get-Service | ForEach-Object { $_.Name }?",
+        "en": "What is $_ in Get-Service | ForEach-Object { $_.Name }?"
+      },
+      "options": {
+        "de": [
+          "Die ganze Liste der Dienste",
+          "Der Name des Cmdlets",
+          "Der Dienst, der gerade durch die Pipeline kommt",
+          "Der letzte Dienst"
+        ],
+        "en": [
+          "The whole list of services",
+          "The name of the cmdlet",
+          "The service that is passing through the pipeline right now",
+          "The last service"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Welche Schleife läuft mindestens einmal, auch wenn ihre Bedingung von Anfang an falsch ist?",
+        "en": "Which loop runs at least once even when its condition is false from the start?"
+      },
+      "options": {
+        "de": [
+          "while",
+          "for",
+          "foreach",
+          "do ... while"
+        ],
+        "en": [
+          "while",
+          "for",
+          "foreach",
+          "do ... while"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Wie oft läuft for ($i = 0; $i -le 3; $i++)?",
+        "en": "How often does for ($i = 0; $i -le 3; $i++) run?"
+      },
+      "options": {
+        "de": [
+          "Viermal",
+          "Dreimal",
+          "Fünfmal",
+          "Zweimal"
+        ],
+        "en": [
+          "Four times",
+          "Three times",
+          "Five times",
+          "Twice"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Was tut continue in einer Schleife?",
+        "en": "What does continue do in a loop?"
+      },
+      "options": {
+        "de": [
+          "Es beendet die Schleife",
+          "Es überspringt den Rest des Durchlaufs und macht mit dem nächsten weiter",
+          "Es wiederholt den aktuellen Durchlauf",
+          "Es beendet das Skript"
+        ],
+        "en": [
+          "It ends the loop",
+          "It skips the rest of the pass and goes on with the next one",
+          "It repeats the current pass",
+          "It ends the script"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Eine Schleife wartet mit while darauf, dass ein Dienst läuft. Was fehlt, wenn sie nur diese eine Bedingung hat?",
+        "en": "A loop waits with while for a service to run. What is missing when it has only this one condition?"
+      },
+      "options": {
+        "de": [
+          "Ein Start-Sleep",
+          "Ein else-Zweig",
+          "Ein zweiter Ausgang, etwa eine Höchstzahl von Versuchen",
+          "Ein Zähler für die Statistik"
+        ],
+        "en": [
+          "A Start-Sleep",
+          "An else branch",
+          "A second way out, such as a maximum number of attempts",
+          "A counter for statistics"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "In foreach ($Server in $Servers) { \"Checking $Servers\" } steht ein Fehler. Welcher?",
+        "en": "foreach ($Server in $Servers) { \"Checking $Servers\" } contains a mistake. Which?"
+      },
+      "options": {
+        "de": [
+          "Die Schleife braucht einen Zähler",
+          "foreach kann keinen Text erzeugen",
+          "Es fehlt ein break",
+          "Der Block benutzt die ganze Liste statt der Schleifenvariablen"
+        ],
+        "en": [
+          "The loop needs a counter",
+          "foreach cannot produce text",
+          "A break is missing",
+          "The block uses the whole list instead of the loop variable"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum ist $Lines = foreach (...) { ... } besser als $Lines += ... in der Schleife?",
+        "en": "Why is $Lines = foreach (...) { ... } better than $Lines += ... inside the loop?"
+      },
+      "options": {
+        "de": [
+          "+= funktioniert in Schleifen nicht",
+          "+= baut in jedem Durchlauf ein neues Array, die Zuweisung sammelt einmal",
+          "Die Reihenfolge wäre sonst zufällig",
+          "Es spart eine Variable"
+        ],
+        "en": [
+          "+= does not work inside loops",
+          "+= builds a new array in every pass, the assignment collects once",
+          "The order would otherwise be random",
+          "It saves a variable"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

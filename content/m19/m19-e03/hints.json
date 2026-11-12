@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Notiere den Wert der Zählvariablen vor jedem Durchlauf und prüfe damit die Bedingung.",
+    "Die for-Schleife läuft mit 0, 3, 6 und 9. Die Warteschlange geht 5, 3, 1 und dann unter null. Eine do-Schleife prüft erst nach dem ersten Durchlauf.",
+    "A ist 4, B ist 3, C ist 1, weil der Block einmal vor der Prüfung läuft. D zählt 1, 3 und 4: 2 wird durch continue übersprungen, und 5 beendet die Schleife."
+  ],
+  "en": [
+    "Write down the value of the counting variable before each pass and check the condition with it.",
+    "The for loop runs with 0, 3, 6 and 9. The queue goes 5, 3, 1 and then below zero. A do loop checks only after the first pass.",
+    "A is 4, B is 3, C is 1 because the block runs once before the check. D counts 1, 3 and 4: 2 is skipped by continue and 5 ends the loop."
+  ]
+}

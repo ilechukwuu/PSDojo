@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Ersetze den Kopf der Schleife durch foreach ($Disk in $Disks). Jedes $Disks[$i] im Block wird dann zu $Disk.",
+    "Schreibe $Warnings = vor das foreach. Im Block steht der Text einfach da, ohne Zuweisung.",
+    "$Warnings = foreach ($Disk in $Disks) { if ($Disk.FreeGB -lt 20) { \"$($Disk.Server) has only $($Disk.FreeGB) GB free\" } }"
+  ],
+  "en": [
+    "Replace the header of the loop with foreach ($Disk in $Disks). Every $Disks[$i] inside the block then becomes $Disk.",
+    "Write $Warnings = in front of the foreach. Inside the block the text just stands there, without an assignment.",
+    "$Warnings = foreach ($Disk in $Disks) { if ($Disk.FreeGB -lt 20) { \"$($Disk.Server) has only $($Disk.FreeGB) GB free\" } }"
+  ]
+}
