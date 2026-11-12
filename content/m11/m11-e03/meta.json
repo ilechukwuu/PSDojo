@@ -1,0 +1,18 @@
+{
+  "id": "m11-e03",
+  "module": "m11",
+  "title": {
+    "de": "Welcher Strom, was landet in der Variablen",
+    "en": "Which stream, what ends up in the variable"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m11-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Nur Strom 1 landet in einer Variablen. 2> leitet Fehler um, 3> Warnungen, *> alles. 2>&1 mischt einen Strom in das Ergebnis.",
+    "en": "Only stream 1 ends up in a variable. 2> redirects errors, 3> warnings, *> everything. 2>&1 merges a stream into the result."
+  }
+}

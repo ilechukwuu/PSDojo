@@ -1,0 +1,18 @@
+{
+  "id": "m11-e02",
+  "module": "m11",
+  "title": {
+    "de": "Warnung und ausführliche Meldung",
+    "en": "Warning and verbose message"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m11-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Write-Warning schreibt in Strom 3 und fällt auf. Write-Verbose schreibt in Strom 4 und erscheint nur mit -Verbose oder $VerbosePreference = 'Continue'.",
+    "en": "Write-Warning writes to stream 3 and stands out. Write-Verbose writes to stream 4 and appears only with -Verbose or $VerbosePreference = 'Continue'."
+  }
+}

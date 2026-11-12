@@ -1,0 +1,18 @@
+{
+  "id": "m11-e01",
+  "module": "m11",
+  "title": {
+    "de": "Ergebnis oder Meldung: Write-Output und Write-Host",
+    "en": "Result or message: Write-Output and Write-Host"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m10-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Write-Output schreibt in den Erfolgsstrom, das Ergebnis, das Variablen und Pipes aufnehmen. Write-Host schreibt nur für den Menschen am Bildschirm.",
+    "en": "Write-Output writes to the success stream, the result that variables and pipes pick up. Write-Host writes only for the person at the screen."
+  }
+}

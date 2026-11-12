@@ -1,0 +1,13 @@
+{
+  "id": "m11",
+  "part": 1,
+  "order": 11,
+  "track": "core",
+  "title": {
+    "de": "Ausgabeströme und Umleitung",
+    "en": "Output streams and redirection"
+  },
+  "prerequisites": [
+    "m10"
+  ]
+}

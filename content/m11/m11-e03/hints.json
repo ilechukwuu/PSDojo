@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Ordne zuerst jede der vier Zeilen einem Strom zu: Host, Warnung oder Ergebnis.",
+    "Eine Variable fängt nur das Ergebnis auf, Strom 1. Ein Wert, der allein in einer Zeile steht, gehört genauso zum Ergebnis wie Write-Output.",
+    "Zwei Zeilen schreiben in das Ergebnis. Mit 3>&1 kommt die Warnung dazu. Warnungen sind Strom 3, und 3> schickt genau sie in die Datei."
+  ],
+  "en": [
+    "Assign each of the four lines to a stream first: host, warning, or result.",
+    "A variable only captures the result, stream 1. A value standing alone on a line belongs to the result just like Write-Output.",
+    "Two lines write to the result. With 3>&1 the warning joins them. Warnings are stream 3, and 3> sends exactly them to the file."
+  ]
+}

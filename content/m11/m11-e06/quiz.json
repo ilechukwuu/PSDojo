@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Welcher Strom landet in einer Variablen, wenn du $x = .\\check.ps1 schreibst?",
+        "en": "Which stream ends up in a variable when you write $x = .\\check.ps1?"
+      },
+      "options": {
+        "de": [
+          "Alle Ströme",
+          "Nur der Erfolgsstrom, Strom 1",
+          "Erfolgs- und Warnungsstrom",
+          "Alles, was am Bildschirm erscheinen würde"
+        ],
+        "en": [
+          "All streams",
+          "Only the success stream, stream 1",
+          "Success and warning stream",
+          "Everything that would appear on screen"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Ein Skript enthält die Zeile 'FS-02' ohne Cmdlet davor. Was passiert damit?",
+        "en": "A script contains the line 'FS-02' without a cmdlet in front. What happens to it?"
+      },
+      "options": {
+        "de": [
+          "Nichts, die Zeile wird ignoriert",
+          "Es ist ein Syntaxfehler",
+          "Der Text wird Teil des Ergebnisses, wie mit Write-Output",
+          "Der Text wird als Befehl ausgeführt"
+        ],
+        "en": [
+          "Nothing, the line is ignored",
+          "It is a syntax error",
+          "The text becomes part of the result, as with Write-Output",
+          "The text is run as a command"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Wofür ist Write-Host gedacht?",
+        "en": "What is Write-Host meant for?"
+      },
+      "options": {
+        "de": [
+          "Für Daten, die andere Skripte weiterverarbeiten",
+          "Für Fehler",
+          "Für das Schreiben in Dateien",
+          "Für Text, den nur ein Mensch am Bildschirm lesen soll"
+        ],
+        "en": [
+          "For data that other scripts process",
+          "For errors",
+          "For writing to files",
+          "For text that only a person at the screen should read"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "In welchen Strom schreibt Write-Warning?",
+        "en": "Which stream does Write-Warning write to?"
+      },
+      "options": {
+        "de": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "en": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Warum erscheint eine Meldung von Write-Verbose standardmäßig nicht?",
+        "en": "Why does a message from Write-Verbose not appear by default?"
+      },
+      "options": {
+        "de": [
+          "$VerbosePreference steht auf SilentlyContinue, bis jemand Verbose einschaltet",
+          "Write-Verbose schreibt nur in Dateien",
+          "Der Verbose-Strom funktioniert nur in der ISE",
+          "Verbose-Meldungen brauchen Administratorrechte"
+        ],
+        "en": [
+          "$VerbosePreference is SilentlyContinue until someone switches verbose on",
+          "Write-Verbose only writes to files",
+          "The verbose stream only works in the ISE",
+          "Verbose messages need administrator rights"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was tut 2>$null hinter einem Befehl?",
+        "en": "What does 2>$null do after a command?"
+      },
+      "options": {
+        "de": [
+          "Es verwirft das Ergebnis",
+          "Es verwirft die Fehlermeldungen",
+          "Es verwirft Warnungen",
+          "Es wiederholt den Befehl zweimal"
+        ],
+        "en": [
+          "It discards the result",
+          "It discards the error messages",
+          "It discards warnings",
+          "It repeats the command twice"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Du willst Ergebnis und Fehler eines Befehls zusammen in einer Variablen. Welche Umleitung?",
+        "en": "You want the result and the errors of a command together in one variable. Which redirection?"
+      },
+      "options": {
+        "de": [
+          "2>$null",
+          "1>2",
+          "*>$null",
+          "2>&1"
+        ],
+        "en": [
+          "2>$null",
+          "1>2",
+          "*>$null",
+          "2>&1"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Ein Skript zeigt von Hand Dienstnamen an, aber $x = .\\script.ps1 liefert eine leere Variable. Was ist die wahrscheinlichste Ursache?",
+        "en": "A script shows service names when run by hand, but $x = .\\script.ps1 gives an empty variable. What is the most likely cause?"
+      },
+      "options": {
+        "de": [
+          "Die Variable hat den falschen Typ",
+          "Die Namen werden mit Write-Host geschrieben statt ins Ergebnis",
+          "Skripte können nichts zurückgeben",
+          "Die Dienste sind gestoppt"
+        ],
+        "en": [
+          "The variable has the wrong type",
+          "The names are written with Write-Host instead of into the result",
+          "Scripts cannot return anything",
+          "The services are stopped"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Ein Hilfsskript schreibt mit Write-Output eine Fortschrittszeile und danach einen Pfad. Was erhält der Aufrufer?",
+        "en": "A helper script writes a progress line with Write-Output and then a path. What does the caller get?"
+      },
+      "options": {
+        "de": [
+          "Nur den Pfad",
+          "Nur die Fortschrittszeile",
+          "Beides, die Fortschrittszeile ist Teil des Ergebnisses",
+          "Einen Fehler"
+        ],
+        "en": [
+          "Only the path",
+          "Only the progress line",
+          "Both, the progress line is part of the result",
+          "An error"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Warum ist Write-Verbose für Fortschrittsmeldungen besser als Write-Host?",
+        "en": "Why is Write-Verbose better than Write-Host for progress messages?"
+      },
+      "options": {
+        "de": [
+          "Es ist schneller",
+          "Es schreibt automatisch in eine Logdatei",
+          "Es funktioniert auch ohne PowerShell",
+          "Der Aufrufer entscheidet, ob er sie sehen will"
+        ],
+        "en": [
+          "It is faster",
+          "It writes to a log file automatically",
+          "It also works without PowerShell",
+          "The caller decides whether to see them"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

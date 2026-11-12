@@ -1,0 +1,18 @@
+{
+  "id": "m11-e05",
+  "module": "m11",
+  "title": {
+    "de": "Geschwätziges Skript leise machen",
+    "en": "Make a chatty script quiet"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m11-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Fortschrittsmeldungen mit Write-Verbose statt Write-Host: still im Normalbetrieb, sichtbar mit -Verbose. Das Ergebnis bleibt gleich.",
+    "en": "Progress messages with Write-Verbose instead of Write-Host: quiet in normal operation, visible with -Verbose. The result stays the same."
+  }
+}

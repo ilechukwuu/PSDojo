@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Frage bei jeder der drei Zeilen: Sind das Daten, eine Fortschrittsnotiz oder eine Warnung, und welchen Strom benutzt die Zeile wirklich?",
+    "Die Fortschrittsnotiz gehört in den Verbose-Strom, die Namen gehören ins Ergebnis, und Warnungen sind Strom 3.",
+    "Nutze Write-Verbose -Message für die erste Zeile, Write-Output $Names für die Namen und 3> statt 2> in der letzten Zeile."
+  ],
+  "en": [
+    "Ask for each of the three lines: is this data, a progress note or a warning, and which stream does the line really use?",
+    "The progress note belongs in the verbose stream, the names belong in the result, and warnings are stream 3.",
+    "Use Write-Verbose -Message for the first line, Write-Output $Names for the names and 3> instead of 2> in the last line."
+  ]
+}

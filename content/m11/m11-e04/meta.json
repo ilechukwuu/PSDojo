@@ -1,0 +1,18 @@
+{
+  "id": "m11-e04",
+  "module": "m11",
+  "title": {
+    "de": "Vermischte Ströme entwirren",
+    "en": "Untangle mixed-up streams"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m11-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Daten gehören in den Erfolgsstrom, Statusmeldungen in Verbose, und beim Umleiten zählt die richtige Stromnummer.",
+    "en": "Data belongs in the success stream, status messages in verbose, and redirection needs the right stream number."
+  }
+}

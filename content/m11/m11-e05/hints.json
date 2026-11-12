@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Vier Zeilen beginnen mit Write-Host. Jede bekommt denselben Ersatz.",
+    "Write-Verbose nimmt den Text mit dem Parameter -Message. Der Text in Anführungszeichen bleibt, wie er ist.",
+    "Jede der vier Zeilen wird zu Write-Verbose -Message '...' mit ihrem ursprünglichen Text, zum Beispiel Write-Verbose -Message 'Reading services'"
+  ],
+  "en": [
+    "Four lines start with Write-Host. Each of them gets the same replacement.",
+    "Write-Verbose takes the text with the parameter -Message. The text in quotes stays as it is.",
+    "Each of the four lines becomes Write-Verbose -Message '...' with its original text, for example Write-Verbose -Message 'Reading services'"
+  ]
+}

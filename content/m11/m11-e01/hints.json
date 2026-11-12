@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Schritte 1 und 3 sind Text für einen Menschen, Schritt 2 sind Daten für andere Skripte. Sie brauchen unterschiedliche Cmdlets.",
+    "Text für den Bildschirm schreibt Write-Host. Eine Pipeline, die allein in einer Zeile steht, ist das Ergebnis, sie braucht kein Write-Output.",
+    "Schritt 1 lautet Write-Host 'Nordwind service check for APP-01' und Schritt 2 lautet Get-Service -Name Nordwind* | Select-Object -ExpandProperty Name"
+  ],
+  "en": [
+    "Steps 1 and 3 are text for a person, step 2 is data for other scripts. They need different cmdlets.",
+    "Text for the screen is written with Write-Host. A pipeline that stands alone on a line is the result, it needs no Write-Output.",
+    "Step 1 is Write-Host 'Nordwind service check for APP-01' and step 2 is Get-Service -Name Nordwind* | Select-Object -ExpandProperty Name"
+  ]
+}

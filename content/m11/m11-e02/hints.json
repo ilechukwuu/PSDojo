@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schritt 1 benutzt Write-Verbose und Schritt 4 Write-Warning. Beide nehmen den Text mit -Message.",
+    "Setze den Text der Warnung in doppelte Anführungszeichen und schreibe $Count hinein. PowerShell ersetzt die Variable durch ihren Wert.",
+    "Schritt 4 lautet Write-Warning -Message \"Stopped automatic services: $Count\" und Schritt 5 lautet $Broken | Select-Object -ExpandProperty Name"
+  ],
+  "en": [
+    "Step 1 uses Write-Verbose and step 4 uses Write-Warning. Both take the text with -Message.",
+    "For the warning put the text in double quotes and write $Count inside it. PowerShell replaces the variable with its value.",
+    "Step 4 is Write-Warning -Message \"Stopped automatic services: $Count\" and step 5 is $Broken | Select-Object -ExpandProperty Name"
+  ]
+}
