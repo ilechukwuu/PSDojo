@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PSDojo.Runner.Tests/PSDojo.Runner.Tests.csproj" />
+  <Project Path="PSDojo.Runner/PSDojo.Runner.csproj" />
+</Solution>

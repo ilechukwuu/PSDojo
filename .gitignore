@@ -7,3 +7,5 @@ App_Data/
 .vs/
 *.user
 TestResults/
+
+runner/image/_modules/
