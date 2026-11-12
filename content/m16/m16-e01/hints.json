@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Gezählt wird ab 0. Das erste Element steht an Position 0, das zweite an 1, das dritte an 2.",
+    "Das letzte Element ist [-1]. Ein Ausschnitt nutzt zwei Positionen, verbunden durch zwei Punkte.",
+    "$Pilot = $Servers[0], $Final = $Servers[-1], $WaveTwo = $Servers[1..2] und $Total = $Servers.Count"
+  ],
+  "en": [
+    "Counting starts at 0. The first element is at position 0, the second at 1, the third at 2.",
+    "The last element is [-1]. A slice uses two positions joined by two dots.",
+    "$Pilot = $Servers[0], $Final = $Servers[-1], $WaveTwo = $Servers[1..2] and $Total = $Servers.Count"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Das Array wächst mit +=. Die List wird mit [System.Collections.Generic.List[string]]::new() angelegt und danach über ihre Methoden verändert.",
+    "Jedes Add ist eine eigene Zeile. Entfernen ist die Methode Remove mit dem Wert in Klammern.",
+    "$Done += 'FS-02', dann $Queue.Add('FS-03') und so weiter, $null = $Queue.Remove('FS-04'), $StillQueued = $Queue.Contains('FS-05'), $Waiting = $Queue.Count"
+  ],
+  "en": [
+    "The array grows with +=. The List is created with [System.Collections.Generic.List[string]]::new() and then changed with its methods.",
+    "Each Add is its own line. Removing is the method Remove with the value in parentheses.",
+    "$Done += 'FS-02', then $Queue.Add('FS-03') and so on, $null = $Queue.Remove('FS-04'), $StillQueued = $Queue.Contains('FS-05'), $Waiting = $Queue.Count"
+  ]
+}

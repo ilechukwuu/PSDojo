@@ -1,0 +1,18 @@
+{
+  "id": "m16-e04",
+  "module": "m16",
+  "title": {
+    "de": "Drei Listenfehler im Patchskript",
+    "en": "Three list mistakes in the patch script"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m16-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein einzelnes Ergebnis mit @( ) zum Array machen, an Arrays mit += anhängen statt mit Add, und das letzte Element mit [-1] lesen.",
+    "en": "Turn a single result into an array with @( ), append to arrays with += instead of Add, and read the last element with [-1]."
+  }
+}

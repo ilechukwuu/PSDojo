@@ -1,0 +1,18 @@
+{
+  "id": "m16-e03",
+  "module": "m16",
+  "title": {
+    "de": "Listen, die wachsen: += und List",
+    "en": "Lists that grow: += and List"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m16-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "+= hängt an ein Array an, indem es ein neues baut. Eine generische List wächst wirklich: Add fügt hinzu, Remove entfernt, Contains prüft.",
+    "en": "+= appends to an array by building a new one. A generic List really grows: Add adds, Remove removes, Contains checks."
+  }
+}

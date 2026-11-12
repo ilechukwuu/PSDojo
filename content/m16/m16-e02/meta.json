@@ -1,0 +1,18 @@
+{
+  "id": "m16-e02",
+  "module": "m16",
+  "title": {
+    "de": "Eins, keins oder viele: was Count und [0] liefern",
+    "en": "One, none or many: what Count and [0] return"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m16-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein einzelner Wert ist kein Array. [0] an einem Text liefert einen Buchstaben. @( ) macht aus allem ein Array, auch aus einem oder keinem Wert.",
+    "en": "A single value is not an array. [0] on a text returns a letter. @( ) turns anything into an array, also one value or none."
+  }
+}

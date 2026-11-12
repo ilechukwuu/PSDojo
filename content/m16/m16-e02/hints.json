@@ -1,0 +1,12 @@
+{
+  "de": [
+    "$Found enthält einen einzelnen Text, kein Array. Überlege, was [0] bei einem Text bedeutet.",
+    "Ein Text ist eine Liste von Zeichen, [0] ist also sein erstes Zeichen. @( ) macht aus dem einzelnen Text ein echtes Array.",
+    "Zeile 4 ergibt P. Position 5 gibt es in einem Array mit drei Elementen nicht, das Ergebnis ist also nichts. Drei plus ein Element sind vier. Ein leeres Array hat Count 0."
+  ],
+  "en": [
+    "$Found holds a single text, not an array. Think about what [0] means for a text.",
+    "A text is a list of characters, so [0] is its first character. @( ) makes a real array out of the single text.",
+    "Line 4 gives P. Position 5 does not exist in an array of three, so the result is nothing. Three plus one elements are four. An empty array has Count 0."
+  ]
+}

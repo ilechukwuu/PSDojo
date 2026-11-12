@@ -1,0 +1,18 @@
+{
+  "id": "m16-e01",
+  "module": "m16",
+  "title": {
+    "de": "Arrays anlegen und Elemente lesen",
+    "en": "Create arrays and read elements"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m13-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Array ist eine Liste mit Positionen ab 0. [0] ist das erste Element, [-1] das letzte, [1..2] ein Ausschnitt, Count die Anzahl.",
+    "en": "An array is a list with positions from 0. [0] is the first element, [-1] the last, [1..2] a slice, Count the number."
+  }
+}

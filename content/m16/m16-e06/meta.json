@@ -1,0 +1,19 @@
+{
+  "id": "m16-e06",
+  "module": "m16",
+  "title": {
+    "de": "Quiz: Arrays und Sammlungen",
+    "en": "Quiz: Arrays and collections"
+  },
+  "type": "quiz",
+  "order": 6,
+  "prerequisites": [
+    "m16-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

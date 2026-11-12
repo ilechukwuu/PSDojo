@@ -1,0 +1,13 @@
+{
+  "id": "m16",
+  "part": 1,
+  "order": 16,
+  "track": "core",
+  "title": {
+    "de": "Arrays und Sammlungen",
+    "en": "Arrays and collections"
+  },
+  "prerequisites": [
+    "m13"
+  ]
+}

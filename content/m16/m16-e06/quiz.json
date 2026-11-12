@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "$Servers = 'FS-01', 'FS-02', 'FS-03'. Was liefert $Servers[1]?",
+        "en": "$Servers = 'FS-01', 'FS-02', 'FS-03'. What does $Servers[1] return?"
+      },
+      "options": {
+        "de": [
+          "FS-01",
+          "FS-02",
+          "FS-03",
+          "F"
+        ],
+        "en": [
+          "FS-01",
+          "FS-02",
+          "FS-03",
+          "F"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Wie liest du das letzte Element eines Arrays, ohne seine Länge zu kennen?",
+        "en": "How do you read the last element of an array without knowing its length?"
+      },
+      "options": {
+        "de": [
+          "$Servers[$Servers.Count]",
+          "$Servers[last]",
+          "$Servers[-1]",
+          "$Servers.Last"
+        ],
+        "en": [
+          "$Servers[$Servers.Count]",
+          "$Servers[last]",
+          "$Servers[-1]",
+          "$Servers.Last"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "$Found = 'PRN-01'. Was liefert $Found[0]?",
+        "en": "$Found = 'PRN-01'. What does $Found[0] return?"
+      },
+      "options": {
+        "de": [
+          "PRN-01",
+          "Einen Fehler",
+          "$null",
+          "P"
+        ],
+        "en": [
+          "PRN-01",
+          "An error",
+          "$null",
+          "P"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was bewirkt @( ) um einen Ausdruck?",
+        "en": "What does @( ) around an expression do?"
+      },
+      "options": {
+        "de": [
+          "Das Ergebnis ist immer ein Array, auch bei einem oder keinem Element",
+          "Es sortiert das Ergebnis",
+          "Es entfernt doppelte Elemente",
+          "Es macht aus einem Array einen Text"
+        ],
+        "en": [
+          "The result is always an array, also with one element or none",
+          "It sorts the result",
+          "It removes duplicate elements",
+          "It turns an array into a text"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Was passiert bei $Servers.Add('FS-05'), wenn $Servers ein Array ist?",
+        "en": "What happens with $Servers.Add('FS-05') when $Servers is an array?"
+      },
+      "options": {
+        "de": [
+          "Das Element wird angehängt",
+          "Ein Fehler: Die Sammlung hat eine feste Größe",
+          "Das Element ersetzt das erste",
+          "Nichts"
+        ],
+        "en": [
+          "The element is appended",
+          "An error: the collection has a fixed size",
+          "The element replaces the first one",
+          "Nothing"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Warum ist += bei sehr großen Arrays langsam?",
+        "en": "Why is += slow with very large arrays?"
+      },
+      "options": {
+        "de": [
+          "Es sortiert das Array jedes Mal",
+          "Es schreibt auf die Festplatte",
+          "Es baut jedes Mal ein neues Array und kopiert alle Elemente",
+          "Es prüft auf Doppelte"
+        ],
+        "en": [
+          "It sorts the array every time",
+          "It writes to disk",
+          "It builds a new array every time and copies all elements",
+          "It checks for duplicates"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Welche Zeile legt eine Liste an, die wirklich wachsen kann?",
+        "en": "Which line creates a list that can really grow?"
+      },
+      "options": {
+        "de": [
+          "$Queue = @()",
+          "$Queue = 'FS-01', 'FS-02'",
+          "$Queue = [array]::new()",
+          "$Queue = [System.Collections.Generic.List[string]]::new()"
+        ],
+        "en": [
+          "$Queue = @()",
+          "$Queue = 'FS-01', 'FS-02'",
+          "$Queue = [array]::new()",
+          "$Queue = [System.Collections.Generic.List[string]]::new()"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Ein Array hat drei Elemente. Was liefert $Servers[5]?",
+        "en": "An array has three elements. What does $Servers[5] return?"
+      },
+      "options": {
+        "de": [
+          "Einen Fehler",
+          "Nichts, ohne Fehler",
+          "Das letzte Element",
+          "0"
+        ],
+        "en": [
+          "An error",
+          "Nothing, without an error",
+          "The last element",
+          "0"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

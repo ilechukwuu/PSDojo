@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Frage bei jeder Zeile, was sie mit fünf Servern täte. Überall, wo eine feste Position oder die Zahl 3 steht, muss sich etwas ändern.",
+    "Die letzten zwei Elemente sind [-2..-1], egal wo die Liste endet. Die Anzahl in einem Text braucht $( ).",
+    "$Line = $Servers -join ', ', $LastTwo = $Servers[-2..-1] und $Summary = \"$($Servers.Count) servers: $Line\""
+  ],
+  "en": [
+    "Ask for each line what it would do with five servers. Wherever a fixed position or the number 3 appears, something has to change.",
+    "The last two elements are [-2..-1], wherever the list ends. The count inside a text needs $( ).",
+    "$Line = $Servers -join ', ', $LastTwo = $Servers[-2..-1] and $Summary = \"$($Servers.Count) servers: $Line\""
+  ]
+}

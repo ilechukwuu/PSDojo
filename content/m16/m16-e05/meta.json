@@ -1,0 +1,18 @@
+{
+  "id": "m16-e05",
+  "module": "m16",
+  "title": {
+    "de": "Für jede Listenlänge: -join und Ausschnitte statt fester Positionen",
+    "en": "For any list length: -join and slices instead of fixed positions"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m16-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "-join verbindet alle Elemente, egal wie viele. Ein Ausschnitt wie [0..1] oder [-2..-1] ersetzt das Aufzählen einzelner Positionen.",
+    "en": "-join connects all elements, however many. A slice such as [0..1] or [-2..-1] replaces listing single positions."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die Zeilen einzeln aus. Eine Zeile scheitert mit einem Fehler, die zwei anderen liefern etwas Unerwartetes.",
+    "$Failed muss ein Array sein, auch mit einem Element. Ein Array wächst nicht mit Add. Das letzte Element steht nicht an der Position Count.",
+    "$Failed = @('FS-03'), $Servers += 'FS-05' und $LastServer = $Servers[-1]"
+  ],
+  "en": [
+    "Run the lines one by one. One line fails with an error, the two others return something you did not expect.",
+    "$Failed must be an array, even with one element. An array does not grow with Add. The last element is not at the position Count.",
+    "$Failed = @('FS-03'), $Servers += 'FS-05' and $LastServer = $Servers[-1]"
+  ]
+}
