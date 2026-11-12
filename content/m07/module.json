@@ -1,0 +1,13 @@
+{
+  "id": "m07",
+  "part": 1,
+  "order": 7,
+  "track": "core",
+  "title": {
+    "de": "Parameterbindung in der Pipeline",
+    "en": "Pipeline parameter binding"
+  },
+  "prerequisites": [
+    "m06"
+  ]
+}

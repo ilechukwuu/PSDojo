@@ -1,0 +1,18 @@
+{
+  "id": "m06-e05",
+  "module": "m06",
+  "title": {
+    "de": "Statische Member: Hilfen, die keinem Objekt gehören",
+    "en": "Static members: helpers that belong to no object"
+  },
+  "type": "write",
+  "order": 5,
+  "prerequisites": [
+    "m06-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "[Typ]::Member ruft etwas am Typ selbst auf, ohne Objekt: [math]::Round(), [datetime]::Today, [System.IO.Path]::GetExtension().",
+    "en": "[Type]::Member calls something on the type itself, without an object: [math]::Round(), [datetime]::Today, [System.IO.Path]::GetExtension()."
+  }
+}

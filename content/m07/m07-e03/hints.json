@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Alle drei Schritte haben dieselbe Form: die Liste, ein Pipe-Zeichen, das Cmdlet. -Name schreibst du nie selbst.",
+    "Die Spaltennamen erledigen die Arbeit. Name und ProcessName führen beide zum Parameter -Name von Get-Process.",
+    "Die Zeilen lauten $WatchList | Get-Process, dann $LegacyList | Get-Process, dann $AliasList | New-Alias"
+  ],
+  "en": [
+    "All three steps have the same shape: the list, a pipe character, the cmdlet. You never write -Name yourself.",
+    "The column names do the work. Name and ProcessName both lead to the parameter -Name of Get-Process.",
+    "The lines are $WatchList | Get-Process, then $LegacyList | Get-Process, then $AliasList | New-Alias"
+  ]
+}

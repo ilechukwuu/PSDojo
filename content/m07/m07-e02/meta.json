@@ -1,0 +1,18 @@
+{
+  "id": "m07-e02",
+  "module": "m07",
+  "title": {
+    "de": "Binden über den Wert: Text in die Pipe leiten",
+    "en": "Binding by value: pipe text into a command"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m07-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Liste vor der Pipe wird Element für Element weitergereicht. Passt der Typ zu einem ByValue-Parameter, bindet jedes Element dort.",
+    "en": "A list in front of the pipe is passed on element by element. If the type fits a ByValue parameter, each element binds there."
+  }
+}

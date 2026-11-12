@@ -1,0 +1,18 @@
+{
+  "id": "m06-e02",
+  "module": "m06",
+  "title": {
+    "de": "Eigenschaften lesen: die Fakten einer Berichtsdatei",
+    "en": "Read properties: the facts about a report file"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m06-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Objekt.Eigenschaft liest einen Wert. Eine Eigenschaft kann selbst ein Objekt sein, dann geht es mit einem weiteren Punkt weiter.",
+    "en": "Object.Property reads a value. A property can be an object itself, then another dot goes further."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Lies die Eigenschaft direkt an der Liste: $All.Name liefert den Namen jedes Prozesses in $All.",
+    "Dasselbe geht mit WorkingSet64. Leite diese Zahlenliste in Measure-Object -Sum und lies die Eigenschaft Sum des Ergebnisses.",
+    "Die zwei Zeilen lauten $Names = $All.Name und $TotalMemory = ($All.WorkingSet64 | Measure-Object -Sum).Sum"
+  ],
+  "en": [
+    "Read the property directly on the list: $All.Name returns the name of every process in $All.",
+    "The same works for WorkingSet64. Pipe that list of numbers into Measure-Object -Sum and read the property Sum of the result.",
+    "The two lines are $Names = $All.Name and $TotalMemory = ($All.WorkingSet64 | Measure-Object -Sum).Sum"
+  ]
+}

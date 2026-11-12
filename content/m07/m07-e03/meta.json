@@ -1,0 +1,18 @@
+{
+  "id": "m07-e03",
+  "module": "m07",
+  "title": {
+    "de": "Binden über Eigenschaftsnamen: Zeilen als Aufträge",
+    "en": "Binding by property name: rows as work orders"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m07-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Heißt eine Eigenschaft wie ein Parameter (oder wie sein Alias), füllt sie ihn. Mehrere Eigenschaften können mehrere Parameter füllen.",
+    "en": "If a property is named like a parameter (or like its alias), it fills it. Several properties can fill several parameters."
+  }
+}

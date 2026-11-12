@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Frage bei jeder Pipeline zuerst, was für ein Objekt ankommt: ein Dienstobjekt, ein Text oder ein Objekt mit einer Eigenschaft.",
+    "ByValue wird zuerst versucht und richtet sich nach dem Typ. Ein Dienstobjekt ist ein ServiceController, ein Text ist ein string.",
+    "Das Dienstobjekt bindet an InputObject. Der Text bindet über den Wert an Name. Das Objekt mit der Eigenschaft Name bindet über den Eigenschaftsnamen an Name. Eine Eigenschaft Service passt zu keinem Parameter."
+  ],
+  "en": [
+    "For each pipeline first ask what kind of object arrives: a service object, a text, or an object with one property.",
+    "ByValue is tried first and goes by type. A service object is a ServiceController, a text is a string.",
+    "The service object binds to InputObject. The text binds to Name by value. The object with a property Name binds to Name by property name. A property Service matches no parameter."
+  ]
+}

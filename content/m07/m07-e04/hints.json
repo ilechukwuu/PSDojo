@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Lies die zwei Fehlermeldungen. Die erste sagt, dass nichts gebunden werden konnte, die zweite, dass aus einem Text kein Datum wurde.",
+    "Get-Process hat einen Parameter -Name, also muss die Eigenschaft in beiden Zeilen Name heißen. Der Formattext ist ein Parameter von Get-Date, keine Pipeline-Eingabe.",
+    "Beide Zeilen werden zu [pscustomobject]@{ Name = '...' } und die letzte Zeile wird zu $Stamp = Get-Date -Format 'yyyyMMdd'"
+  ],
+  "en": [
+    "Read the two error messages. The first says nothing could be bound, the second says a text could not be turned into a date.",
+    "Get-Process has a parameter -Name, so the property in both rows must be called Name. The format text is a parameter of Get-Date, not pipeline input.",
+    "Both rows become [pscustomobject]@{ Name = '...' } and the last line becomes $Stamp = Get-Date -Format 'yyyyMMdd'"
+  ]
+}

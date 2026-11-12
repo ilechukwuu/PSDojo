@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Leite $File in Get-Member, um die echten Eigenschaftsnamen zu sehen, und vergleiche die Schreibweise Buchstabe für Buchstabe.",
+    "Die Größe ist Length. Das Jahr ist eine Eigenschaft des Datums in LastWriteTime, und der Ordner steht in Directory.",
+    "Die vier rechten Seiten lauten $File.Length, $File.Extension, $File.LastWriteTime.Year und $File.Directory.Name"
+  ],
+  "en": [
+    "Pipe $File into Get-Member to see the real property names, and compare the spelling letter by letter.",
+    "The size is Length. The year is a property of the date in LastWriteTime, and the folder is in Directory.",
+    "The four right-hand sides are $File.Length, $File.Extension, $File.LastWriteTime.Year and $File.Directory.Name"
+  ]
+}

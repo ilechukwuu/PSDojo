@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Wo steht, ob ein Parameter Eingaben aus der Pipe annimmt?",
+        "en": "Where does it say whether a parameter accepts input from the pipe?"
+      },
+      "options": {
+        "de": [
+          "In der Ausgabe von Get-Member",
+          "In der Hilfe des Parameters unter Accept pipeline input?",
+          "In der Ausgabe von Get-Alias",
+          "Das lässt sich nur durch Ausprobieren feststellen"
+        ],
+        "en": [
+          "In the output of Get-Member",
+          "In the help of the parameter under Accept pipeline input?",
+          "In the output of Get-Alias",
+          "It can only be found out by trying"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was bedeutet ByValue?",
+        "en": "What does ByValue mean?"
+      },
+      "options": {
+        "de": [
+          "Der Parameter nimmt nur Zahlen an",
+          "Der Parameter nimmt den Wert einer gleichnamigen Eigenschaft",
+          "Der Parameter nimmt das ganze Objekt, wenn dessen Typ passt",
+          "Der Parameter muss von Hand gesetzt werden"
+        ],
+        "en": [
+          "The parameter only takes numbers",
+          "The parameter takes the value of a property with the same name",
+          "The parameter takes the whole object if its type fits",
+          "The parameter has to be set by hand"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was bedeutet ByPropertyName?",
+        "en": "What does ByPropertyName mean?"
+      },
+      "options": {
+        "de": [
+          "Eine Eigenschaft des Objekts, die wie der Parameter heißt, füllt ihn",
+          "Der Parametername muss in der Pipeline geschrieben werden",
+          "Das Objekt wird nach seinem Namen sortiert",
+          "Der Parameter nimmt nur Objekte mit einer Eigenschaft Name"
+        ],
+        "en": [
+          "A property of the object that is named like the parameter fills it",
+          "The parameter name must be written in the pipeline",
+          "The object is sorted by its name",
+          "The parameter only takes objects with a property Name"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Ein Parameter nimmt Eingaben ByValue und ein anderer ByPropertyName. Was versucht PowerShell zuerst?",
+        "en": "One parameter takes input ByValue and another ByPropertyName. What does PowerShell try first?"
+      },
+      "options": {
+        "de": [
+          "ByPropertyName",
+          "Beides gleichzeitig",
+          "Das ist zufällig",
+          "ByValue"
+        ],
+        "en": [
+          "ByPropertyName",
+          "Both at the same time",
+          "It is random",
+          "ByValue"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Eine CSV-Datei hat die Spalte Computer. Du leitest sie in einen Befehl mit dem Parameter -Name. Was passiert?",
+        "en": "A CSV file has the column Computer. You pipe it into a command with the parameter -Name. What happens?"
+      },
+      "options": {
+        "de": [
+          "PowerShell erkennt, dass Computer gemeint ist",
+          "Nichts bindet, PowerShell meldet einen Fehler pro Zeile",
+          "Die erste Spalte wird immer genommen",
+          "Der Befehl läuft ohne Namen für alle Objekte"
+        ],
+        "en": [
+          "PowerShell recognizes that Computer is meant",
+          "Nothing binds, PowerShell reports an error for each row",
+          "The first column is always taken",
+          "The command runs without a name for all objects"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was passiert mit Eigenschaften, zu denen es keinen passenden Parameter gibt?",
+        "en": "What happens to properties for which there is no matching parameter?"
+      },
+      "options": {
+        "de": [
+          "Sie lösen einen Fehler aus",
+          "Sie werden an den ersten freien Parameter gebunden",
+          "Sie werden ignoriert",
+          "Sie werden als Text ausgegeben"
+        ],
+        "en": [
+          "They cause an error",
+          "They are bound to the first free parameter",
+          "They are ignored",
+          "They are printed as text"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Was liefert 'Get-Date', 'Get-Item' | Get-Command?",
+        "en": "What does 'Get-Date', 'Get-Item' | Get-Command return?"
+      },
+      "options": {
+        "de": [
+          "Einen Fehler, Text lässt sich nicht in Befehle leiten",
+          "Nur das Befehlsobjekt für Get-Date",
+          "Die zwei Texte unverändert",
+          "Zwei Befehlsobjekte, eines pro Text"
+        ],
+        "en": [
+          "An error, text cannot be piped into commands",
+          "Only the command object for Get-Date",
+          "The two texts unchanged",
+          "Two command objects, one per text"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum scheitert 'yyyyMMdd' | Get-Date?",
+        "en": "Why does 'yyyyMMdd' | Get-Date fail?"
+      },
+      "options": {
+        "de": [
+          "Get-Date nimmt gar keine Pipeline-Eingabe",
+          "Der Text bindet über den Wert an -Date und lässt sich nicht in ein Datum wandeln",
+          "Formattexte müssen in doppelten Anführungszeichen stehen",
+          "Die Pipe funktioniert nur mit Objekten, nicht mit Text"
+        ],
+        "en": [
+          "Get-Date takes no pipeline input at all",
+          "The text binds to -Date by value and cannot be turned into a date",
+          "Format texts must be in double quotes",
+          "The pipe only works with objects, not with text"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "In der Syntax steht -Name <string[]>. Was heißt das für eine Liste mit zehn Namen?",
+        "en": "The syntax shows -Name <string[]>. What does that mean for a list of ten names?"
+      },
+      "options": {
+        "de": [
+          "Der Befehl muss zehnmal aufgerufen werden",
+          "Nur der erste Name wird benutzt",
+          "Die ganze Liste kann in einem Aufruf übergeben werden",
+          "Die Namen müssen in einer Datei stehen"
+        ],
+        "en": [
+          "The command has to be called ten times",
+          "Only the first name is used",
+          "The whole list can be handed over in one call",
+          "The names have to be in a file"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Du leitest Daten in einen Befehl, der Konten löscht. Was tust du zuerst?",
+        "en": "You pipe data into a command that deletes accounts. What do you do first?"
+      },
+      "options": {
+        "de": [
+          "-Force anhängen, damit keine Rückfragen kommen",
+          "Die Pipeline in eine Zeile schreiben",
+          "Die Daten nach Namen sortieren",
+          "Prüfen, woran die Daten binden, und einmal mit -WhatIf ausführen"
+        ],
+        "en": [
+          "Add -Force so that no questions are asked",
+          "Write the pipeline on one line",
+          "Sort the data by name",
+          "Check what the data binds to and run it once with -WhatIf"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

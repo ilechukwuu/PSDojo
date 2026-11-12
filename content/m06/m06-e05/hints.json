@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Zeile besteht aus einem Typ in eckigen Klammern, zwei Doppelpunkten und einem Member. Drei davon sind Methoden mit Klammern, eines ist eine Eigenschaft.",
+    "Round nimmt zwei Argumente: die Zahl und wie viele Nachkommastellen bleiben. Today ist eine Eigenschaft von [datetime].",
+    "Die vier rechten Seiten lauten [math]::Round($UsedPercentC, 1), [math]::Max($UsedPercentC, $UsedPercentD), [System.IO.Path]::GetExtension($FileName) und [datetime]::Today"
+  ],
+  "en": [
+    "Each line is a type in square brackets, two colons and a member. Three of them are methods with parentheses, one is a property.",
+    "Round takes two arguments: the number and how many decimal places to keep. Today is a property of [datetime].",
+    "The four right-hand sides are [math]::Round($UsedPercentC, 1), [math]::Max($UsedPercentC, $UsedPercentD), [System.IO.Path]::GetExtension($FileName) and [datetime]::Today"
+  ]
+}

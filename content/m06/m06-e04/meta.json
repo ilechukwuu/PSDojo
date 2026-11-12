@@ -1,0 +1,18 @@
+{
+  "id": "m06-e04",
+  "module": "m06",
+  "title": {
+    "de": "Eigenschaft oder Methode: mit und ohne Klammern",
+    "en": "Property or method: with and without parentheses"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m06-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Methoden brauchen Klammern, Eigenschaften nicht. Ohne Klammern liefert eine Methode nur ihre Beschreibung statt eines Ergebnisses.",
+    "en": "Methods need parentheses, properties do not. Without parentheses a method returns only its description instead of a result."
+  }
+}

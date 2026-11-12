@@ -1,0 +1,18 @@
+{
+  "id": "m07-e04",
+  "module": "m07",
+  "title": {
+    "de": "Wenn nichts bindet: Spaltennamen und falsche Eingänge",
+    "en": "When nothing binds: column names and wrong inputs"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m07-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Meldet PowerShell, dass die Eingabe an keinen Parameter gebunden werden kann, passt weder Typ noch Eigenschaftsname. Dann den Parameter direkt setzen oder die Eigenschaft passend benennen.",
+    "en": "When PowerShell reports that the input cannot be bound to any parameter, neither type nor property name fits. Then set the parameter directly or name the property to match."
+  }
+}

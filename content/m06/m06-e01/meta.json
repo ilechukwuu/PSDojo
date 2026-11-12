@@ -1,0 +1,18 @@
+{
+  "id": "m06-e01",
+  "module": "m06",
+  "title": {
+    "de": "Get-Member: was steckt in einem Objekt",
+    "en": "Get-Member: what is inside an object"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m05-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Get-Member zeigt Typ, Eigenschaften und Methoden eines Objekts. -MemberType grenzt auf Property oder Method ein.",
+    "en": "Get-Member shows type, properties and methods of an object. -MemberType narrows it to Property or Method."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Zeile leitet Get-Date in Get-Member. Die Zeilen 2 und 3 ergänzen den Parameter -MemberType.",
+    "Die Werte für -MemberType sind Property und Method. Der Typname ist die erste Zeile der Ausgabe und beginnt mit System.",
+    "Zeile 2 lautet Get-Date | Get-Member -MemberType Property und der Typname ist System.DateTime"
+  ],
+  "en": [
+    "Every line pipes Get-Date into Get-Member. Lines 2 and 3 add the parameter -MemberType.",
+    "The values for -MemberType are Property and Method. The type name is the first line of the output and starts with System.",
+    "Line 2 is Get-Date | Get-Member -MemberType Property and the type name is System.DateTime"
+  ]
+}

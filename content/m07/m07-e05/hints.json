@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Gib die Syntax von Get-Process aus und schau auf den Typ von -Name. Die Klammern am Ende bedeuten, dass eine Liste willkommen ist.",
+    "Die Positionen [0] bis [3] brauchst du nicht. Übergib die Variable $Names so, wie sie ist, an den Parameter.",
+    "Die Datei hat zwei Zuweisungen: die Zeile mit $Names und $Found = Get-Process -Name $Names"
+  ],
+  "en": [
+    "Print the syntax of Get-Process and look at the type of -Name. The brackets at the end mean a list is welcome.",
+    "You do not need the positions [0] to [3]. Hand the variable $Names to the parameter as it is.",
+    "The file has two assignments: the line with $Names and $Found = Get-Process -Name $Names"
+  ]
+}

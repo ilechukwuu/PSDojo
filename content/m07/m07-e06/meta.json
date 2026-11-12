@@ -1,0 +1,19 @@
+{
+  "id": "m07-e06",
+  "module": "m07",
+  "title": {
+    "de": "Quiz: Parameterbindung in der Pipeline",
+    "en": "Quiz: Pipeline parameter binding"
+  },
+  "type": "quiz",
+  "order": 6,
+  "prerequisites": [
+    "m07-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

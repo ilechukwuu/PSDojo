@@ -1,0 +1,18 @@
+{
+  "id": "m07-e05",
+  "module": "m07",
+  "title": {
+    "de": "Ein Aufruf statt vieler: die Liste direkt übergeben",
+    "en": "One call instead of many: hand over the whole list"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m07-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Viele Parameter nehmen Listen. Ein Aufruf mit der ganzen Liste ersetzt viele Einzelaufrufe und fragt das System nur einmal ab.",
+    "en": "Many parameters accept lists. One call with the whole list replaces many single calls and asks the system only once."
+  }
+}

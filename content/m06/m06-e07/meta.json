@@ -1,0 +1,19 @@
+{
+  "id": "m06-e07",
+  "module": "m06",
+  "title": {
+    "de": "Quiz: Objekte, Eigenschaften, Methoden",
+    "en": "Quiz: Objects, properties, methods"
+  },
+  "type": "quiz",
+  "order": 7,
+  "prerequisites": [
+    "m06-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

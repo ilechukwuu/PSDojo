@@ -1,0 +1,18 @@
+{
+  "id": "m06-e03",
+  "module": "m06",
+  "title": {
+    "de": "Methoden aufrufen: was kommt zurück",
+    "en": "Call methods: what comes back"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m06-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Methode ruft man mit Klammern auf: Objekt.Methode(Argumente). Sie liefert ein neues Ergebnis und ändert Text oder Datum nicht.",
+    "en": "A method is called with parentheses: Object.Method(arguments). It returns a new result and does not change the text or date."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der Editor markiert eine Zeile mit einer roten Wellenlinie. Behebe diese zuerst, sonst läuft nichts. Führe die Zeilen dann einzeln mit F8 aus.",
+    "'fs-02' | Get-Member zeigt, dass ToUpper eine Methode ist und Length eine Eigenschaft.",
+    "Die drei rechten Seiten lauten $Server.ToUpper(), $Server.Length und $Start.AddDays(7)"
+  ],
+  "en": [
+    "The editor marks one line with a red squiggle. Fix that one first, otherwise nothing runs. Then run the lines one by one with F8.",
+    "'fs-02' | Get-Member shows that ToUpper is a method and Length is a property.",
+    "The three right-hand sides are $Server.ToUpper(), $Server.Length and $Start.AddDays(7)"
+  ]
+}

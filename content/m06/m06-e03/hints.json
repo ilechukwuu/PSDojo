@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Trim entfernt die Leerzeichen an beiden Enden. Split liefert die Teile, und gezählt wird ab 0.",
+    "Replace vergleicht genau, auch Groß- und Kleinschreibung. $Name selbst wird von keiner der Zeilen verändert.",
+    "Zeile 6 findet kein großgeschriebenes WEB im Text, also wird nichts ersetzt. Vierzehn Tage nach dem 20. Dezember ist Januar. $Name hat noch seine drei Leerzeichen, 23 Zeichen plus 3."
+  ],
+  "en": [
+    "Trim removes the spaces at both ends. Split returns the parts, and counting starts at 0.",
+    "Replace compares exactly, including upper and lower case. $Name itself is never changed by any of the lines.",
+    "Line 6 finds no upper-case WEB in the text, so nothing is replaced. Fourteen days after 20 December is in January. $Name still has its three spaces, 23 characters plus 3."
+  ]
+}

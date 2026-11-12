@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Du willst wissen, welche Eigenschaften die Objekte haben, die Get-Service liefert. Welcher Aufruf?",
+        "en": "You want to know which properties the objects returned by Get-Service have. Which call?"
+      },
+      "options": {
+        "de": [
+          "Get-Help -Name Get-Service -Full",
+          "Get-Service | Get-Member -MemberType Property",
+          "Get-Command -Name Get-Service -Syntax",
+          "Get-Service -Property *"
+        ],
+        "en": [
+          "Get-Help -Name Get-Service -Full",
+          "Get-Service | Get-Member -MemberType Property",
+          "Get-Command -Name Get-Service -Syntax",
+          "Get-Service -Property *"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Du leitest 200 Dateien in Get-Member. Wie viele Beschreibungen bekommst du?",
+        "en": "You pipe 200 files into Get-Member. How many descriptions do you get?"
+      },
+      "options": {
+        "de": [
+          "200, eine pro Datei",
+          "Keine, Get-Member braucht ein einzelnes Objekt",
+          "Eine pro Typ, bei lauter Dateien also eine",
+          "Zwei, eine für Eigenschaften und eine für Methoden"
+        ],
+        "en": [
+          "200, one per file",
+          "None, Get-Member needs a single object",
+          "One per type, so one when everything is a file",
+          "Two, one for properties and one for methods"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was liefert $File.LastWriteTime.Year?",
+        "en": "What does $File.LastWriteTime.Year return?"
+      },
+      "options": {
+        "de": [
+          "Das Datum der letzten Änderung",
+          "Einen Fehler, Punkte lassen sich nicht verketten",
+          "Das Alter der Datei in Jahren",
+          "Das Jahr aus dem Datum der letzten Änderung"
+        ],
+        "en": [
+          "The date of the last change",
+          "An error, dots cannot be chained",
+          "The age of the file in years",
+          "The year from the date of the last change"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Du tippst $File.Lenght statt $File.Length. Was passiert standardmäßig?",
+        "en": "You type $File.Lenght instead of $File.Length. What happens by default?"
+      },
+      "options": {
+        "de": [
+          "Es kommt nichts zurück, ohne Fehlermeldung",
+          "PowerShell korrigiert den Tippfehler",
+          "Das Skript bricht mit einem Fehler ab",
+          "Es kommt 0 zurück"
+        ],
+        "en": [
+          "Nothing comes back, without an error message",
+          "PowerShell corrects the typo",
+          "The script stops with an error",
+          "0 comes back"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Was liefert $Server.ToUpper ohne Klammern?",
+        "en": "What does $Server.ToUpper return without parentheses?"
+      },
+      "options": {
+        "de": [
+          "Den Text in Großbuchstaben",
+          "Einen Syntaxfehler",
+          "Eine Beschreibung der Methode statt eines Ergebnisses",
+          "Nichts"
+        ],
+        "en": [
+          "The text in upper case",
+          "A syntax error",
+          "A description of the method instead of a result",
+          "Nothing"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "$Name = 'fs-02' gefolgt von $Name.ToUpper(). Was steht danach in $Name?",
+        "en": "$Name = 'fs-02' followed by $Name.ToUpper(). What does $Name hold afterwards?"
+      },
+      "options": {
+        "de": [
+          "FS-02",
+          "fs-02, die Methode liefert einen neuen Text und ändert das Original nicht",
+          "Nichts",
+          "Fs-02"
+        ],
+        "en": [
+          "FS-02",
+          "fs-02, the method returns a new text and does not change the original",
+          "Nothing",
+          "Fs-02"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Wie rundest du 81.3749 auf eine Nachkommastelle?",
+        "en": "How do you round 81.3749 to one decimal place?"
+      },
+      "options": {
+        "de": [
+          "81.3749.Round(1)",
+          "Round-Object 81.3749 -Decimals 1",
+          "[math].Round(81.3749, 1)",
+          "[math]::Round(81.3749, 1)"
+        ],
+        "en": [
+          "81.3749.Round(1)",
+          "Round-Object 81.3749 -Decimals 1",
+          "[math].Round(81.3749, 1)",
+          "[math]::Round(81.3749, 1)"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "$Files enthält 40 Dateiobjekte. Was liefert $Files.Name?",
+        "en": "$Files holds 40 file objects. What does $Files.Name return?"
+      },
+      "options": {
+        "de": [
+          "Den Namen der ersten Datei",
+          "Die Namen aller 40 Dateien",
+          "Einen Fehler, eine Liste hat keine Eigenschaft Name",
+          "Den Namen der Variablen"
+        ],
+        "en": [
+          "The name of the first file",
+          "The names of all 40 files",
+          "An error, a list has no property Name",
+          "The name of the variable"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "$Files enthält 40 Dateiobjekte. Was liefert $Files.Count?",
+        "en": "$Files holds 40 file objects. What does $Files.Count return?"
+      },
+      "options": {
+        "de": [
+          "Die Summe aller Dateigrößen",
+          "40 Werte, einen pro Datei",
+          "40, die Anzahl der Elemente der Liste",
+          "Nichts, Dateien haben keine Eigenschaft Count"
+        ],
+        "en": [
+          "The sum of all file sizes",
+          "40 values, one per file",
+          "40, the number of elements in the list",
+          "Nothing, files have no property Count"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Warum ist es ein Fehler, einen Wert aus der Textausgabe einer Tabelle herauszuschneiden?",
+        "en": "Why is it a mistake to cut a value out of the text output of a table?"
+      },
+      "options": {
+        "de": [
+          "Text ist langsamer als Objekte",
+          "Out-String funktioniert nur in der Konsole",
+          "Tabellen enthalten keine Zahlen",
+          "Spaltenbreiten ändern sich mit den Daten, die Eigenschaft liefert den Wert zuverlässig"
+        ],
+        "en": [
+          "Text is slower than objects",
+          "Out-String only works in the console",
+          "Tables do not contain numbers",
+          "Column widths change with the data, the property returns the value reliably"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

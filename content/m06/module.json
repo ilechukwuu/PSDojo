@@ -1,0 +1,13 @@
+{
+  "id": "m06",
+  "part": 1,
+  "order": 6,
+  "track": "core",
+  "title": {
+    "de": "Objekte, Eigenschaften, Methoden",
+    "en": "Objects, properties, methods"
+  },
+  "prerequisites": [
+    "m05"
+  ]
+}

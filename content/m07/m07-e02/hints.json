@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Zeile hat dieselbe Form: ein Wert, ein Pipe-Zeichen, ein Cmdlet, hinter dem nichts steht.",
+    "Die Variable steht links von der Pipe, zum Beispiel $CommandNames | Get-Command",
+    "Die drei rechten Seiten lauten $CommandNames | Get-Command, $Paths | Get-Item und 'gci' | Get-Alias"
+  ],
+  "en": [
+    "Each line has the same shape: a value, a pipe character, a cmdlet with nothing after it.",
+    "The variable stands on the left of the pipe, for example $CommandNames | Get-Command",
+    "The three right-hand sides are $CommandNames | Get-Command, $Paths | Get-Item and 'gci' | Get-Alias"
+  ]
+}
