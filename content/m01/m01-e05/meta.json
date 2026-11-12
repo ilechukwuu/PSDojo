@@ -1,0 +1,16 @@
+{
+  "id": "m01-e05",
+  "module": "m01",
+  "title": {
+    "de": "Parameter: das Wartungsfenster planen",
+    "en": "Parameters: plan the patch window"
+  },
+  "type": "write",
+  "order": 5,
+  "prerequisites": ["m01-e04"],
+  "status": "draft",
+  "concept": {
+    "de": "Parameter steuern ein Cmdlet: -Name Wert, mehrere Werte mit Komma, Schalter ohne Wert.",
+    "en": "Parameters control a cmdlet: -Name value, several values with a comma, switches without a value."
+  }
+}

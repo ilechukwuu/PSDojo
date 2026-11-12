@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Get-Command hat für jeden Teil des Namens einen eigenen Parameter. Process ist ein Noun, Stop ist ein Verb.",
+    "Für die dritte Zeile brauchst du -Name und den Platzhalter *. Der Stern steht für den Teil des Namens, den du nicht kennst.",
+    "Die drei Aufrufe: Get-Command -Noun Process, dann Get-Command -Verb Stop, dann Get-Command -Name *-Item"
+  ],
+  "en": [
+    "Get-Command has a separate parameter for each part of the name. Process is a noun, Stop is a verb.",
+    "For the third line you need -Name and the wildcard *. The star stands for the part of the name you do not know.",
+    "The three calls: Get-Command -Noun Process, then Get-Command -Verb Stop, then Get-Command -Name *-Item"
+  ]
+}

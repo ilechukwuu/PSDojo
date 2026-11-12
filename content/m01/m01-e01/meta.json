@@ -1,0 +1,16 @@
+{
+  "id": "m01-e01",
+  "module": "m01",
+  "title": {
+    "de": "Morgencheck: deine ersten Cmdlets",
+    "en": "Morning check: your first cmdlets"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [],
+  "status": "draft",
+  "concept": {
+    "de": "Cmdlets liefern Objekte. Mit $Name = Cmdlet speicherst du sie, ohne Anführungszeichen.",
+    "en": "Cmdlets return objects. Store them with $Name = Cmdlet, without quotes."
+  }
+}

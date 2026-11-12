@@ -1,0 +1,16 @@
+{
+  "id": "m01-e04",
+  "module": "m01",
+  "title": {
+    "de": "Fehlermeldungen lesen: der kaputte Morgencheck",
+    "en": "Read error messages: the broken morning check"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": ["m01-e03"],
+  "status": "draft",
+  "concept": {
+    "de": "Die Fehlermeldung nennt, was PowerShell nicht versteht: einen Befehlsnamen oder einen Parameternamen.",
+    "en": "The error message names what PowerShell does not understand: a command name or a parameter name."
+  }
+}

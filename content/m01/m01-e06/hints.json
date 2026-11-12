@@ -1,0 +1,12 @@
+{
+  "de": [
+    "In den zwei Zeilen stecken vier Aliase. Auch einzelne Zeichen können Aliase sein.",
+    "Frage PowerShell selbst: Get-Alias -Name gps zeigt das Cmdlet dahinter. Die Einzelzeichen ? und % sind ebenfalls Aliase, ihre Cmdlets stehen in der Lektion.",
+    "gps ist Get-Process, ? ist Where-Object, select ist Select-Object, % ist ForEach-Object."
+  ],
+  "en": [
+    "There are four aliases in the two lines. Single characters can be aliases too.",
+    "Ask PowerShell itself: Get-Alias -Name gps shows the cmdlet behind it. The single characters ? and % are aliases too, the lesson names their cmdlets.",
+    "gps is Get-Process, ? is Where-Object, select is Select-Object, % is ForEach-Object."
+  ]
+}

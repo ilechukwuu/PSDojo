@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Frage gehört zu einer Übung dieses Moduls. Show-DojoLesson m01-e02 zeigt zum Beispiel noch einmal die Lektion zu Verb-Noun.",
+    "Die Fragen 1 und 2 gehören zu Verb-Noun, 3 und 4 zu Objekten und Variablen, 5 zu Get-Command, 6 zu Fehlermeldungen, 7 zu Parametern, 8 bis 10 zu Aliasen.",
+    "Test-Dojo nennt dir die falsch beantworteten Fragen. Ändere nur diese Antworten und prüfe erneut."
+  ],
+  "en": [
+    "Every question belongs to one exercise of this module. Show-DojoLesson m01-e02 for example shows the lesson on Verb-Noun again.",
+    "Questions 1 and 2 belong to Verb-Noun, 3 and 4 to objects and variables, 5 to Get-Command, 6 to error messages, 7 to parameters, 8 to 10 to aliases.",
+    "Test-Dojo tells you which questions were answered wrong. Change only those answers and check again."
+  ]
+}

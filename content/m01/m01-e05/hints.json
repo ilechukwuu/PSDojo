@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Get-Date füllt alles, was du nicht angibst, mit der aktuellen Uhrzeit. Gib deshalb auch Minute und Sekunde an.",
+    "Mehrere Werte für einen Parameter trennst du mit einem Komma. Ein Schalter wie -Syntax bekommt keinen Wert.",
+    "Die Zeilen 3 und 4: $Watched = Get-Process -Name spoolsv, lsass   und   $Syntax = Get-Command -Name Stop-Process -Syntax"
+  ],
+  "en": [
+    "Get-Date fills everything you leave out with the current time. So set minute and second too.",
+    "Several values for one parameter are separated by a comma. A switch like -Syntax gets no value.",
+    "Lines 3 and 4: $Watched = Get-Process -Name spoolsv, lsass   and   $Syntax = Get-Command -Name Stop-Process -Syntax"
+  ]
+}

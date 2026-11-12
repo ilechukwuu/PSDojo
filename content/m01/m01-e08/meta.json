@@ -1,0 +1,17 @@
+{
+  "id": "m01-e08",
+  "module": "m01",
+  "title": {
+    "de": "Quiz: Konsole, Cmdlets, Verb-Noun, Aliase",
+    "en": "Quiz: console, cmdlets, Verb-Noun, aliases"
+  },
+  "type": "quiz",
+  "order": 8,
+  "prerequisites": ["m01-e07"],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Nummer einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

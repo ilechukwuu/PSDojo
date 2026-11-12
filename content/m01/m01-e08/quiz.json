@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was sagt dir das Verb in einem Cmdlet-Namen?",
+        "en": "What does the verb in a cmdlet name tell you?"
+      },
+      "options": {
+        "de": [
+          "Aus welchem Modul das Cmdlet stammt",
+          "Ob du Administratorrechte brauchst",
+          "Welche Aktion ausgeführt wird",
+          "Welchen Objekttyp das Cmdlet liefert"
+        ],
+        "en": [
+          "Which module the cmdlet comes from",
+          "Whether you need administrator rights",
+          "Which action is performed",
+          "Which object type the cmdlet returns"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Du sollst dir während der Geschäftszeit einen Produktivserver ansehen, ohne etwas zu verändern. Welcher Befehl ist unbedenklich?",
+        "en": "You are asked to look at a production server during business hours without changing anything. Which command is safe?"
+      },
+      "options": {
+        "de": [
+          "Get-Service -Name Spooler",
+          "Set-Service -Name Spooler -StartupType Manual",
+          "Restart-Service -Name Spooler",
+          "Stop-Service -Name Spooler"
+        ],
+        "en": [
+          "Get-Service -Name Spooler",
+          "Set-Service -Name Spooler -StartupType Manual",
+          "Restart-Service -Name Spooler",
+          "Stop-Service -Name Spooler"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was liefert ein Cmdlet wie Get-Process zurück?",
+        "en": "What does a cmdlet such as Get-Process return?"
+      },
+      "options": {
+        "de": [
+          "Textzeilen, die man zerschneiden muss",
+          "Immer genau eine Tabelle",
+          "Einen Rückgabecode zwischen 0 und 255",
+          "Objekte mit Eigenschaften"
+        ],
+        "en": [
+          "Lines of text that have to be cut apart",
+          "Always exactly one table",
+          "A return code between 0 and 255",
+          "Objects with properties"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was steht nach dieser Zeile in der Variablen?   $Result = 'Get-Date'",
+        "en": "What does the variable hold after this line?   $Result = 'Get-Date'"
+      },
+      "options": {
+        "de": [
+          "Das aktuelle Datum als Objekt",
+          "Der Text Get-Date",
+          "Nichts, die Zeile erzeugt einen Fehler",
+          "Das aktuelle Datum als Text"
+        ],
+        "en": [
+          "The current date as an object",
+          "The text Get-Date",
+          "Nothing, the line raises an error",
+          "The current date as text"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Du suchst alle Befehle, die mit Ereignisprotokollen arbeiten, kennst aber keinen Namen. Welcher Aufruf hilft?",
+        "en": "You are looking for every command that works with event logs but do not know a single name. Which call helps?"
+      },
+      "options": {
+        "de": [
+          "Get-Verb -Verb EventLog",
+          "Get-Alias -Name EventLog",
+          "Get-Command -Noun *Event*",
+          "Get-Process -Name *Event*"
+        ],
+        "en": [
+          "Get-Verb -Verb EventLog",
+          "Get-Alias -Name EventLog",
+          "Get-Command -Noun *Event*",
+          "Get-Process -Name *Event*"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "PowerShell meldet: The term 'Get-Servce' is not recognized as a name of a cmdlet. Was ist die Ursache?",
+        "en": "PowerShell reports: The term 'Get-Servce' is not recognized as a name of a cmdlet. What is the cause?"
+      },
+      "options": {
+        "de": [
+          "Dir fehlen Administratorrechte",
+          "Der Dienst existiert auf dem Server nicht",
+          "Die Ausführungsrichtlinie blockiert den Befehl",
+          "Der Cmdlet-Name ist falsch geschrieben"
+        ],
+        "en": [
+          "You lack administrator rights",
+          "The service does not exist on the server",
+          "The execution policy blocks the command",
+          "The cmdlet name is misspelled"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Was ist -Recurse in diesem Aufruf?   Get-ChildItem -Path C:\\Logs -Recurse",
+        "en": "What is -Recurse in this call?   Get-ChildItem -Path C:\\Logs -Recurse"
+      },
+      "options": {
+        "de": [
+          "Ein Schalter, der ohne Wert auskommt",
+          "Ein positionaler Parameter",
+          "Ein Alias für -Path",
+          "Der Wert des Parameters -Path"
+        ],
+        "en": [
+          "A switch that needs no value",
+          "A positional parameter",
+          "An alias for -Path",
+          "The value of the parameter -Path"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Welche Zeile gehört so in ein Skript, das im Team gepflegt wird?",
+        "en": "Which line belongs in a script that the team maintains?"
+      },
+      "options": {
+        "de": [
+          "gps | ? { $_.Name -eq 'spoolsv' }",
+          "Get-Process | Where-Object { $_.Name -eq 'spoolsv' }",
+          "Get-Processes | Where { $_.Name -eq 'spoolsv' }",
+          "gps spoolsv"
+        ],
+        "en": [
+          "gps | ? { $_.Name -eq 'spoolsv' }",
+          "Get-Process | Where-Object { $_.Name -eq 'spoolsv' }",
+          "Get-Processes | Where { $_.Name -eq 'spoolsv' }",
+          "gps spoolsv"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Warum sind Aliase wie ls oder sort in Skripten ein Risiko?",
+        "en": "Why are aliases such as ls or sort a risk in scripts?"
+      },
+      "options": {
+        "de": [
+          "Aliase laufen deutlich langsamer als Cmdlets",
+          "Die Ausführungsrichtlinie verbietet Aliase in Skripten",
+          "Sie sind schwer zu lesen und existieren nicht auf jeder Plattform",
+          "Aliase funktionieren nur mit Administratorrechten"
+        ],
+        "en": [
+          "Aliases run much slower than cmdlets",
+          "The execution policy forbids aliases in scripts",
+          "They are hard to read and do not exist on every platform",
+          "Aliases only work with administrator rights"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Du hast mit Set-Alias einen eigenen Alias angelegt und schließt das Konsolenfenster. Was passiert mit dem Alias?",
+        "en": "You created your own alias with Set-Alias and close the console window. What happens to the alias?"
+      },
+      "options": {
+        "de": [
+          "Er ist weg, denn er galt nur für diese Sitzung",
+          "Er bleibt für deinen Benutzer dauerhaft erhalten",
+          "Er bleibt für alle Benutzer des Rechners erhalten",
+          "Er bleibt bis zum nächsten Neustart des Rechners erhalten"
+        ],
+        "en": [
+          "It is gone, because it only existed in that session",
+          "It stays permanently for your user",
+          "It stays for all users of the machine",
+          "It stays until the machine is restarted"
+        ]
+      },
+      "answer": "a"
+    }
+  ]
+}

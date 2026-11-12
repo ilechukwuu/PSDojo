@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die Datei aus und lies nur den ersten Satz der ersten Fehlermeldung. Er zitiert das Wort, das PowerShell nicht kennt.",
+    "Zeile 1: Der Cmdlet-Name ist falsch geschrieben. Zeile 2: Vor einem Parameternamen fehlt etwas. Zeile 3: Ein Parametername ist falsch geschrieben.",
+    "Richtig heißt es Get-Process in Zeile 1, -Noun in Zeile 2 und -Format in Zeile 3."
+  ],
+  "en": [
+    "Run the file and read only the first sentence of the first error message. It quotes the word PowerShell does not know.",
+    "Line 1: the cmdlet name is misspelled. Line 2: something is missing in front of a parameter name. Line 3: a parameter name is misspelled.",
+    "Correct are Get-Process in line 1, -Noun in line 2 and -Format in line 3."
+  ]
+}

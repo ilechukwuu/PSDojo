@@ -1,0 +1,10 @@
+{
+  "id": "m01",
+  "part": 1,
+  "order": 1,
+  "title": {
+    "de": "Konsole, Cmdlets, Verb-Noun, Aliase",
+    "en": "Console, cmdlets, Verb-Noun, aliases"
+  },
+  "prerequisites": []
+}

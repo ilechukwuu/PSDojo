@@ -1,0 +1,16 @@
+{
+  "id": "m01-e02",
+  "module": "m01",
+  "title": {
+    "de": "Verb-Noun: Befehle am Namen erkennen",
+    "en": "Verb-Noun: read a command by its name"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": ["m01-e01"],
+  "status": "draft",
+  "concept": {
+    "de": "Jeder Cmdlet-Name ist Verb-Noun. Das Verb sagt, was passiert. Nur Get liest ausschließlich.",
+    "en": "Every cmdlet name is Verb-Noun. The verb tells what happens. Only Get is read-only."
+  }
+}

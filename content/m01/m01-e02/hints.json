@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schau bei jedem Befehl nur auf das Wort vor dem Bindestrich.",
+    "Nur Get liest ausschließlich. Zähle alle Befehle, deren Verb nicht Get ist. Auch Anlegen ist eine Änderung.",
+    "Vier Befehle beginnen nicht mit Get. Der Name eines Cmdlets entsteht aus Verb, Bindestrich, Noun, also aus Restart und Service."
+  ],
+  "en": [
+    "For each command look only at the word in front of the hyphen.",
+    "Only Get is read-only. Count every command whose verb is not Get. Creating something is a change too.",
+    "Four commands do not start with Get. A cmdlet name is built from verb, hyphen, noun, so from Restart and Service."
+  ]
+}

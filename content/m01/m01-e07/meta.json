@@ -1,0 +1,16 @@
+{
+  "id": "m01-e07",
+  "module": "m01",
+  "title": {
+    "de": "Die Übergabenotiz entschlüsseln",
+    "en": "Decode the handover note"
+  },
+  "type": "write",
+  "order": 7,
+  "prerequisites": ["m01-e06"],
+  "status": "draft",
+  "concept": {
+    "de": "Get-Alias -Name sucht nach dem Alias, Get-Alias -Definition nach dem Cmdlet. Set-Alias legt einen Alias für die Sitzung an.",
+    "en": "Get-Alias -Name searches by alias, Get-Alias -Definition by cmdlet. Set-Alias creates an alias for the session."
+  }
+}

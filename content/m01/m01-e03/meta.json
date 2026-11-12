@@ -1,0 +1,16 @@
+{
+  "id": "m01-e03",
+  "module": "m01",
+  "title": {
+    "de": "Befehle finden mit Get-Command",
+    "en": "Find commands with Get-Command"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": ["m01-e02"],
+  "status": "draft",
+  "concept": {
+    "de": "Get-Command sucht Befehle: -Verb für das Verb, -Noun für das Noun, -Name mit Platzhalter *.",
+    "en": "Get-Command finds commands: -Verb for the verb, -Noun for the noun, -Name with the wildcard *."
+  }
+}

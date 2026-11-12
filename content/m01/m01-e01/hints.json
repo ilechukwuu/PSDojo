@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Rechts vom Gleichheitszeichen steht nur der Name des Cmdlets. Mehr braucht es hier nicht.",
+    "Schreibe das Cmdlet ohne Anführungszeichen. Mit Anführungszeichen speicherst du nur Text.",
+    "Die erste Zeile lautet: $CheckTime = Get-Date   Die beiden anderen Zeilen folgen demselben Muster."
+  ],
+  "en": [
+    "To the right of the equals sign you only need the name of the cmdlet. Nothing else.",
+    "Write the cmdlet without quotes. With quotes you only store text.",
+    "The first line is: $CheckTime = Get-Date   The other two lines follow the same pattern."
+  ]
+}

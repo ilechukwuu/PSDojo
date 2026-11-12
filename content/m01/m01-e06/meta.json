@@ -1,0 +1,16 @@
+{
+  "id": "m01-e06",
+  "module": "m01",
+  "title": {
+    "de": "Aliase: den Einzeiler aus dem Wiki lesbar machen",
+    "en": "Aliases: make the wiki one-liner readable"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": ["m01-e05"],
+  "status": "draft",
+  "concept": {
+    "de": "Aliase sind Kurznamen für die Konsole. In Skripten stehen volle Cmdlet-Namen. Get-Alias -Name löst einen Alias auf.",
+    "en": "Aliases are short names for the console. Scripts use full cmdlet names. Get-Alias -Name resolves an alias."
+  }
+}

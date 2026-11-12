@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Get-Alias hat zwei Suchrichtungen. Überlege bei Schritt 1 und 2, ob du den Alias kennst oder das Cmdlet.",
+    "Schritt 1 nutzt -Name mit vier Werten, getrennt durch Kommas. Schritt 2 nutzt -Definition. Schritt 3 nutzt Set-Alias mit -Name und -Value.",
+    "Schritt 3 lautet: Set-Alias -Name procs -Value Get-Process   In Schritt 4 steht rechts vom Gleichheitszeichen nur noch procs."
+  ],
+  "en": [
+    "Get-Alias searches in two directions. For steps 1 and 2 think about whether you know the alias or the cmdlet.",
+    "Step 1 uses -Name with four values, separated by commas. Step 2 uses -Definition. Step 3 uses Set-Alias with -Name and -Value.",
+    "Step 3 is: Set-Alias -Name procs -Value Get-Process   In step 4 only procs stands to the right of the equals sign."
+  ]
+}
