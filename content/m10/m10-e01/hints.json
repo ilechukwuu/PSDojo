@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Zeile besteht aus Get-Service, einer Pipe und einem von Format-Table, Format-List und Format-Wide.",
+    "Jede Eigenschaft ist -Property mit einem Stern. Die Spaltenzahl der breiten Ansicht ist der Parameter -Column.",
+    "Zeile 2 lautet Get-Service -Name Spooler | Format-List -Property * und Zeile 3 lautet Get-Service | Format-Wide -Property Name -Column 3"
+  ],
+  "en": [
+    "Each line is Get-Service, a pipe and one of Format-Table, Format-List and Format-Wide.",
+    "Every property is -Property with a star. The number of columns of the wide view is the parameter -Column.",
+    "Line 2 is Get-Service -Name Spooler | Format-List -Property * and line 3 is Get-Service | Format-Wide -Property Name -Column 3"
+  ]
+}

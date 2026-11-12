@@ -1,0 +1,18 @@
+{
+  "id": "m10-e03",
+  "module": "m10",
+  "title": {
+    "de": "Textdatei und Text im Speicher: Out-File und Out-String",
+    "en": "Text file and text in memory: Out-File and Out-String"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m10-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Out-File schreibt die formatierte Ausgabe in eine Textdatei, Out-String liefert sie als Text. -Width verhindert abgeschnittene Spalten.",
+    "en": "Out-File writes the formatted output to a text file, Out-String returns it as text. -Width prevents cut-off columns."
+  }
+}

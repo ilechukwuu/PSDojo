@@ -1,0 +1,13 @@
+{
+  "id": "m10",
+  "part": 1,
+  "order": 10,
+  "track": "core",
+  "title": {
+    "de": "Ausgabe formatieren",
+    "en": "Formatting output"
+  },
+  "prerequisites": [
+    "m09"
+  ]
+}

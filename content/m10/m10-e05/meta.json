@@ -1,0 +1,18 @@
+{
+  "id": "m10-e05",
+  "module": "m10",
+  "title": {
+    "de": "Daten und Ansicht trennen",
+    "en": "Separate data and view"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m10-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Daten einmal holen und in einer Variablen behalten. Formatiert wird erst bei der Ausgabe, so oft und so unterschiedlich wie nötig.",
+    "en": "Fetch data once and keep it in a variable. Formatting happens only at output, as often and as differently as needed."
+  }
+}

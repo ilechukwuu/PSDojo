@@ -1,0 +1,224 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Du willst jede Eigenschaft eines einzelnen Dienstes sehen. Welcher Aufruf?",
+        "en": "You want to see every property of a single service. Which call?"
+      },
+      "options": {
+        "de": [
+          "Get-Service -Name Spooler | Format-Table",
+          "Get-Service -Name Spooler | Format-List -Property *",
+          "Get-Service -Name Spooler | Format-Wide",
+          "Get-Service -Name Spooler -All"
+        ],
+        "en": [
+          "Get-Service -Name Spooler | Format-Table",
+          "Get-Service -Name Spooler | Format-List -Property *",
+          "Get-Service -Name Spooler | Format-Wide",
+          "Get-Service -Name Spooler -All"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was liefert ein Format-Cmdlet an den nächsten Befehl?",
+        "en": "What does a format cmdlet hand to the next command?"
+      },
+      "options": {
+        "de": [
+          "Die ursprünglichen Objekte, nur sortiert",
+          "Textzeilen",
+          "Layoutanweisungen zum Zeichnen",
+          "Nichts"
+        ],
+        "en": [
+          "The original objects, just sorted",
+          "Lines of text",
+          "Layout instructions for drawing",
+          "Nothing"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Welche Cmdlets können nach einem Format-Cmdlet sinnvoll folgen?",
+        "en": "Which cmdlets can usefully follow a format cmdlet?"
+      },
+      "options": {
+        "de": [
+          "Where-Object und Sort-Object",
+          "Export-Csv und ConvertTo-Json",
+          "Select-Object und Measure-Object",
+          "Out-File, Out-String und Out-Host"
+        ],
+        "en": [
+          "Where-Object and Sort-Object",
+          "Export-Csv and ConvertTo-Json",
+          "Select-Object and Measure-Object",
+          "Out-File, Out-String and Out-Host"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was passiert bei Get-Service | Format-Table -Property Name | Export-Csv -Path s.csv?",
+        "en": "What happens with Get-Service | Format-Table -Property Name | Export-Csv -Path s.csv?"
+      },
+      "options": {
+        "de": [
+          "Die Datei enthält Spalten mit kryptischen Namen statt der Dienstnamen",
+          "Die Datei enthält die Dienstnamen",
+          "PowerShell meldet einen Fehler und schreibt nichts",
+          "Die Datei enthält die Tabelle als Text"
+        ],
+        "en": [
+          "The file contains columns with cryptic names instead of the service names",
+          "The file contains the service names",
+          "PowerShell reports an error and writes nothing",
+          "The file contains the table as text"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Welche Standardansicht wählt PowerShell für ein Objekt mit sechs Eigenschaften ohne eigene Ansicht?",
+        "en": "Which default view does PowerShell choose for an object with six properties and no view of its own?"
+      },
+      "options": {
+        "de": [
+          "Eine Tabelle",
+          "Eine Liste",
+          "Eine breite Ansicht",
+          "Gar keine, es wird nichts angezeigt"
+        ],
+        "en": [
+          "A table",
+          "A list",
+          "A wide view",
+          "None, nothing is shown"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was bewirkt -AutoSize bei Format-Table?",
+        "en": "What does -AutoSize do for Format-Table?"
+      },
+      "options": {
+        "de": [
+          "Es zeigt alle Eigenschaften",
+          "Es passt die Schriftgröße an",
+          "Es macht die Spalten so schmal, wie der Inhalt erlaubt",
+          "Es sortiert die Zeilen"
+        ],
+        "en": [
+          "It shows all properties",
+          "It adjusts the font size",
+          "It makes the columns as narrow as the content allows",
+          "It sorts the rows"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Ein Skript ohne Fenster schreibt eine breite Tabelle mit Out-File, und rechts fehlen Spalten. Was hilft?",
+        "en": "A script without a window writes a wide table with Out-File and columns are missing on the right. What helps?"
+      },
+      "options": {
+        "de": [
+          "-Encoding utf8",
+          "-Append",
+          "-NoClobber",
+          "-Width mit einer großzügigen Zahl"
+        ],
+        "en": [
+          "-Encoding utf8",
+          "-Append",
+          "-NoClobber",
+          "-Width with a generous number"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Was ist der Unterschied zwischen Out-File und Out-String?",
+        "en": "What is the difference between Out-File and Out-String?"
+      },
+      "options": {
+        "de": [
+          "Out-String schreibt in eine Datei, Out-File auf den Bildschirm",
+          "Out-File schreibt in eine Datei, Out-String liefert den Text zurück",
+          "Out-String kann nur Tabellen",
+          "Es gibt keinen"
+        ],
+        "en": [
+          "Out-String writes to a file, Out-File to the screen",
+          "Out-File writes to a file, Out-String returns the text",
+          "Out-String can only do tables",
+          "There is none"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 9,
+      "text": {
+        "de": "Eine Variable soll später für einen Neustart von Diensten benutzt werden. Was gilt?",
+        "en": "A variable will later be used to restart services. What applies?"
+      },
+      "options": {
+        "de": [
+          "Sie sollte als Tabelle formatiert sein, damit man sie lesen kann",
+          "Sie sollte mit Out-String in Text gewandelt werden",
+          "Sie darf gar nicht formatiert sein, sie muss die echten Objekte enthalten",
+          "Sie sollte mit Format-List gespeichert werden"
+        ],
+        "en": [
+          "It should be formatted as a table so that it can be read",
+          "It should be turned into text with Out-String",
+          "It must not be formatted at all, it has to hold the real objects",
+          "It should be stored with Format-List"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "text": {
+        "de": "Ein Bericht braucht dieselben Daten als Tabelle, als Liste und als Anzahl. Was ist der beste Aufbau?",
+        "en": "A report needs the same data as a table, as a list and as a count. What is the best structure?"
+      },
+      "options": {
+        "de": [
+          "Drei vollständige Pipelines, die jeweils neu abrufen",
+          "Eine Pipeline mit drei Format-Cmdlets hintereinander",
+          "Erst formatieren, dann aus dem Text zählen",
+          "Einmal abrufen und in einer Variablen behalten, jede Ansicht startet von dort"
+        ],
+        "en": [
+          "Three complete pipelines, each fetching again",
+          "One pipeline with three format cmdlets in a row",
+          "Format first, then count from the text",
+          "Fetch once and keep it in a variable, every view starts from there"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m10-e01",
+  "module": "m10",
+  "title": {
+    "de": "Tabelle, Liste, breite Ansicht",
+    "en": "Table, list, wide view"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m09-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Format-Table zeigt Spalten, Format-List eine Eigenschaft pro Zeile, Format-Wide nur eine Eigenschaft in mehreren Spalten. -Property wählt aus.",
+    "en": "Format-Table shows columns, Format-List one property per line, Format-Wide a single property in several columns. -Property chooses."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m10-e04",
+  "module": "m10",
+  "title": {
+    "de": "Format mitten in der Pipeline",
+    "en": "Format in the middle of the pipeline"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m10-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Steht ein Format-Cmdlet mitten in der Pipeline, sehen die Befehle danach keine Daten mehr. Es gehört ans Ende oder ganz weg.",
+    "en": "When a Format cmdlet stands in the middle of a pipeline, the commands after it see no data any more. It belongs at the end or has to go."
+  }
+}

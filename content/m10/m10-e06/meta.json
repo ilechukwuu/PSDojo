@@ -1,0 +1,19 @@
+{
+  "id": "m10-e06",
+  "module": "m10",
+  "title": {
+    "de": "Quiz: Ausgabe formatieren",
+    "en": "Quiz: Formatting output"
+  },
+  "type": "quiz",
+  "order": 6,
+  "prerequisites": [
+    "m10-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

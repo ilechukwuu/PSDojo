@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der Teil, den alle drei Pipelines gemeinsam haben, wird zur Datenschicht: holen, filtern, sortieren. Er endet vor jedem Format-Cmdlet.",
+    "Beginne jedes der drei Ergebnisse mit $Stopped und einer Pipe, gefolgt von dem, was in den ursprünglichen Pipelines unterschiedlich war.",
+    "$Stopped = Get-Service | Where-Object { $_.Status -eq 'Stopped' } | Sort-Object -Property Name und dann zum Beispiel $Table = $Stopped | Format-Table -Property Name, StartType | Out-String -Width 200"
+  ],
+  "en": [
+    "The part that all three pipelines share becomes the data layer: fetch, filter, sort. It ends before any Format- cmdlet.",
+    "Start each of the three results with $Stopped and a pipe, followed by what was different in the original pipelines.",
+    "$Stopped = Get-Service | Where-Object { $_.Status -eq 'Stopped' } | Sort-Object -Property Name and then for example $Table = $Stopped | Format-Table -Property Name, StartType | Out-String -Width 200"
+  ]
+}

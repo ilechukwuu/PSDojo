@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Finde in jeder Pipeline das Format-Cmdlet und schau, was danach kommt.",
+    "Nach einem Format-Cmdlet kann nur ein Out-Cmdlet etwas Sinnvolles tun. Export-Csv ist kein Out-Cmdlet.",
+    "Die Pipelines 1 und 4 sind in Ordnung: In 1 steht das Format am Ende, in 4 folgt Out-File. In 2, 3 und 5 kommt nach dem Format ein Befehl, der Daten braucht."
+  ],
+  "en": [
+    "Find the Format- cmdlet in each pipeline and look at what comes after it.",
+    "After a Format- cmdlet only an Out- cmdlet can do something useful. Export-Csv is not an Out- cmdlet.",
+    "Pipelines 1 and 4 are fine: in 1 the format is last, in 4 it is followed by Out-File. In 2, 3 and 5 a command that needs data comes after the format."
+  ]
+}

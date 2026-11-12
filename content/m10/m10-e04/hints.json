@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Entscheide bei jeder Variablen, ob sie später als Daten benutzt oder nur angezeigt wird. Daten dürfen gar nicht formatiert sein.",
+    "In den ersten zwei Zeilen muss das Format-Cmdlet weg. In der dritten wandert es ans Ende der Pipeline.",
+    "$Stopped = Get-Service | Where-Object { $_.Status -eq 'Stopped' } und $Names = Get-Service | Select-Object -ExpandProperty Name. In der dritten Pipeline ist Format-Table der letzte Befehl."
+  ],
+  "en": [
+    "Decide for each variable whether it is used as data later or only shown. Data must not be formatted at all.",
+    "In the first two lines the format cmdlet has to be removed. In the third it moves to the end of the pipeline.",
+    "$Stopped = Get-Service | Where-Object { $_.Status -eq 'Stopped' } and $Names = Get-Service | Select-Object -ExpandProperty Name. In the third pipeline Format-Table is the last command."
+  ]
+}

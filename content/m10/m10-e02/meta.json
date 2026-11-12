@@ -1,0 +1,18 @@
+{
+  "id": "m10-e02",
+  "module": "m10",
+  "title": {
+    "de": "Format gehört ans Ende: was danach noch funktioniert",
+    "en": "Format goes last: what still works after it"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m10-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Format-Cmdlets liefern Layoutanweisungen, keine Daten. Danach funktionieren nur Out-Cmdlets. Sortieren, Filtern und Exportieren gehören davor.",
+    "en": "Format cmdlets return layout instructions, not data. Only Out cmdlets work after them. Sorting, filtering and exporting belong in front."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Beide Schritte sind dieselbe Pipeline mit einem anderen letzten Befehl: Out-File für die Datei, Out-String für den Text.",
+    "Die Pipeline ist Get-Service -Name Nordwind*, dann Format-Table -Property Name, Status, StartType, dann das Out-Cmdlet.",
+    "Schritt 1 endet mit Out-File -FilePath \"$ReportFolder/nordwind.txt\" -Encoding utf8 -Width 200 und Schritt 2 endet mit Out-String -Width 200"
+  ],
+  "en": [
+    "Both steps are the same pipeline with a different last command: Out-File for the file, Out-String for the text.",
+    "The pipeline is Get-Service -Name Nordwind*, then Format-Table -Property Name, Status, StartType, then the Out- cmdlet.",
+    "Step 1 ends with Out-File -FilePath \"$ReportFolder/nordwind.txt\" -Encoding utf8 -Width 200 and step 2 ends with Out-String -Width 200"
+  ]
+}
