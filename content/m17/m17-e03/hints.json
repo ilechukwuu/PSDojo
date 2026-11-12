@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Ein Objekt ist eine Hashtable mit [pscustomobject] davor. Die drei Paare sind durch Semikolons getrennt.",
+    "Das Array sind die zwei Variablen, getrennt durch ein Komma. Filtern geht mit Where-Object wie bei jedem Objekt.",
+    "$Row1 = [pscustomobject]@{ Server = 'FS-01'; Drive = 'D:'; FreeGB = 120 }, $Report = $Row1, $Row2, $Low = $Report | Where-Object { $_.FreeGB -lt 20 } und $Servers = $Report.Server"
+  ],
+  "en": [
+    "An object is a hashtable with [pscustomobject] in front. The three pairs are separated by semicolons.",
+    "The array is the two variables separated by a comma. Filtering works with Where-Object as for any object.",
+    "$Row1 = [pscustomobject]@{ Server = 'FS-01'; Drive = 'D:'; FreeGB = 120 }, $Report = $Row1, $Row2, $Low = $Report | Where-Object { $_.FreeGB -lt 20 } and $Servers = $Report.Server"
+  ]
+}

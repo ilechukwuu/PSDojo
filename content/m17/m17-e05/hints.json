@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Vergleiche die Schlüssel von $Params mit den echten Parametern von Get-ChildItem und schau auf das Zeichen vor Params im Aufruf.",
+    "Der Schalter heißt Recurse. Eine gesplattete Variable schreibt man mit @. Eine Datenzeile braucht [pscustomobject].",
+    "Recurse = $true, dann Get-ChildItem @Params, dann $Summary = [pscustomobject]@{ Folder = $Root; LogCount = @($Logs).Count }"
+  ],
+  "en": [
+    "Compare the keys of $Params with the real parameters of Get-ChildItem, and look at the character in front of Params in the call.",
+    "The switch is called Recurse. A splatted variable is written with @. A row of data needs [pscustomobject].",
+    "Recurse = $true, then Get-ChildItem @Params, then $Summary = [pscustomobject]@{ Folder = $Root; LogCount = @($Logs).Count }"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m17-e02",
+  "module": "m17",
+  "title": {
+    "de": "Nachschlagen statt suchen: die Standorttabelle",
+    "en": "Look up instead of searching: the site table"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m17-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Hashtable ist eine Nachschlagetabelle: Schlüssel hinein, Wert heraus, ohne Suche. Der Schlüssel kann aus einer Variablen kommen.",
+    "en": "A hashtable is a lookup table: key in, value out, without searching. The key can come from a variable."
+  }
+}

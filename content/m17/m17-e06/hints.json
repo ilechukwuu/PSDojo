@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jeder Parameter wird zu einem Schlüssel ohne Bindestrich. Der Wert folgt nach dem Gleichheitszeichen.",
+    "Die zwei Schalter -Recurse und -File haben in der ursprünglichen Zeile keinen Wert. In der Hashtable bekommen sie $true.",
+    "Die Hashtable hat die Schlüssel Path, Filter, Recurse, File und ErrorAction, und der Aufruf lautet $Logs = Get-ChildItem @LogSearch"
+  ],
+  "en": [
+    "Each parameter becomes a key without the hyphen. The value follows after the equals sign.",
+    "The two switches -Recurse and -File have no value in the original line. In the hashtable they get $true.",
+    "The hashtable has the keys Path, Filter, Recurse, File and ErrorAction, and the call is $Logs = Get-ChildItem @LogSearch"
+  ]
+}

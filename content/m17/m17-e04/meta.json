@@ -1,0 +1,18 @@
+{
+  "id": "m17-e04",
+  "module": "m17",
+  "title": {
+    "de": "Hashtable oder Objekt: was passiert wirklich",
+    "en": "Hashtable or object: what really happens"
+  },
+  "type": "predict",
+  "order": 4,
+  "prerequisites": [
+    "m17-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Zuweisen kopiert eine Hashtable nicht, beide Variablen zeigen auf dieselbe. Fehlende Schlüssel liefern $null. Eigene Objekte behalten ihre Reihenfolge.",
+    "en": "Assigning does not copy a hashtable, both variables point at the same one. Missing keys return $null. Custom objects keep their order."
+  }
+}

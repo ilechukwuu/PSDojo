@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Tabelle ist @{ } mit einem Paar pro Zeile. Schlüssel mit Bindestrich brauchen Anführungszeichen.",
+    "Der Schlüssel beim Nachschlagen kann eine Variable sein: $SiteOf[$TicketServer], ohne Anführungszeichen um die Variable. Das zweite Nachschlagen benutzt das Ergebnis des ersten.",
+    "$Site = $SiteOf[$TicketServer], $Team = $TeamOf[$Site] und $Line = \"$TicketServer / $Site / $Team\""
+  ],
+  "en": [
+    "Each table is @{ } with one pair per line. Keys with a hyphen need quotes.",
+    "The key of a lookup can be a variable: $SiteOf[$TicketServer], without quotes around the variable. The second lookup uses the result of the first.",
+    "$Site = $SiteOf[$TicketServer], $Team = $TeamOf[$Site] and $Line = \"$TicketServer / $Site / $Team\""
+  ]
+}

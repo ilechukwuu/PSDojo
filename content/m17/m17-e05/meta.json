@@ -1,0 +1,18 @@
+{
+  "id": "m17-e05",
+  "module": "m17",
+  "title": {
+    "de": "Splatting und Objekte: drei Fehler im Logbericht",
+    "en": "Splatting and objects: three mistakes in the log report"
+  },
+  "type": "fix",
+  "order": 5,
+  "prerequisites": [
+    "m17-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Beim Splatting stehen die Parameter in einer Hashtable, übergeben mit @Name statt $Name. Die Schlüssel müssen echte Parameternamen sein.",
+    "en": "With splatting the parameters stand in a hashtable, passed with @Name instead of $Name. The keys have to be real parameter names."
+  }
+}

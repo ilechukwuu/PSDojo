@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Zeile 2 erzeugt keine zweite Tabelle. Frage dich, wie viele Hashtables nach Zeile 2 existieren.",
+    "Es gibt eine Tabelle mit zwei Namen. Jede Änderung über $ForFS02 ändert auch $Defaults. Ein Schlüssel, der nie gesetzt wurde, liefert nichts.",
+    "Der Standort ist jetzt Hamburg, und die Tabelle hat drei Paare. Role gibt es nicht. Ein eigenes Objekt behält die Reihenfolge Server, Site, Port."
+  ],
+  "en": [
+    "Line 2 does not create a second table. Ask yourself how many hashtables exist after line 2.",
+    "There is one table with two names. Every change through $ForFS02 changes $Defaults too. A key that was never set returns nothing.",
+    "The site is now Hamburg and the table has three pairs. Role does not exist. A custom object keeps the order Server, Site, Port."
+  ]
+}

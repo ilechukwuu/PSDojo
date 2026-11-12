@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "$Limits = @{ 'C:' = 10; 'D:' = 50 }. Was liefert $Limits['D:']?",
+        "en": "$Limits = @{ 'C:' = 10; 'D:' = 50 }. What does $Limits['D:'] return?"
+      },
+      "options": {
+        "de": [
+          "10",
+          "50",
+          "D:",
+          "2"
+        ],
+        "en": [
+          "10",
+          "50",
+          "D:",
+          "2"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was liefert $Limits['F:'], wenn es den Schlüssel nicht gibt?",
+        "en": "What does $Limits['F:'] return when the key does not exist?"
+      },
+      "options": {
+        "de": [
+          "Einen Fehler",
+          "0",
+          "$null, ohne Fehler",
+          "Den Text F:"
+        ],
+        "en": [
+          "An error",
+          "0",
+          "$null, without an error",
+          "The text F:"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was tut $Limits['E:'] = 20?",
+        "en": "What does $Limits['E:'] = 20 do?"
+      },
+      "options": {
+        "de": [
+          "Es vergleicht den Wert mit 20",
+          "Es scheitert, wenn E: schon existiert",
+          "Es legt immer ein zweites Paar mit demselben Schlüssel an",
+          "Es fügt das Paar hinzu oder ersetzt den Wert, wenn der Schlüssel existiert"
+        ],
+        "en": [
+          "It compares the value with 20",
+          "It fails when E: already exists",
+          "It always creates a second pair with the same key",
+          "It adds the pair or replaces the value when the key exists"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Wofür eignet sich eine Hashtable am besten?",
+        "en": "What is a hashtable best suited for?"
+      },
+      "options": {
+        "de": [
+          "Zum schnellen Nachschlagen eines Werts über einen Schlüssel",
+          "Als Zeile eines Berichts für Export-Csv",
+          "Zum Sortieren von Dateien",
+          "Zum Speichern von Text über mehrere Zeilen"
+        ],
+        "en": [
+          "For quickly looking up a value by a key",
+          "As a row of a report for Export-Csv",
+          "For sorting files",
+          "For storing text over several lines"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Was ändert [pscustomobject] vor einer Hashtable?",
+        "en": "What does [pscustomobject] in front of a hashtable change?"
+      },
+      "options": {
+        "de": [
+          "Nichts, es ist nur ein Kommentar",
+          "Aus den Paaren werden Eigenschaften eines Objekts in fester Reihenfolge",
+          "Die Hashtable wird schreibgeschützt",
+          "Die Werte werden in Text umgewandelt"
+        ],
+        "en": [
+          "Nothing, it is only a comment",
+          "The pairs become properties of an object in a fixed order",
+          "The hashtable becomes read-only",
+          "The values are converted to text"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "$B = $A, wobei $A eine Hashtable ist. Danach $B.Site = 'Hamburg'. Was gilt?",
+        "en": "$B = $A, where $A is a hashtable. Then $B.Site = 'Hamburg'. What is true?"
+      },
+      "options": {
+        "de": [
+          "Nur $B hat sich geändert",
+          "Die Zuweisung scheitert",
+          "Auch $A.Site ist Hamburg, beide verweisen auf dieselbe Tabelle",
+          "$A ist jetzt leer"
+        ],
+        "en": [
+          "Only $B has changed",
+          "The assignment fails",
+          "$A.Site is Hamburg too, both refer to the same table",
+          "$A is now empty"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Wie übergibst du die Hashtable $Params per Splatting an Get-ChildItem?",
+        "en": "How do you pass the hashtable $Params to Get-ChildItem by splatting?"
+      },
+      "options": {
+        "de": [
+          "Get-ChildItem $Params",
+          "Get-ChildItem -Splat $Params",
+          "Get-ChildItem %Params",
+          "Get-ChildItem @Params"
+        ],
+        "en": [
+          "Get-ChildItem $Params",
+          "Get-ChildItem -Splat $Params",
+          "Get-ChildItem %Params",
+          "Get-ChildItem @Params"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Wie schreibst du den Schalter -Recurse in einer Hashtable für Splatting?",
+        "en": "How do you write the switch -Recurse in a hashtable for splatting?"
+      },
+      "options": {
+        "de": [
+          "Recurse = ''",
+          "Recurse = $true",
+          "'-Recurse'",
+          "Recurse"
+        ],
+        "en": [
+          "Recurse = ''",
+          "Recurse = $true",
+          "'-Recurse'",
+          "Recurse"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

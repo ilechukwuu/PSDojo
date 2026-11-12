@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Hashtable ist @{ } mit zwei Paaren, getrennt durch ein Semikolon. Die Schlüssel enthalten einen Doppelpunkt, brauchen also Anführungszeichen.",
+    "Hinzufügen und Ändern sehen gleich aus: links der Schlüssel in eckigen Klammern, rechts vom Gleichheitszeichen der Wert.",
+    "$Limits = @{ 'C:' = 10; 'D:' = 50 }, dann $Limits['E:'] = 20 und $Limits['C:'] = 15, dann $Limits['D:'], $Limits.ContainsKey('F:') und $Limits.Count"
+  ],
+  "en": [
+    "The hashtable is @{ } with two pairs separated by a semicolon. The keys contain a colon, so they need quotes.",
+    "Adding and changing look the same: the key in square brackets on the left, the value on the right of the equals sign.",
+    "$Limits = @{ 'C:' = 10; 'D:' = 50 }, then $Limits['E:'] = 20 and $Limits['C:'] = 15, then $Limits['D:'], $Limits.ContainsKey('F:') and $Limits.Count"
+  ]
+}

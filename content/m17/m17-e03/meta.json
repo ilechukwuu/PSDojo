@@ -1,0 +1,18 @@
+{
+  "id": "m17-e03",
+  "module": "m17",
+  "title": {
+    "de": "PSCustomObject: eigene Objekte für Berichte",
+    "en": "PSCustomObject: objects of your own for reports"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m17-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "[pscustomobject]@{ ... } erzeugt ein Objekt mit benannten Eigenschaften in fester Reihenfolge. Es verhält sich in der Pipeline wie jedes andere Objekt.",
+    "en": "[pscustomobject]@{ ... } creates an object with named properties in a fixed order. In the pipeline it behaves like any other object."
+  }
+}

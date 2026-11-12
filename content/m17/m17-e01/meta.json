@@ -1,0 +1,18 @@
+{
+  "id": "m17-e01",
+  "module": "m17",
+  "title": {
+    "de": "Hashtable: Werte unter einem Namen ablegen",
+    "en": "Hashtable: store values under a name"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m16-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Hashtable @{ Key = Wert } speichert Paare. Gelesen wird mit ['Key'] oder .Key, ContainsKey prüft, ob ein Schlüssel existiert.",
+    "en": "A hashtable @{ Key = value } stores pairs. Read with ['Key'] or .Key, and ContainsKey checks whether a key exists."
+  }
+}

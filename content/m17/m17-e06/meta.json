@@ -1,0 +1,18 @@
+{
+  "id": "m17-e06",
+  "module": "m17",
+  "title": {
+    "de": "Lange Befehlszeile durch Splatting ersetzen",
+    "en": "Replace a long command line with splatting"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m17-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Splatting macht aus einer überlangen Zeile eine lesbare Liste: ein Parameter pro Zeile in einer Hashtable, dann Befehl @Params.",
+    "en": "Splatting turns an overlong line into a readable list: one parameter per line in a hashtable, then command @Params."
+  }
+}

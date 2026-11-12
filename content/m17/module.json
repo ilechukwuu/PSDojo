@@ -1,0 +1,13 @@
+{
+  "id": "m17",
+  "part": 1,
+  "order": 17,
+  "track": "core",
+  "title": {
+    "de": "Hashtables, PSCustomObject, Splatting",
+    "en": "Hashtables, PSCustomObject, splatting"
+  },
+  "prerequisites": [
+    "m16"
+  ]
+}
