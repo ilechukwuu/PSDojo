@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Frage bei jedem Wert nur eines: Ist er $null, die Zahl 0, ein leerer Text oder ein leeres Array? Dann ist er falsch, sonst wahr.",
+    "$Enabled ist ein Text mit fünf Zeichen. $Owner ist ein Text mit einem Zeichen, einem Leerzeichen.",
+    "Ein nicht leerer Text ist wahr, egal was darin steht, die Blöcke 1 und 5 laufen also. -not macht aus dem Falsch von $null ein Wahr. Block 6 vergleicht den Text richtig und läuft nicht."
+  ],
+  "en": [
+    "For each value ask only one thing: is it $null, the number 0, an empty text or an empty array? Then it is false, otherwise true.",
+    "$Enabled is a text with five characters. $Owner is a text with one character, a space.",
+    "A non-empty text is true whatever it says, so blocks 1 and 5 run. -not turns the false of $null into true. Block 6 compares the text properly and does not run."
+  ]
+}

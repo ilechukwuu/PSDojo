@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schreibe $Action = switch ($Status) { ... } mit einer Zeile pro Fall. Jeder Fall ist ein Text in Anführungszeichen, gefolgt von einem Block mit dem Ergebnistext.",
+    "Der Fall für alles andere ist das Wort default ohne Anführungszeichen. Für die Servernamen braucht der switch die Option -Wildcard und Fälle wie 'FS-*'.",
+    "$Role = switch -Wildcard ($Server) { 'FS-*' { 'File server' } 'PRN-*' { 'Print server' } 'APP-*' { 'Application server' } default { 'Unknown' } }"
+  ],
+  "en": [
+    "Write $Action = switch ($Status) { ... } with one line per case. Each case is a text in quotes followed by a block that contains the result text.",
+    "The case for everything else is the word default without quotes. For the server names the switch needs the option -Wildcard and cases such as 'FS-*'.",
+    "$Role = switch -Wildcard ($Server) { 'FS-*' { 'File server' } 'PRN-*' { 'Print server' } 'APP-*' { 'Application server' } default { 'Unknown' } }"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "$Free ist 5. Welcher Text entsteht bei if ($Free -lt 20) { 'Warning' } elseif ($Free -lt 10) { 'Critical' } else { 'OK' }?",
+        "en": "$Free is 5. Which text results from if ($Free -lt 20) { 'Warning' } elseif ($Free -lt 10) { 'Critical' } else { 'OK' }?"
+      },
+      "options": {
+        "de": [
+          "Critical",
+          "Warning",
+          "OK",
+          "Warning und Critical"
+        ],
+        "en": [
+          "Critical",
+          "Warning",
+          "OK",
+          "Warning and Critical"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Welcher Wert zählt in einer Bedingung als wahr?",
+        "en": "Which value counts as true in a condition?"
+      },
+      "options": {
+        "de": [
+          "0",
+          "$null",
+          "Der Text 'false'",
+          "Ein leeres Array"
+        ],
+        "en": [
+          "0",
+          "$null",
+          "The text 'false'",
+          "An empty array"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was passiert bei if ($Status = 'Stopped') { ... }?",
+        "en": "What happens with if ($Status = 'Stopped') { ... }?"
+      },
+      "options": {
+        "de": [
+          "Der Block läuft nur für gestoppte Dienste",
+          "Es ist ein Syntaxfehler",
+          "Der Block läuft nie",
+          "$Status wird überschrieben und der Block läuft immer"
+        ],
+        "en": [
+          "The block runs only for stopped services",
+          "It is a syntax error",
+          "The block never runs",
+          "$Status is overwritten and the block always runs"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Wozu dient default in einem switch?",
+        "en": "What is default for in a switch?"
+      },
+      "options": {
+        "de": [
+          "Sein Block läuft, wenn kein Fall gepasst hat",
+          "Es legt den Startwert fest",
+          "Sein Block läuft immer zuerst",
+          "Es beendet den switch"
+        ],
+        "en": [
+          "Its block runs when no case matched",
+          "It sets the starting value",
+          "Its block always runs first",
+          "It ends the switch"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Ein switch -Wildcard hat die Fälle 'FS-*' und '*'. Der Wert ist FS-02. Was passiert ohne break?",
+        "en": "A switch -Wildcard has the cases 'FS-*' and '*'. The value is FS-02. What happens without break?"
+      },
+      "options": {
+        "de": [
+          "Nur der erste Block läuft",
+          "Beide Blöcke laufen",
+          "Nur der letzte Block läuft",
+          "PowerShell meldet einen Fehler"
+        ],
+        "en": [
+          "Only the first block runs",
+          "Both blocks run",
+          "Only the last block runs",
+          "PowerShell reports an error"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Wie prüfst du kurz, ob ein Befehl nichts geliefert hat?",
+        "en": "How do you check briefly whether a command returned nothing?"
+      },
+      "options": {
+        "de": [
+          "if ($Result -eq 'nothing')",
+          "if ($Result.IsEmpty)",
+          "if (-not $Result)",
+          "if ($Result = $null)"
+        ],
+        "en": [
+          "if ($Result -eq 'nothing')",
+          "if ($Result.IsEmpty)",
+          "if (-not $Result)",
+          "if ($Result = $null)"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Wann ist eine elseif-Kette ein Kandidat für switch?",
+        "en": "When is an elseif chain a candidate for switch?"
+      },
+      "options": {
+        "de": [
+          "Immer",
+          "Wenn sie mehr als zwei Zeilen hat",
+          "Wenn die Bedingungen verschiedene Variablen prüfen",
+          "Wenn jede Bedingung dieselbe Variable mit einem festen Wert vergleicht"
+        ],
+        "en": [
+          "Always",
+          "When it has more than two lines",
+          "When the conditions check different variables",
+          "When every condition compares the same variable with a fixed value"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Was liefert $Text = switch ($Code) { 0 { 'OK' } 1 { 'Warning' } } bei $Code 7?",
+        "en": "What does $Text = switch ($Code) { 0 { 'OK' } 1 { 'Warning' } } return for $Code 7?"
+      },
+      "options": {
+        "de": [
+          "Einen Fehler",
+          "Nichts, $Text ist leer",
+          "OK",
+          "7"
+        ],
+        "en": [
+          "An error",
+          "Nothing, $Text is empty",
+          "OK",
+          "7"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

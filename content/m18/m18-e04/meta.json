@@ -1,0 +1,18 @@
+{
+  "id": "m18-e04",
+  "module": "m18",
+  "title": {
+    "de": "Drei Logikfehler im Wartungsskript",
+    "en": "Three logic mistakes in the maintenance script"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m18-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "In Bedingungen vergleicht -eq, nicht =. Die engste Bedingung steht oben. Ein switch läuft nach einem Treffer weiter, wenn kein break steht.",
+    "en": "In conditions -eq compares, not =. The narrowest condition comes first. A switch goes on after a match unless there is a break."
+  }
+}

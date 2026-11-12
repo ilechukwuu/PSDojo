@@ -1,0 +1,18 @@
+{
+  "id": "m18-e02",
+  "module": "m18",
+  "title": {
+    "de": "Was als wahr zählt",
+    "en": "What counts as true"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m18-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "In einer Bedingung zählen $null, 0, leerer Text und ein leeres Array als falsch. Alles andere ist wahr, auch der Text 'false'.",
+    "en": "In a condition $null, 0, empty text and an empty array count as false. Everything else is true, also the text 'false'."
+  }
+}

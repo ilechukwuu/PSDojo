@@ -1,0 +1,18 @@
+{
+  "id": "m18-e05",
+  "module": "m18",
+  "title": {
+    "de": "elseif-Kette durch switch ersetzen",
+    "en": "Replace an elseif chain with switch"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m18-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Vergleicht eine elseif-Kette immer dieselbe Variable mit festen Werten, sagt ein switch dasselbe kürzer und ohne Wiederholung.",
+    "en": "When an elseif chain always compares the same variable with fixed values, a switch says the same shorter and without repetition."
+  }
+}

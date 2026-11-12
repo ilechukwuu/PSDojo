@@ -1,0 +1,18 @@
+{
+  "id": "m18-e01",
+  "module": "m18",
+  "title": {
+    "de": "if, elseif, else: den Zustand eines Datenträgers bewerten",
+    "en": "if, elseif, else: rate the state of a disk"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m13-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "if prüft eine Bedingung, elseif die nächste, else fängt den Rest. Nur der erste zutreffende Block läuft, die Reihenfolge zählt.",
+    "en": "if tests a condition, elseif the next, else catches the rest. Only the first matching block runs, so the order matters."
+  }
+}

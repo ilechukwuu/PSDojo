@@ -1,0 +1,13 @@
+{
+  "id": "m18",
+  "part": 1,
+  "order": 18,
+  "track": "core",
+  "title": {
+    "de": "Logik: if und switch",
+    "en": "Logic: if and switch"
+  },
+  "prerequisites": [
+    "m13"
+  ]
+}

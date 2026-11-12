@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Du brauchst drei Blöcke: if, elseif und else. Jeder weist $State einen Text zu.",
+    "Nur der erste zutreffende Block läuft. Prüfe auf unter 10, bevor du auf unter 20 prüfst, sonst wird die zweite Prüfung nie erreicht.",
+    "if ($FreePercent -lt 10) { $State = 'Critical' } elseif ($FreePercent -lt 20) { $State = 'Warning' } else { $State = 'OK' } und danach $NeedsTicket = $State -ne 'OK'"
+  ],
+  "en": [
+    "You need three blocks: if, elseif and else. Each one assigns a text to $State.",
+    "Only the first matching block runs. Check for below 10 before you check for below 20, otherwise the second check is never reached.",
+    "if ($FreePercent -lt 10) { $State = 'Critical' } elseif ($FreePercent -lt 20) { $State = 'Warning' } else { $State = 'OK' } and then $NeedsTicket = $State -ne 'OK'"
+  ]
+}

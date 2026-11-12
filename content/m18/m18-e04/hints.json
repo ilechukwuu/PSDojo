@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die Datei mit ihren Standardwerten aus und gib die drei Variablen aus. Ein laufender Server mit 5 Prozent frei, der ein Dateiserver ist, sollte False, High und eine einzige Rolle ergeben.",
+    "Die erste Bedingung weist zu, statt zu vergleichen. Die zweite Kette prüft die weitere Bedingung zuerst. Der switch hat einen zweiten Fall, der auf jeden Namen passt.",
+    "Nutze -eq im ersten if, tausche die zwei Prüfungen, sodass unter 10 zuerst kommt, und ersetze den Fall '*' durch default."
+  ],
+  "en": [
+    "Run the file with its default values and print the three variables. A running server with 5 percent free that is a file server should give False, High and one single role.",
+    "The first condition assigns instead of comparing. The second chain checks the wider condition first. The switch has a second case that matches every name.",
+    "Use -eq in the first if, swap the two checks so that below 10 comes first, and replace the case '*' with default."
+  ]
+}

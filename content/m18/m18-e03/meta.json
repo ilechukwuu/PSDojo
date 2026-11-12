@@ -1,0 +1,18 @@
+{
+  "id": "m18-e03",
+  "module": "m18",
+  "title": {
+    "de": "switch: einen Wert gegen viele Fälle prüfen",
+    "en": "switch: check one value against many cases"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m18-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "switch vergleicht einen Wert mit mehreren Fällen. default fängt den Rest. -Wildcard erlaubt Platzhalter in den Fällen.",
+    "en": "switch compares one value with several cases. default catches the rest. -Wildcard allows wildcards in the cases."
+  }
+}

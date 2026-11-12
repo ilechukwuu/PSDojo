@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der Wert, den jede Bedingung vergleicht, kommt einmal in die Klammern des switch. Jede Bedingung wird zu einem Fall.",
+    "Ein Fall ist die Zahl, gefolgt von einem Block mit dem Text. Der else-Block wird zu default.",
+    "$Text = switch ($ExitCode) { 0 { 'Backup finished' } 1 { 'Finished with warnings' } 2 { 'Target not reachable' } 5 { 'Access denied' } default { 'Unknown exit code' } }"
+  ],
+  "en": [
+    "The value that every condition compares goes into the parentheses of the switch once. Each condition becomes one case.",
+    "A case is the number followed by a block with the text. The else block becomes default.",
+    "$Text = switch ($ExitCode) { 0 { 'Backup finished' } 1 { 'Finished with warnings' } 2 { 'Target not reachable' } 5 { 'Access denied' } default { 'Unknown exit code' } }"
+  ]
+}
