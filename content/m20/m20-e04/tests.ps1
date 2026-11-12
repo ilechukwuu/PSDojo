@@ -7,7 +7,7 @@ Describe 'Search the backup log of FS-02' {
             '22:00:01 INFO Backup of FS-02 started'
             '22:00:05 INFO Target D:\Backup\full.bak'
             '22:14:40 ERROR Volume D: is full'
-            '22:14:41 INFO Retrying, target DXXBackupYfullZbak'
+            '22:14:41 INFO Retrying, target D:XBackupYfullZbak'
             '22:20:10 ERROR Could not write D:\Backup\full.bak'
             '22:20:11 INFO Backup finished with problems'
         )
