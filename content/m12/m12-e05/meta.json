@@ -1,0 +1,18 @@
+{
+  "id": "m12-e05",
+  "module": "m12",
+  "title": {
+    "de": "Wiederholte Werte durch Variablen ersetzen",
+    "en": "Replace repeated values with variables"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m12-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Wert, der mehrfach vorkommt, gehört einmal in eine Variable mit sprechendem Namen. Dann ändert man ihn an einer Stelle.",
+    "en": "A value that occurs several times belongs once in a variable with a telling name. Then it is changed in one place."
+  }
+}

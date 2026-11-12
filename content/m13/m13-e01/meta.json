@@ -1,0 +1,18 @@
+{
+  "id": "m13-e01",
+  "module": "m13",
+  "title": {
+    "de": "Rechnen und zuweisen",
+    "en": "Calculate and assign"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m12-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "+ - * / rechnen, % liefert den Rest einer Division. += und -= ändern eine Variable, ++ zählt um eins hoch.",
+    "en": "+ - * / calculate, % returns the remainder of a division. += and -= change a variable, ++ counts up by one."
+  }
+}

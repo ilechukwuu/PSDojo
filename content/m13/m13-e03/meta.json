@@ -1,0 +1,18 @@
+{
+  "id": "m13-e03",
+  "module": "m13",
+  "title": {
+    "de": "Zerlegen, verbinden, prüfen: -split, -join, .., -is, -as",
+    "en": "Split, join, check: -split, -join, .., -is, -as"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m13-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "-split zerlegt Text in eine Liste, -join verbindet eine Liste zu Text, .. erzeugt eine Zahlenfolge, -is prüft den Typ, -as wandelt um oder liefert $null.",
+    "en": "-split turns text into a list, -join turns a list into text, .. creates a range of numbers, -is checks the type, -as converts or returns $null."
+  }
+}

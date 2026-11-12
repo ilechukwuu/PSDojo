@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Rechne den Durchschnitt zuerst von Hand: 120 plus 35 plus 25, geteilt durch 3. Vergleiche dann mit dem, was das Skript rechnet.",
+    "Die Summe braucht Klammern. Vergleichen ist -eq. In der letzten Zeile darf die Zahl nicht links von einem Pluszeichen mit Text stehen.",
+    "$AverageFreeGB = ($FreeFS01 + $FreeFS02 + $FreeFS03) / 3, $IsFull = $UsedPercent -eq 100 und $Label = \"$FreeFS03 GB free on FS-03\""
+  ],
+  "en": [
+    "Calculate the average by hand first: 120 plus 35 plus 25, divided by 3. Then compare with what the script calculates.",
+    "The sum needs parentheses. Comparing is -eq. In the last line the number must not stand on the left of a plus sign with text.",
+    "$AverageFreeGB = ($FreeFS01 + $FreeFS02 + $FreeFS03) / 3, $IsFull = $UsedPercent -eq 100 and $Label = \"$FreeFS03 GB free on FS-03\""
+  ]
+}

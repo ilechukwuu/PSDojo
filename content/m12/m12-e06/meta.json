@@ -1,0 +1,19 @@
+{
+  "id": "m12-e06",
+  "module": "m12",
+  "title": {
+    "de": "Quiz: Variablen, Datentypen, Typumwandlung",
+    "en": "Quiz: Variables, data types, type conversion"
+  },
+  "type": "quiz",
+  "order": 6,
+  "prerequisites": [
+    "m12-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m13-e04",
+  "module": "m13",
+  "title": {
+    "de": "Drei Operatorfehler in der Überwachung",
+    "en": "Three operator mistakes in the monitoring"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m13-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Klammern erzwingen die gemeinte Reihenfolge, -eq vergleicht und = weist zu, und eine Zahl links verlangt rechts etwas, das eine Zahl werden kann.",
+    "en": "Parentheses force the intended order, -eq compares while = assigns, and a number on the left needs something on the right that can become a number."
+  }
+}

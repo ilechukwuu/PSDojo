@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Division kommt vor Addition. Um zuerst zu addieren, setze die Summe in runde Klammern.",
+    "Der Rest einer Division ist der Operator %. Schreibe für Schritt 4 zwei Zeilen, eine mit += und eine mit ++.",
+    "$TotalGB = ($SizeC + $SizeD) / 1GB, $LeftOver = $FileCount % $BatchSize, dann $Processed += $BatchSize und $Processed++"
+  ],
+  "en": [
+    "Division comes before addition. To add first, put the sum in parentheses.",
+    "The remainder of a division is the operator %. For step 4 write two lines, one with += and one with ++.",
+    "$TotalGB = ($SizeC + $SizeD) / 1GB, $LeftOver = $FileCount % $BatchSize, then $Processed += $BatchSize and $Processed++"
+  ]
+}

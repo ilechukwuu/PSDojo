@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was liefert 47 % 10?",
+        "en": "What does 47 % 10 return?"
+      },
+      "options": {
+        "de": [
+          "4.7",
+          "7",
+          "4",
+          "470"
+        ],
+        "en": [
+          "4.7",
+          "7",
+          "4",
+          "470"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was liefert 2 + 3 * 4?",
+        "en": "What does 2 + 3 * 4 return?"
+      },
+      "options": {
+        "de": [
+          "20",
+          "24",
+          "14",
+          "9"
+        ],
+        "en": [
+          "20",
+          "24",
+          "14",
+          "9"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "$Count ist 10. Was steht nach $Count += 5 und $Count++ darin?",
+        "en": "$Count is 10. What does it hold after $Count += 5 and $Count++?"
+      },
+      "options": {
+        "de": [
+          "15",
+          "11",
+          "6",
+          "16"
+        ],
+        "en": [
+          "15",
+          "11",
+          "6",
+          "16"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was tut $UsedPercent > 90 in PowerShell?",
+        "en": "What does $UsedPercent > 90 do in PowerShell?"
+      },
+      "options": {
+        "de": [
+          "Es schreibt den Wert in eine Datei namens 90",
+          "Es prüft, ob der Wert größer als 90 ist",
+          "Es ist ein Syntaxfehler",
+          "Es weist 90 zu"
+        ],
+        "en": [
+          "It writes the value into a file named 90",
+          "It checks whether the value is greater than 90",
+          "It is a syntax error",
+          "It assigns 90"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Wie wird $A -or $B -and $C gelesen?",
+        "en": "How is $A -or $B -and $C read?"
+      },
+      "options": {
+        "de": [
+          "$A -or ($B -and $C)",
+          "($A -or $B) -and $C",
+          "Das ist ein Fehler ohne Klammern",
+          "Von rechts nach links"
+        ],
+        "en": [
+          "$A -or ($B -and $C)",
+          "($A -or $B) -and $C",
+          "That is an error without parentheses",
+          "From right to left"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was liefert 'n/a' -as [int]?",
+        "en": "What does 'n/a' -as [int] return?"
+      },
+      "options": {
+        "de": [
+          "0",
+          "Einen Fehler",
+          "$null",
+          "Den Text n/a"
+        ],
+        "en": [
+          "0",
+          "An error",
+          "$null",
+          "The text n/a"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Was liefert 'FS-01;FS-02' -split ';'?",
+        "en": "What does 'FS-01;FS-02' -split ';' return?"
+      },
+      "options": {
+        "de": [
+          "Den Text FS-01 FS-02",
+          "Die Zahl 2",
+          "Einen Fehler",
+          "Eine Liste mit zwei Texten"
+        ],
+        "en": [
+          "The text FS-01 FS-02",
+          "The number 2",
+          "An error",
+          "A list with two texts"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Welche Bedingung ersetzt $S -eq 'A' -or $S -eq 'B' -or $S -eq 'C'?",
+        "en": "Which condition replaces $S -eq 'A' -or $S -eq 'B' -or $S -eq 'C'?"
+      },
+      "options": {
+        "de": [
+          "$S -eq 'A', 'B', 'C'",
+          "$S -in 'A', 'B', 'C'",
+          "$S -like 'ABC'",
+          "$S -is 'A', 'B', 'C'"
+        ],
+        "en": [
+          "$S -eq 'A', 'B', 'C'",
+          "$S -in 'A', 'B', 'C'",
+          "$S -like 'ABC'",
+          "$S -is 'A', 'B', 'C'"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

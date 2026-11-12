@@ -1,0 +1,13 @@
+{
+  "id": "m12",
+  "part": 1,
+  "order": 12,
+  "track": "core",
+  "title": {
+    "de": "Variablen, Datentypen, Typumwandlung",
+    "en": "Variables, data types, type conversion"
+  },
+  "prerequisites": [
+    "m06"
+  ]
+}

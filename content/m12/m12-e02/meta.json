@@ -1,0 +1,18 @@
+{
+  "id": "m12-e02",
+  "module": "m12",
+  "title": {
+    "de": "Stille Umwandlung: was PowerShell aus gemischten Typen macht",
+    "en": "Silent conversion: what PowerShell makes of mixed types"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m12-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Bei gemischten Typen bestimmt der linke Wert: Text links ergibt Text, Zahl links ergibt eine Zahl. [int] rundet, [bool] eines nicht leeren Texts ist wahr.",
+    "en": "With mixed types the left value decides: text on the left gives text, a number on the left gives a number. [int] rounds, [bool] of a non-empty text is true."
+  }
+}

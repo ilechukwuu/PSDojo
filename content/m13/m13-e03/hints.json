@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Zeile besteht aus einem Wert, einem Operator und einem zweiten Wert. Das Trennzeichen für -split und -join steht in Anführungszeichen.",
+    "Der Text ist durch Semikolons getrennt, zerlege also an ';'. Ein Typ nach -is oder -as steht in eckigen Klammern.",
+    "$Servers = $ServerText -split ';', $ServerLine = $Servers -join ', ', $DriveNumbers = 1..4, $IsNumber = $SizeText -is [int], $Size = $SizeText -as [int]"
+  ],
+  "en": [
+    "Each line is a value, an operator and a second value. The separator for -split and -join goes in quotes.",
+    "The text is separated by semicolons, so split at ';'. A type after -is or -as is written in square brackets.",
+    "$Servers = $ServerText -split ';', $ServerLine = $Servers -join ', ', $DriveNumbers = 1..4, $IsNumber = $SizeText -is [int], $Size = $SizeText -as [int]"
+  ]
+}

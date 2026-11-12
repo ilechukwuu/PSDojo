@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schau zuerst auf den linken Wert jeder Zeile. Ist er in diesem Moment Text oder eine Zahl?",
+    "In Zeile 4 sind beide Werte Text, + fügt sie also zusammen. In Zeile 5 wurde der linke Wert in eine Zahl umgewandelt, der rechte folgt.",
+    "Zeile 4 ergibt den Text 8139, Zeile 5 die Zahl 120, Zeile 6 den Text 8181. [int]2.5 rundet zur geraden Zahl 2. Ein Text mit einem Zeichen ist nicht leer, also wahr."
+  ],
+  "en": [
+    "Look at the left value of each line first. Is it text or a number at that moment?",
+    "In line 4 both values are text, so + joins them. In line 5 the left value has been converted to a number, so the right one follows.",
+    "Line 4 gives the text 8139, line 5 the number 120, line 6 the text 8181. [int]2.5 rounds to the even number 2. A text with one character is not empty, so it is true."
+  ]
+}

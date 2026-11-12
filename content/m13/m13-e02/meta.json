@@ -1,0 +1,18 @@
+{
+  "id": "m13-e02",
+  "module": "m13",
+  "title": {
+    "de": "Rangfolge: was zuerst gerechnet wird",
+    "en": "Precedence: what is calculated first"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m13-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Punkt vor Strich, Klammern zuerst, Vergleiche vor -and und -or. -not bindet stärker als -and. Im Zweifel Klammern setzen.",
+    "en": "Multiplication before addition, parentheses first, comparisons before -and and -or. -not binds tighter than -and. When in doubt use parentheses."
+  }
+}

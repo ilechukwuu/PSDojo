@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die Zeilen einzeln mit F8 aus und sieh dir danach jede Variable an. Eine Zeile scheitert laut, zwei scheitern leise.",
+    "Die Summe braucht Zahlen statt Text. Aus dem Wort twelve kann keine Zahl werden. Vergleiche den Variablennamen in der letzten Zeile Buchstabe für Buchstabe mit Zeile 3.",
+    "$TotalGB = [int]$UsedText + [int]$FreeText, dann [int]$DriveCount = 12, dann $Line = \"Server: $ServerName\""
+  ],
+  "en": [
+    "Run the lines one by one with F8 and look at each variable afterwards. One line fails loudly, two fail quietly.",
+    "The sum needs numbers instead of text. The word twelve cannot become a number. Compare the variable name in the last line letter by letter with line 3.",
+    "$TotalGB = [int]$UsedText + [int]$FreeText, then [int]$DriveCount = 12, then $Line = \"Server: $ServerName\""
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Setze die Klammern selbst, der Tabelle folgend, und rechne dann von innen nach außen.",
+    "In Zeile 4 kommt zuerst die Division: 20 / 100, und erst dann die Addition. In Zeile 7 haben -or und -and denselben Rang und werden von links nach rechts gelesen.",
+    "Zeile 4 ist 80 + 0.2. Zeile 6 vergleicht 20 mit 25. Zeile 7 ist (False -or True) -and False. Zeile 8 macht aus False True."
+  ],
+  "en": [
+    "Put the parentheses in yourself, following the order of the table, and then calculate from the inside out.",
+    "In line 4 the division is done first: 20 / 100, and only then the addition. In line 7 -or and -and have the same rank and are read from left to right.",
+    "Line 4 is 80 + 0.2. Line 6 compares 20 with 25. Line 7 is (False -or True) -and False. Line 8 turns False into True."
+  ]
+}

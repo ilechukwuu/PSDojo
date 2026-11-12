@@ -1,0 +1,18 @@
+{
+  "id": "m12-e01",
+  "module": "m12",
+  "title": {
+    "de": "Variablen und ihre Typen",
+    "en": "Variables and their types"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m06-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Variable nimmt den Typ ihres Werts an: Text, ganze Zahl, Kommazahl, Wahrheitswert, Datum. GetType().Name zeigt ihn.",
+    "en": "A variable takes the type of its value: text, whole number, decimal number, boolean, date. GetType().Name shows it."
+  }
+}

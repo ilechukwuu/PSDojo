@@ -1,0 +1,12 @@
+{
+  "de": [
+    "In doppelten Anführungszeichen wird eine Variable durch ihren Wert ersetzt. \"Capacity report for $Server\" ergibt also denselben Text wie vorher.",
+    "Ersetze in den drei Texten jedes FS-02 durch $Server und jede 90 durch $WarnAtPercent.",
+    "Die letzte Zeile wird zu $Footer = \"$Server is checked daily, limit $WarnAtPercent\""
+  ],
+  "en": [
+    "Inside double quotes a variable is replaced by its value. So \"Capacity report for $Server\" gives the same text as before.",
+    "Replace every FS-02 inside the three texts with $Server and every 90 with $WarnAtPercent.",
+    "The last line becomes $Footer = \"$Server is checked daily, limit $WarnAtPercent\""
+  ]
+}

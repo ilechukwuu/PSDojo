@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Text steht in Anführungszeichen, Zahlen nicht. Eine Zahl in Anführungszeichen ist Text.",
+    "Der Wahrheitswert ist $true mit Dollarzeichen, nicht das Wort true in Anführungszeichen.",
+    "$Port = 445 ohne Anführungszeichen, $IsProduction = $true, $CheckedAt = Get-Date und $PercentType = $UsedPercent.GetType().Name"
+  ],
+  "en": [
+    "Text goes in quotes, numbers do not. A number in quotes is text.",
+    "The boolean value is $true with a dollar sign, not the word true in quotes.",
+    "$Port = 445 without quotes, $IsProduction = $true, $CheckedAt = Get-Date and $PercentType = $UsedPercent.GetType().Name"
+  ]
+}

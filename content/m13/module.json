@@ -1,0 +1,13 @@
+{
+  "id": "m13",
+  "part": 1,
+  "order": 13,
+  "track": "core",
+  "title": {
+    "de": "Operatoren",
+    "en": "Operators"
+  },
+  "prerequisites": [
+    "m12"
+  ]
+}

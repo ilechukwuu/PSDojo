@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Sammle die vier Texte aus der Kette in einer Liste, getrennt durch Kommas. Diese Liste wird zu $ProblemStates.",
+    "Die neue Bedingung hat den Wert links und die Liste rechts, mit -in dazwischen.",
+    "$ProblemStates = 'Stopped', 'Paused', 'StartPending', 'StopPending' und $NeedsAttention = $Status -in $ProblemStates"
+  ],
+  "en": [
+    "Collect the four texts from the chain in one list, separated by commas. That list becomes $ProblemStates.",
+    "The new condition has the value on the left and the list on the right, with -in between.",
+    "$ProblemStates = 'Stopped', 'Paused', 'StartPending', 'StopPending' and $NeedsAttention = $Status -in $ProblemStates"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Welchen Typ hat $Port nach $Port = '445'?",
+        "en": "Which type does $Port have after $Port = '445'?"
+      },
+      "options": {
+        "de": [
+          "Int32",
+          "String",
+          "Double",
+          "Boolean"
+        ],
+        "en": [
+          "Int32",
+          "String",
+          "Double",
+          "Boolean"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was liefert '500' + '250'?",
+        "en": "What does '500' + '250' return?"
+      },
+      "options": {
+        "de": [
+          "750",
+          "Einen Fehler",
+          "Den Text 500250",
+          "500"
+        ],
+        "en": [
+          "750",
+          "An error",
+          "The text 500250",
+          "500"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was liefert 5 + '3'?",
+        "en": "What does 5 + '3' return?"
+      },
+      "options": {
+        "de": [
+          "Den Text 53",
+          "Einen Fehler",
+          "5",
+          "Die Zahl 8"
+        ],
+        "en": [
+          "The text 53",
+          "An error",
+          "5",
+          "The number 8"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was liefert [int]'twelve'?",
+        "en": "What does [int]'twelve' return?"
+      },
+      "options": {
+        "de": [
+          "Einen Fehler, der Text lässt sich nicht in eine Zahl umwandeln",
+          "12",
+          "0",
+          "$null"
+        ],
+        "en": [
+          "An error, the text cannot be converted to a number",
+          "12",
+          "0",
+          "$null"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Was liefert [bool]'false'?",
+        "en": "What does [bool]'false' return?"
+      },
+      "options": {
+        "de": [
+          "False, der Text sagt es ja",
+          "True, jeder nicht leere Text zählt als wahr",
+          "Einen Fehler",
+          "$null"
+        ],
+        "en": [
+          "False, that is what the text says",
+          "True, every non-empty text counts as true",
+          "An error",
+          "$null"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Ein Skript enthält $ServerName = 'FS-02' und später \"Server: $ServerNmae\". Was passiert?",
+        "en": "A script contains $ServerName = 'FS-02' and later \"Server: $ServerNmae\". What happens?"
+      },
+      "options": {
+        "de": [
+          "PowerShell meldet einen unbekannten Variablennamen",
+          "Der Editor korrigiert den Namen beim Ausführen",
+          "Der Text lautet Server: mit nichts dahinter, ohne Fehler",
+          "Der Text lautet Server: $ServerNmae"
+        ],
+        "en": [
+          "PowerShell reports an unknown variable name",
+          "The editor corrects the name when running",
+          "The text reads Server: with nothing behind it, without an error",
+          "The text reads Server: $ServerNmae"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Was bewirkt der Typ in [int]$Count = '12'?",
+        "en": "What does the type do in [int]$Count = '12'?"
+      },
+      "options": {
+        "de": [
+          "Er ist nur ein Kommentar für den Leser",
+          "Er wandelt einmal um, danach nimmt die Variable wieder alles an",
+          "Er macht die Variable schreibgeschützt",
+          "Er wandelt um und legt die Variable dauerhaft auf diesen Typ fest"
+        ],
+        "en": [
+          "It is only a comment for the reader",
+          "It converts once, afterwards the variable accepts anything again",
+          "It makes the variable read-only",
+          "It converts and fixes the variable to this type for good"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum gehört ein Schwellwert, der fünfmal im Skript steht, in eine Variable?",
+        "en": "Why does a threshold that appears five times in a script belong in a variable?"
+      },
+      "options": {
+        "de": [
+          "Variablen sind schneller als Zahlen",
+          "Eine Änderung passiert dann an einer Stelle und der Name erklärt den Wert",
+          "Zahlen dürfen nicht direkt im Code stehen",
+          "Das spart Speicher"
+        ],
+        "en": [
+          "Variables are faster than numbers",
+          "A change then happens in one place and the name explains the value",
+          "Numbers must not appear directly in code",
+          "It saves memory"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

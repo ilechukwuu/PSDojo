@@ -1,0 +1,18 @@
+{
+  "id": "m12-e03",
+  "module": "m12",
+  "title": {
+    "de": "Gezielt umwandeln: Text aus einer Datei wird zu Zahlen und Daten",
+    "en": "Convert on purpose: text from a file becomes numbers and dates"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m12-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "[int], [double] und [datetime] vor einem Wert wandeln ihn um. Ein Typ vor dem Variablennamen legt die Variable dauerhaft fest.",
+    "en": "[int], [double] and [datetime] in front of a value convert it. A type in front of the variable name fixes the variable for good."
+  }
+}

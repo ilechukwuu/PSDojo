@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Ein Cast ist der Typ in eckigen Klammern direkt vor dem Wert, zum Beispiel [int]$UsedText.",
+    "Rechne den Prozentwert mit den umgewandelten Variablen $UsedGB und $TotalGB. Das Datum braucht [datetime].",
+    "$UsedGB = [int]$UsedText, $UsedPercent = [math]::Round($UsedGB / $TotalGB * 100, 1), $MeasuredAt = [datetime]$DateText und $NextCheck = $MeasuredAt.AddDays(7)"
+  ],
+  "en": [
+    "A cast is the type in square brackets directly in front of the value, for example [int]$UsedText.",
+    "Calculate the percentage with the converted variables $UsedGB and $TotalGB. The date needs [datetime].",
+    "$UsedGB = [int]$UsedText, $UsedPercent = [math]::Round($UsedGB / $TotalGB * 100, 1), $MeasuredAt = [datetime]$DateText and $NextCheck = $MeasuredAt.AddDays(7)"
+  ]
+}

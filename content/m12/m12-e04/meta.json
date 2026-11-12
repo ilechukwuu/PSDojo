@@ -1,0 +1,18 @@
+{
+  "id": "m12-e04",
+  "module": "m12",
+  "title": {
+    "de": "Drei Typfehler im Kapazitätsskript",
+    "en": "Three type mistakes in the capacity script"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m12-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Text muss vor dem Rechnen umgewandelt werden, ein typisierter Wert muss umwandelbar sein, und ein vertippter Variablenname ist einfach leer.",
+    "en": "Text has to be converted before calculating, a typed value has to be convertible, and a mistyped variable name is simply empty."
+  }
+}

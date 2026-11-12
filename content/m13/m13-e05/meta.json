@@ -1,0 +1,18 @@
+{
+  "id": "m13-e05",
+  "module": "m13",
+  "title": {
+    "de": "Lange -or-Ketten durch -in ersetzen",
+    "en": "Replace long -or chains with -in"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m13-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wert -in Liste ersetzt viele Vergleiche mit -or. Die Liste steht einmal oben und lässt sich erweitern, ohne die Bedingung anzufassen.",
+    "en": "Value -in list replaces many comparisons joined with -or. The list stands once at the top and can grow without touching the condition."
+  }
+}
