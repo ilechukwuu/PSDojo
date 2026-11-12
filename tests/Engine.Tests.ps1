@@ -34,7 +34,7 @@ AfterAll {
 
 Describe 'Module import' {
     It 'exports exactly the documented commands' {
-        $expected = 'Export-DojoReport', 'Get-DojoHint', 'Get-DojoTeamReport', 'Reset-DojoExercise', 'Set-DojoLanguage', 'Show-DojoLesson', 'Show-DojoProgress', 'Start-Dojo', 'Test-Dojo'
+        $expected = 'Approve-DojoExercise', 'Deny-DojoExercise', 'Export-DojoReport', 'Get-DojoHint', 'Get-DojoReviewItem', 'Get-DojoTeamReport', 'Reset-DojoExercise', 'Set-DojoLanguage', 'Show-DojoLesson', 'Show-DojoProgress', 'Show-DojoReviewItem', 'Start-Dojo', 'Test-Dojo'
         ((Get-Command -Module PSDojo).Name | Sort-Object) -join ', ' | Should -Be ($expected -join ', ')
     }
 

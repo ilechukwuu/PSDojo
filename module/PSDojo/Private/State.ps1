@@ -215,11 +215,21 @@ function Get-DojoExerciseState {
             $done[$exercise.Id] = $true
         }
     }
+    $reasons = @{}
     foreach ($exercise in $Exercises) {
-        $missing = @($exercise.Prerequisites | Where-Object { $known.ContainsKey($_) -and -not $done.ContainsKey($_) })
+        $reason = Get-DojoUnavailableReason -Exercise $exercise
+        if ($reason) {
+            $reasons[$exercise.Id] = $reason
+        }
+    }
+    foreach ($exercise in $Exercises) {
+        $missing = @($exercise.Prerequisites | Where-Object { $known.ContainsKey($_) -and -not $done.ContainsKey($_) -and -not $reasons.ContainsKey($_) })
         $state = 'open'
         if ($done.ContainsKey($exercise.Id)) {
             $state = 'completed'
+        }
+        elseif ($reasons.ContainsKey($exercise.Id)) {
+            $state = 'unavailable'
         }
         elseif ($missing.Count -gt 0) {
             $state = 'locked'
@@ -229,6 +239,7 @@ function Get-DojoExerciseState {
             Id       = $exercise.Id
             State    = $state
             Missing  = $missing
+            Reason   = [string]$reasons[$exercise.Id]
         }
     }
 }
@@ -266,7 +277,32 @@ function Resolve-DojoExercise {
         Write-DojoLine -Text (Get-DojoString -Key 'Locked' -Values $target, ($state.Missing -join ', ')) -Color Yellow
         return $null
     }
+    if ($state.State -eq 'unavailable') {
+        Write-DojoLine -Text (Get-DojoString -Key 'Unavailable' -Values $target, $state.Reason) -Color Yellow
+        return $null
+    }
     return $state
+}
+
+function Get-DojoUnavailableReason {
+    [CmdletBinding()]
+    [OutputType([string])]
+    param(
+        [Parameter(Mandatory = $true)]
+        $Exercise
+    )
+
+    if ($Exercise.MinPowerShell) {
+        $minimum = $null
+        if ([version]::TryParse([string]$Exercise.MinPowerShell, [ref]$minimum) -and $PSVersionTable.PSVersion -lt $minimum) {
+            return (Get-DojoString -Key 'NeedsPowerShell' -Values $Exercise.MinPowerShell)
+        }
+    }
+    $missing = @($Exercise.Requires | Where-Object { -not (Get-Command -Name $_ -ErrorAction SilentlyContinue) })
+    if ($missing.Count -gt 0) {
+        return (Get-DojoString -Key 'NeedsCommand' -Values ($missing -join ', '))
+    }
+    return ''
 }
 
 function Get-DojoNextOpen {

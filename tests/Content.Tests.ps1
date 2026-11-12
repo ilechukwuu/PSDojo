@@ -94,10 +94,18 @@ Describe 'Module <ModuleId>' -ForEach $moduleCases {
     }
 
     It 'mixes all five exercise types' {
+        if ($module.Kind -eq 'capstone') {
+            Set-ItResult -Skipped -Because 'capstone modules are exempt'
+            return
+        }
         ($own.Type | Sort-Object -Unique) -join ', ' | Should -Be 'fix, predict, quiz, refactor, write'
     }
 
     It 'ends with the quiz' {
+        if ($module.Kind -eq 'capstone') {
+            Set-ItResult -Skipped -Because 'capstone modules are exempt'
+            return
+        }
         $own[-1].Type | Should -Be 'quiz'
     }
 
@@ -109,6 +117,10 @@ Describe 'Module <ModuleId>' -ForEach $moduleCases {
 Describe 'Exercise <Id>' -ForEach $exerciseCases {
     BeforeAll {
         $exercise = Get-LoadedExercise -Path $Path
+        $unavailable = ''
+        if ($exercise) {
+            $unavailable = Invoke-DojoPrivate -ScriptBlock { param($e) Get-DojoUnavailableReason -Exercise $e } -ArgumentList $exercise
+        }
     }
 
     It 'follows the folder contract and has a valid meta.json' {
@@ -142,6 +154,10 @@ Describe 'Exercise <Id>' -ForEach $exerciseCases {
     }
 
     It 'has a starter that fails' {
+        if ($unavailable) {
+            Set-ItResult -Skipped -Because $unavailable
+            return
+        }
         $result = Invoke-DojoPrivate -ScriptBlock { param($e, $p) Invoke-DojoCheck -Exercise $e -ScriptPath $p } -ArgumentList $exercise, (Join-Path -Path $Path -ChildPath 'starter.ps1')
         $result.Passed | Should -BeFalse
         $allowed = @('TestFailed', 'ScriptError')
@@ -152,6 +168,10 @@ Describe 'Exercise <Id>' -ForEach $exerciseCases {
     }
 
     It 'has a solution that passes' {
+        if ($unavailable) {
+            Set-ItResult -Skipped -Because $unavailable
+            return
+        }
         $result = Invoke-DojoPrivate -ScriptBlock { param($e, $p) Invoke-DojoCheck -Exercise $e -ScriptPath $p } -ArgumentList $exercise, (Join-Path -Path $Path -ChildPath 'solution.ps1')
         $result.Kind | Should -Be 'Passed' -Because "$($result.TestName) $($result.Message)"
         $result.Passed | Should -BeTrue
@@ -159,6 +179,10 @@ Describe 'Exercise <Id>' -ForEach $exerciseCases {
     }
 
     It 'has a wrong answer that fails with a helpful message' {
+        if ($unavailable) {
+            Set-ItResult -Skipped -Because $unavailable
+            return
+        }
         $result = Invoke-DojoPrivate -ScriptBlock { param($e, $p) Invoke-DojoCheck -Exercise $e -ScriptPath $p } -ArgumentList $exercise, (Join-Path -Path $Path -ChildPath 'wrong.ps1')
         $result.Passed | Should -BeFalse
         $result.Kind | Should -BeIn @('TestFailed', 'ScriptError')

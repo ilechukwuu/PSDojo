@@ -18,6 +18,10 @@
         'Export-DojoReport'
         'Get-DojoTeamReport'
         'Set-DojoLanguage'
+        'Get-DojoReviewItem'
+        'Show-DojoReviewItem'
+        'Approve-DojoExercise'
+        'Deny-DojoExercise'
     )
     CmdletsToExport   = @()
     VariablesToExport = @()

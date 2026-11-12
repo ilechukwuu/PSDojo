@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
     [Parameter()]
-    [string[]]$Suite = @('Compatibility', 'Content', 'Engine', 'Visibility')
+    [string[]]$Suite = @('Compatibility', 'Content', 'Engine', 'Visibility', 'Review')
 )
 
 $minimum = [version]'5.3.0'

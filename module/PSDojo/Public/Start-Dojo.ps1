@@ -51,6 +51,10 @@ function Start-Dojo {
             Write-DojoLine -Text (Get-DojoString -Key 'Locked' -Values $Id, ($current.Missing -join ', ')) -Color Yellow
             return
         }
+        if ($current.State -eq 'unavailable') {
+            Write-DojoLine -Text (Get-DojoString -Key 'Unavailable' -Values $Id, $current.Reason) -Color Yellow
+            return
+        }
     }
     else {
         $current = $states | Where-Object { $_.Id -eq $progress['current'] -and $_.State -eq 'open' } | Select-Object -First 1
@@ -70,7 +74,13 @@ function Start-Dojo {
         $progress['current'] = ''
         Save-DojoProgress -Progress $progress
         Write-DojoLine
-        Write-DojoLine -Text ('  ' + (Get-DojoString -Key 'AllDone')) -Color Green
+        $waiting = @($states | Where-Object { $_.State -eq 'unavailable' })
+        if ($waiting.Count -gt 0) {
+            Write-DojoLine -Text ('  ' + (Get-DojoString -Key 'DoneExceptUnavailable' -Values $waiting.Count)) -Color Yellow
+        }
+        else {
+            Write-DojoLine -Text ('  ' + (Get-DojoString -Key 'AllDone')) -Color Green
+        }
         return
     }
 

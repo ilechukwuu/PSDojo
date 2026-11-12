@@ -34,7 +34,7 @@ function Test-Dojo {
             $record['completedAt'] = Get-DojoTimestamp
         }
         $states = @(Get-DojoExerciseState -Progress $progress -Exercises $exercises)
-        $openInModule = @($states | Where-Object { $_.Exercise.Module -eq $exercise.Module -and $_.State -ne 'completed' })
+        $openInModule = @($states | Where-Object { $_.Exercise.Module -eq $exercise.Module -and $_.State -ne 'completed' -and $_.State -ne 'unavailable' })
         if (-not $wasCompleted -and $openInModule.Count -eq 0) {
             $module = Get-DojoModuleList | Where-Object { $_.Id -eq $exercise.Module } | Select-Object -First 1
             Write-DojoLine
@@ -55,7 +55,13 @@ function Test-Dojo {
         }
         else {
             $progress['current'] = ''
-            Write-DojoLine -Text ('  ' + (Get-DojoString -Key 'AllDone')) -Color Green
+            $waiting = @($states | Where-Object { $_.State -eq 'unavailable' })
+            if ($waiting.Count -gt 0) {
+                Write-DojoLine -Text ('  ' + (Get-DojoString -Key 'DoneExceptUnavailable' -Values $waiting.Count)) -Color Yellow
+            }
+            else {
+                Write-DojoLine -Text ('  ' + (Get-DojoString -Key 'AllDone')) -Color Green
+            }
         }
         Save-DojoProgress -Progress $progress
     }

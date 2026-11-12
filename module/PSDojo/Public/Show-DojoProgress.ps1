@@ -34,8 +34,8 @@ function Show-DojoProgress {
         return
     }
 
-    $marks = @{ completed = '[x]'; open = '[ ]'; locked = '[-]' }
-    $colors = @{ completed = 'Green'; open = ''; locked = 'DarkGray' }
+    $marks = @{ completed = '[x]'; open = '[ ]'; locked = '[-]'; unavailable = '[!]' }
+    $colors = @{ completed = 'Green'; open = ''; locked = 'DarkGray'; unavailable = 'Yellow' }
     $done = @($states | Where-Object { $_.State -eq 'completed' }).Count
 
     Write-DojoLine
@@ -56,6 +56,9 @@ function Show-DojoProgress {
                 $color = 'Cyan'
             }
             $line = '  {0} {1}  {2,-9} {3}' -f $mark, $state.Id, (Get-DojoString -Key ('Type_' + $state.Exercise.Type)), (Get-DojoLocalText -Table $state.Exercise.Title)
+            if ($state.State -eq 'unavailable') {
+                $line = $line + '  (' + $state.Reason + ')'
+            }
             Write-DojoLine -Text $line -Color $color
         }
         Write-DojoLine

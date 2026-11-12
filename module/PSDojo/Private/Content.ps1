@@ -25,6 +25,8 @@ module.json
     order          int      position of the module in the curriculum
     title          object   { "de": "...", "en": "..." }
     prerequisites  array    module ids
+    kind           string   optional. standard (default) or capstone. A capstone module does not
+                            have to mix all exercise types or end with a quiz.
 
 production.<lang>.md
     The "what goes wrong in production" note. Shown when the module is completed.
@@ -41,7 +43,20 @@ Exercise folder
         concept        object   { "de": "...", "en": "..." } one line shown with a failed check
         passMark       int      optional. Percent of tests that must pass. Default 100, quiz 80.
         placeholder    bool     optional. True for capstones with invented scenarios.
-        review         object   optional. Written by the review workflow (reviewer, timestamp, comment).
+        minPowerShell  string   optional. "7.0" when the exercise cannot work on Windows PowerShell 5.1.
+                                On an older host the exercise is shown as not available and is
+                                never a blocking prerequisite.
+        requires       array    optional. Command names that must exist on the machine, for
+                                example [ "git" ]. Missing commands make the exercise not available.
+        review         object   optional. Last review decision: action, from, to, reviewer,
+                                timestamp, comment. Written only by the review workflow.
+        reviewHistory  array    optional. Every review decision, oldest first.
+
+Review workflow
+    draft -> reviewed -> approved. Approve moves one step forward, reject moves back to draft.
+    The second approval needs a different reviewer than the first. Approval is refused while
+    the starter passes, the solution fails or the wrong answer passes.
+    meta.json is rewritten by the engine in a fixed key order with two spaces of indentation.
     lesson.de.md, lesson.en.md
         Concept in at most 200 words plus one worked example in a fenced code block.
     task.de.md, task.en.md
@@ -189,6 +204,7 @@ function Get-DojoModuleList {
                 Order         = [int]$data['order']
                 Title         = $data['title']
                 Prerequisites = @($data['prerequisites'] | Where-Object { $_ })
+                Kind          = $(if ($data['kind']) { [string]$data['kind'] } else { 'standard' })
                 Path          = $folder.FullName
             })
     }
@@ -248,6 +264,12 @@ function Test-DojoExerciseFolder {
     }
     if (-not ($meta['order'] -is [int] -or $meta['order'] -is [long]) -or $meta['order'] -lt 1) {
         [void]$problems.Add('meta.json order is not a positive whole number')
+    }
+    if ($meta['minPowerShell']) {
+        $parsed = $null
+        if (-not [version]::TryParse([string]$meta['minPowerShell'], [ref]$parsed)) {
+            [void]$problems.Add('meta.json minPowerShell is not a version such as 7.0')
+        }
     }
     foreach ($key in 'title', 'concept') {
         foreach ($language in $script:DojoLanguages) {
@@ -367,6 +389,10 @@ function Get-DojoExerciseList {
                     Concept       = $meta['concept']
                     PassMark      = $passMark
                     Placeholder   = [bool]$meta['placeholder']
+                    MinPowerShell = [string]$meta['minPowerShell']
+                    Requires      = @($meta['requires'] | Where-Object { $_ })
+                    Review        = $meta['review']
+                    ReviewHistory = @($meta['reviewHistory'] | Where-Object { $_ })
                     Path          = $folder.FullName
                 })
         }

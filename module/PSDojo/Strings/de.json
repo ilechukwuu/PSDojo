@@ -55,10 +55,20 @@
   "HintsUsedUp": "Alle Hinweise genutzt. Get-DojoHint -Solution zeigt die Musterlösung. Das wird vermerkt.",
   "ResetDone": "Startdatei wiederhergestellt für {0}: {1}",
   "ProgressHeader": "Fortschritt: {0} von {1} Übungen abgeschlossen  ({2})",
-  "Legend": "[x] abgeschlossen   [>] aktuell   [ ] offen   [-] gesperrt",
+  "Legend": "[x] abgeschlossen   [>] aktuell   [ ] offen   [-] gesperrt   [!] hier nicht verfügbar",
   "ReportWritten": "Bericht geschrieben: {0}",
   "FolderMissing": "Ordner nicht gefunden: {0}",
   "ReportUnreadable": "Nicht lesbare Datei übersprungen: {0}",
   "NoReports": "Keine PSDojo Berichte in {0} gefunden.",
-  "LanguageSet": "Sprache auf Deutsch gestellt."
+  "LanguageSet": "Sprache auf Deutsch gestellt.",
+  "Unavailable": "Die Übung {0} ist auf diesem Rechner nicht verfügbar: {1}",
+  "NeedsPowerShell": "braucht PowerShell {0} oder neuer",
+  "NeedsCommand": "braucht den Befehl {0}",
+  "DoneExceptUnavailable": "Alles, was hier verfügbar ist, ist abgeschlossen. {0} Übung(en) sind auf diesem Rechner nicht verfügbar, siehe Show-DojoProgress.",
+  "ReviewUnknown": "Die Übung '{0}' wurde im Inhaltsordner nicht gefunden.",
+  "ReviewAlreadyApproved": "Die Übung {0} ist bereits freigegeben. Deny-DojoExercise setzt sie zurück auf Entwurf.",
+  "ReviewSameReviewer": "Die Übung {0} wurde bereits von {1} geprüft. Die zweite Freigabe braucht einen anderen Prüfer.",
+  "ReviewQualityFailed": "Die Übung {0} kann nicht freigegeben werden, ihre Prüfungen schlagen fehl: {1}",
+  "ReviewCommentNeeded": "Eine Ablehnung braucht einen Kommentar, der dem Autor sagt, was zu ändern ist.",
+  "ReviewDone": "{0}: {1} -> {2} durch {3}"
 }

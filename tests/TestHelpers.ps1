@@ -41,6 +41,29 @@ function New-DojoTestContent {
     return $Destination
 }
 
+function Set-DojoTestMeta {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$ContentRoot,
+
+        [Parameter(Mandatory = $true)]
+        [string]$Id,
+
+        [Parameter(Mandatory = $true)]
+        [hashtable]$Values
+    )
+
+    $file = Join-Path -Path (Join-Path -Path (Join-Path -Path $ContentRoot -ChildPath $Id.Substring(0, 3)) -ChildPath $Id) -ChildPath 'meta.json'
+    Invoke-DojoPrivate -ScriptBlock {
+        param($path, $values)
+        $meta = Read-DojoJsonFile -Path $path
+        foreach ($key in $values.Keys) {
+            $meta[$key] = $values[$key]
+        }
+        Write-DojoTextFile -Path $path -Text (ConvertTo-DojoJson -Value $meta -KeyOrder $script:DojoMetaKeyOrder)
+    } -ArgumentList $file, $Values
+}
+
 function Invoke-DojoPrivate {
     param(
         [Parameter(Mandatory = $true)]

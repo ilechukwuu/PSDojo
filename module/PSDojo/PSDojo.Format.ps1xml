@@ -97,5 +97,35 @@
         </TableRowEntries>
       </TableControl>
     </View>
+    <View>
+      <Name>PSDojo.ReviewItem</Name>
+      <ViewSelectedBy>
+        <TypeName>PSDojo.ReviewItem</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader><Label>Id</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Type</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Status</Label></TableColumnHeader>
+          <TableColumnHeader><Label>LastAction</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Reviewer</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Timestamp</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Title</Label></TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem><PropertyName>Id</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Type</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Status</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>LastAction</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Reviewer</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Timestamp</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Title</PropertyName></TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
   </ViewDefinitions>
 </Configuration>

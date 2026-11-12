@@ -55,10 +55,20 @@
   "HintsUsedUp": "All hints used. Get-DojoHint -Solution shows the reference solution. That will be recorded.",
   "ResetDone": "Starter file restored for {0}: {1}",
   "ProgressHeader": "Progress: {0} of {1} exercises completed  ({2})",
-  "Legend": "[x] completed   [>] current   [ ] open   [-] locked",
+  "Legend": "[x] completed   [>] current   [ ] open   [-] locked   [!] not available here",
   "ReportWritten": "Report written: {0}",
   "FolderMissing": "Folder not found: {0}",
   "ReportUnreadable": "Skipped unreadable file: {0}",
   "NoReports": "No PSDojo reports found in {0}.",
-  "LanguageSet": "Language set to English."
+  "LanguageSet": "Language set to English.",
+  "Unavailable": "Exercise {0} is not available on this machine: {1}",
+  "NeedsPowerShell": "needs PowerShell {0} or newer",
+  "NeedsCommand": "needs the command {0}",
+  "DoneExceptUnavailable": "Everything available here is completed. {0} exercise(s) are not available on this machine, see Show-DojoProgress.",
+  "ReviewUnknown": "Exercise '{0}' was not found in the content folder.",
+  "ReviewAlreadyApproved": "Exercise {0} is already approved. Use Deny-DojoExercise to send it back to draft.",
+  "ReviewSameReviewer": "Exercise {0} was already reviewed by {1}. The second approval needs a different reviewer.",
+  "ReviewQualityFailed": "Exercise {0} cannot be approved, its checks fail: {1}",
+  "ReviewCommentNeeded": "A rejection needs a comment that tells the author what to change.",
+  "ReviewDone": "{0}: {1} -> {2} by {3}"
 }
