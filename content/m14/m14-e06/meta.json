@@ -1,0 +1,18 @@
+{
+  "id": "m14-e06",
+  "module": "m14",
+  "title": {
+    "de": "Plus-Ketten durch einen Text ersetzen",
+    "en": "Replace chains of plus with one text"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m14-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Text mit eingesetzten Variablen oder -f ist lesbarer als viele mit + verbundene Stücke, und er scheitert nicht an Zahlen.",
+    "en": "One text with inserted variables or -f is easier to read than many pieces joined with +, and it does not trip over numbers."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m15-e01",
+  "module": "m15",
+  "title": {
+    "de": "Mit Daten rechnen: Stichtag und Alter",
+    "en": "Calculate with dates: cut-off date and age"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m14-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "AddDays rechnet ein neues Datum aus, negative Zahlen gehen zurück. Datum minus Datum ergibt eine Zeitspanne mit Days und TotalDays.",
+    "en": "AddDays calculates a new date, negative numbers go back. Date minus date gives a time span with Days and TotalDays."
+  }
+}

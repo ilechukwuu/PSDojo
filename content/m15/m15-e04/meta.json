@@ -1,0 +1,18 @@
+{
+  "id": "m15-e04",
+  "module": "m15",
+  "title": {
+    "de": "Drei Datumsfehler in der Zertifikatsprüfung",
+    "en": "Three date mistakes in the certificate check"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m15-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Daten vergleicht man als Datumsobjekte, nicht als Text. Deutsche Datumstexte brauchen ParseExact, und ein Stichtag in der Vergangenheit braucht ein Minus.",
+    "en": "Dates are compared as date objects, not as text. German date texts need ParseExact, and a cut-off date in the past needs a minus."
+  }
+}

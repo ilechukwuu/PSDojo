@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Schritte 1 bis 3 sind Methodenaufrufe am Text. Schritt 4 ist ein Here-String, der mit @\" beginnt und mit \"@ in der ersten Spalte endet.",
+    "Split('.') liefert die Teile, [0] ist der erste, und ToUpper() kann direkt folgen. EndsWith nimmt die Endung in Anführungszeichen.",
+    "$Fqdn = $RawName.Trim(), $ShortName = $Fqdn.Split('.')[0].ToUpper(), $IsInternal = $Fqdn.EndsWith('.nordwind.example'). Schreibe im Here-String $ShortName und $FreeGB dorthin, wo die Werte hingehören."
+  ],
+  "en": [
+    "Steps 1 to 3 are method calls on the text. Step 4 is a here-string that starts with @\" and ends with \"@ in the first column.",
+    "Split('.') returns the parts, [0] is the first one, and ToUpper() can follow directly. EndsWith takes the ending in quotes.",
+    "$Fqdn = $RawName.Trim(), $ShortName = $Fqdn.Split('.')[0].ToUpper(), $IsInternal = $Fqdn.EndsWith('.nordwind.example'). Inside the here-string write $ShortName and $FreeGB where the values belong."
+  ]
+}

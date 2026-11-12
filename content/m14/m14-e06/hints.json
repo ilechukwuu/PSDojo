@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schreibe den Satz so, wie er aussehen soll, und setze die Variablen dorthin, wo die Werte hingehören. Jede Eigenschaft braucht $( ).",
+    "In $Path folgt $Server direkt ein Unterstrich, der Variablenname braucht also geschweifte Klammern.",
+    "$Path = \"reports/${Server}_week$Week.csv\" und in $Line wird jede Eigenschaft als $($Disk.Letter), $($Disk.FreeGB) und $($Disk.Percent) geschrieben"
+  ],
+  "en": [
+    "Write the sentence the way it should look and put the variables where the values belong. Every property needs $( ).",
+    "In $Path an underscore follows $Server directly, so the variable name needs curly braces.",
+    "$Path = \"reports/${Server}_week$Week.csv\" and in $Line each property is written as $($Disk.Letter), $($Disk.FreeGB) and $($Disk.Percent)"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Markiere bei jedem Dollarzeichen, wo der Variablenname endet. Ein Punkt beendet ihn, ein Unterstrich nicht.",
+    "In Zeile 6 wird nur $Queue ersetzt, und das Objekt als Text ist @{Jobs=14}. In Zeile 8 sucht PowerShell eine Variable namens Server_report, die es nicht gibt.",
+    "Zeile 6 ergibt Jobs: @{Jobs=14}.Jobs und Zeile 8 ergibt nur .txt"
+  ],
+  "en": [
+    "For every dollar sign mark where the variable name ends. A dot ends it, an underscore does not.",
+    "In line 6 only $Queue is replaced, and the object as text is @{Jobs=14}. In line 8 PowerShell looks for a variable named Server_report, which does not exist.",
+    "Line 6 gives Jobs: @{Jobs=14}.Jobs and line 8 gives only .txt"
+  ]
+}

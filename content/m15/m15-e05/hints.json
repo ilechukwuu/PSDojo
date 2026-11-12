@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Ziehe die zwei Daten direkt voneinander ab, ohne .Ticks. Das Ergebnis ist ein TimeSpan.",
+    "Die ganze Dauer in einer Einheit steht in den Eigenschaften, die mit Total beginnen.",
+    "$Duration = $End - $Start, $Minutes = $Duration.TotalMinutes und $Hours = $Duration.TotalHours"
+  ],
+  "en": [
+    "Subtract the two dates directly, without .Ticks. The result is a TimeSpan.",
+    "The whole duration in one unit is in the properties that start with Total.",
+    "$Duration = $End - $Start, $Minutes = $Duration.TotalMinutes and $Hours = $Duration.TotalHours"
+  ]
+}

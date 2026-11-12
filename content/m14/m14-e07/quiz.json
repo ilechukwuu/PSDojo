@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "$Name = 'FS-02'. Was liefert 'Server $Name'?",
+        "en": "$Name = 'FS-02'. What does 'Server $Name' return?"
+      },
+      "options": {
+        "de": [
+          "Server FS-02",
+          "Server $Name",
+          "Server",
+          "Einen Fehler"
+        ],
+        "en": [
+          "Server FS-02",
+          "Server $Name",
+          "Server",
+          "An error"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "$Disk hat die Eigenschaft FreeGB mit dem Wert 75. Welche Zeile ergibt Free: 75?",
+        "en": "$Disk has the property FreeGB with the value 75. Which line gives Free: 75?"
+      },
+      "options": {
+        "de": [
+          "\"Free: $Disk.FreeGB\"",
+          "'Free: $($Disk.FreeGB)'",
+          "\"Free: $($Disk.FreeGB)\"",
+          "\"Free: ${Disk.FreeGB}\""
+        ],
+        "en": [
+          "\"Free: $Disk.FreeGB\"",
+          "'Free: $($Disk.FreeGB)'",
+          "\"Free: $($Disk.FreeGB)\"",
+          "\"Free: ${Disk.FreeGB}\""
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "$Server = 'FS-02'. Was liefert \"$Server_backup.zip\"?",
+        "en": "$Server = 'FS-02'. What does \"$Server_backup.zip\" return?"
+      },
+      "options": {
+        "de": [
+          "FS-02_backup.zip",
+          "$Server_backup.zip",
+          "Einen Fehler",
+          ".zip, weil eine Variable namens Server_backup gesucht wird"
+        ],
+        "en": [
+          "FS-02_backup.zip",
+          "$Server_backup.zip",
+          "An error",
+          ".zip, because a variable named Server_backup is looked for"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was liefert 'SRV-{0:D3}' -f 7?",
+        "en": "What does 'SRV-{0:D3}' -f 7 return?"
+      },
+      "options": {
+        "de": [
+          "SRV-007",
+          "SRV-7",
+          "SRV-D37",
+          "SRV-{7}"
+        ],
+        "en": [
+          "SRV-007",
+          "SRV-7",
+          "SRV-D37",
+          "SRV-{7}"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Wo muss die schließende Marke \"@ eines Here-Strings stehen?",
+        "en": "Where must the closing marker \"@ of a here-string stand?"
+      },
+      "options": {
+        "de": [
+          "Am Ende der letzten Textzeile",
+          "Ganz am Anfang einer eigenen Zeile",
+          "Eingerückt wie der umgebende Code",
+          "Irgendwo, die Position ist egal"
+        ],
+        "en": [
+          "At the end of the last line of text",
+          "At the very beginning of a line of its own",
+          "Indented like the surrounding code",
+          "Anywhere, the position does not matter"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was liefert '  fs-02.nordwind.example '.Trim().Split('.')[0]?",
+        "en": "What does '  fs-02.nordwind.example '.Trim().Split('.')[0] return?"
+      },
+      "options": {
+        "de": [
+          "nordwind",
+          "fs-02.nordwind.example",
+          "fs-02",
+          "example"
+        ],
+        "en": [
+          "nordwind",
+          "fs-02.nordwind.example",
+          "fs-02",
+          "example"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Ein Text in einer Mail lautet Backup of $Server finished. Was ist die Ursache?",
+        "en": "A text in a mail reads Backup of $Server finished. What is the cause?"
+      },
+      "options": {
+        "de": [
+          "Die Variable ist leer",
+          "Der Text steht in doppelten Anführungszeichen",
+          "Der Mailserver verändert den Text",
+          "Der Text steht in einfachen Anführungszeichen"
+        ],
+        "en": [
+          "The variable is empty",
+          "The text is in double quotes",
+          "The mail server changes the text",
+          "The text is in single quotes"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum ist \"Server $Name has $Free GB\" besser als 'Server ' + $Name + ' has ' + $Free + ' GB'?",
+        "en": "Why is \"Server $Name has $Free GB\" better than 'Server ' + $Name + ' has ' + $Free + ' GB'?"
+      },
+      "options": {
+        "de": [
+          "Es ist schneller",
+          "Es liest sich wie die Ausgabe und scheitert nicht, wenn ein Stück eine Zahl ist",
+          "Plus funktioniert mit Text nicht",
+          "Es verbraucht weniger Speicher"
+        ],
+        "en": [
+          "It is faster",
+          "It reads like the output and does not fail when a piece is a number",
+          "Plus does not work with text",
+          "It uses less memory"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

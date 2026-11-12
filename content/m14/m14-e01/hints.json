@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Texte 1 bis 3 brauchen doppelte Anführungszeichen, weil etwas eingesetzt wird. Text 4 braucht einfache, weil nichts ersetzt werden darf.",
+    "Eine Eigenschaft braucht $( ) um sich herum. In Text 3 folgt dem Variablennamen ein Unterstrich, der Name braucht also geschweifte Klammern.",
+    "$Line = \"Drive $($Disk.Letter) has $($Disk.FreeGB) GB free\" und $LogName = \"${Server}_$Year.log\""
+  ],
+  "en": [
+    "Texts 1 to 3 need double quotes because something is inserted. Text 4 needs single quotes because nothing may be replaced.",
+    "A property needs $( ) around it. In text 3 an underscore follows the variable name, so the name needs curly braces.",
+    "$Line = \"Drive $($Disk.Letter) has $($Disk.FreeGB) GB free\" and $LogName = \"${Server}_$Year.log\""
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Zeile besteht aus einer Vorlage in einfachen Anführungszeichen, dann -f, dann den Werten. Platzhalter zählen ab {0}.",
+    "Drei Stellen ist {0:D3}. Der Datumsaufbau steht nach einem Doppelpunkt im Platzhalter. Die Ausrichtung steht nach einem Komma, negativ für links.",
+    "'APP-{0:D3}' -f $Number, dann '{0:yyyy-MM-dd}' -f $Start, dann 'report_{0}_{1}.csv' -f $ServerName, $Stamp, dann '{0,-10}{1,6}' -f $ServerName, $FreeGB"
+  ],
+  "en": [
+    "Each line is a template in single quotes, then -f, then the values. Placeholders count from {0}.",
+    "Three digits is {0:D3}. The date layout goes after a colon inside the placeholder. Alignment goes after a comma, negative for left.",
+    "'APP-{0:D3}' -f $Number, then '{0:yyyy-MM-dd}' -f $Start, then 'report_{0}_{1}.csv' -f $ServerName, $Stamp, then '{0,-10}{1,6}' -f $ServerName, $FreeGB"
+  ]
+}

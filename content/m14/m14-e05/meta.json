@@ -1,0 +1,18 @@
+{
+  "id": "m14-e05",
+  "module": "m14",
+  "title": {
+    "de": "Drei kaputte Texte",
+    "en": "Three broken texts"
+  },
+  "type": "fix",
+  "order": 5,
+  "prerequisites": [
+    "m14-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Einfache Anführungszeichen ersetzen nichts, eine Eigenschaft braucht $( ), und ein Unterstrich nach dem Variablennamen braucht ${ }.",
+    "en": "Single quotes replace nothing, a property needs $( ), and an underscore after the variable name needs ${ }."
+  }
+}

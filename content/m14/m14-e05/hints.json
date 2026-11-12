@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Führe die Datei aus und gib die drei Variablen aus. Jede zeigt ein anderes Symptom aus der Checkliste der Lektion.",
+    "Der erste Text steht in der falschen Art von Anführungszeichen. Der zweite liest eine Eigenschaft ohne $( ). Im dritten folgt dem Variablennamen ein Unterstrich.",
+    "\"Backup of $Server finished\", dann \"Size: $($Backup.SizeGB) GB\", dann \"${Server}_full.bak\""
+  ],
+  "en": [
+    "Run the file and print the three variables. Each one shows a different symptom from the checklist in the lesson.",
+    "The first text is in the wrong kind of quotes. The second reads a property without $( ). In the third an underscore follows the variable name.",
+    "\"Backup of $Server finished\", then \"Size: $($Backup.SizeGB) GB\", then \"${Server}_full.bak\""
+  ]
+}

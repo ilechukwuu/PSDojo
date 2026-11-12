@@ -1,0 +1,18 @@
+{
+  "id": "m14-e04",
+  "module": "m14",
+  "title": {
+    "de": "Mehrzeiliger Text und Textmethoden",
+    "en": "Multi-line text and text methods"
+  },
+  "type": "write",
+  "order": 4,
+  "prerequisites": [
+    "m14-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Here-String zwischen @\" und \"@ ist Text über mehrere Zeilen, mit Ersetzung. Trim, Split, ToUpper und EndsWith bereinigen und zerlegen Text.",
+    "en": "A here-string between @\" and \"@ is text over several lines, with replacement. Trim, Split, ToUpper and EndsWith clean up and take text apart."
+  }
+}

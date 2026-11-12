@@ -1,0 +1,18 @@
+{
+  "id": "m15-e02",
+  "module": "m15",
+  "title": {
+    "de": "Zeitspannen und Monatsenden vorhersagen",
+    "en": "Predict time spans and month ends"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m15-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Days zählt nur ganze Tage der Spanne, TotalDays die ganze Dauer. AddMonths landet am Monatsende, wenn der Tag nicht existiert.",
+    "en": "Days counts only the whole days of the span, TotalDays the whole duration. AddMonths lands on the end of the month when the day does not exist."
+  }
+}

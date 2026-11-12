@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schreiben ist ToString mit dem Aufbau in Anführungszeichen. Achte auf die Schreibweise: MM ist der Monat, mm die Minute, HH die Stunde.",
+    "ParseExact nimmt drei Argumente: den Text, seinen Aufbau und $null. Die verbleibenden Tage sind die Days einer Subtraktion in Klammern.",
+    "$Stamp = $Started.ToString('yyyyMMdd-HHmm'), $Expires = [datetime]::ParseExact($GermanDate, 'dd.MM.yyyy', $null) und $DaysLeft = ($Expires - $Started).Days"
+  ],
+  "en": [
+    "Writing is ToString with the layout in quotes. Watch the case: MM is the month, mm the minute, HH the hour.",
+    "ParseExact takes three arguments: the text, its layout and $null. The days left are the Days of a subtraction in parentheses.",
+    "$Stamp = $Started.ToString('yyyyMMdd-HHmm'), $Expires = [datetime]::ParseExact($GermanDate, 'dd.MM.yyyy', $null) and $DaysLeft = ($Expires - $Started).Days"
+  ]
+}

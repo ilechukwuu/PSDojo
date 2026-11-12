@@ -1,0 +1,18 @@
+{
+  "id": "m14-e01",
+  "module": "m14",
+  "title": {
+    "de": "Einfache und doppelte Anführungszeichen",
+    "en": "Single and double quotes"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m13-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Einfache Anführungszeichen nehmen Text wörtlich. Doppelte ersetzen Variablen, und $( ) darin rechnet einen ganzen Ausdruck aus.",
+    "en": "Single quotes take text literally. Double quotes replace variables, and $( ) inside them evaluates a whole expression."
+  }
+}

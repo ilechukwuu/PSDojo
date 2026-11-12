@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Rechne zuerst die ganze Dauer aus: von Samstag 22:00 Uhr bis Montag 04:30 Uhr. Teile sie dann in ganze Tage und den Rest.",
+    "Ein ganzer Tag bringt dich zu Sonntag 22:00 Uhr. Von dort bis Montag 04:30 Uhr sind es sechseinhalb Stunden. Hours sind nur die ganzen Stunden dieses Rests.",
+    "Die Dauer ist 30,5 Stunden: Days 1, Hours 6, TotalHours 30.5. Der 14. März 2026 ist ein Samstag. Der April hat 30 Tage."
+  ],
+  "en": [
+    "Work out the whole duration first: from Saturday 22:00 to Monday 04:30. Then split it into whole days and the rest.",
+    "One whole day brings you to Sunday 22:00. From there to Monday 04:30 are six and a half hours. Hours is only the whole hours of that rest.",
+    "The duration is 30.5 hours: Days 1, Hours 6, TotalHours 30.5. 14 March 2026 is a Saturday. April has 30 days."
+  ]
+}

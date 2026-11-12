@@ -1,0 +1,19 @@
+{
+  "id": "m14-e07",
+  "module": "m14",
+  "title": {
+    "de": "Quiz: Strings",
+    "en": "Quiz: Strings"
+  },
+  "type": "quiz",
+  "order": 7,
+  "prerequisites": [
+    "m14-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

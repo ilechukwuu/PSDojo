@@ -1,0 +1,18 @@
+{
+  "id": "m14-e03",
+  "module": "m14",
+  "title": {
+    "de": "Der Formatoperator -f",
+    "en": "The format operator -f"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m14-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "'Text {0} {1}' -f Wert0, Wert1 setzt Werte in Platzhalter ein. {0:D3} füllt mit Nullen auf, {0,-10} richtet aus, {0:yyyy-MM-dd} formatiert ein Datum.",
+    "en": "'Text {0} {1}' -f value0, value1 puts values into placeholders. {0:D3} pads with zeros, {0,-10} aligns, {0:yyyy-MM-dd} formats a date."
+  }
+}

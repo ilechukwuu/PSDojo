@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Wie berechnest du das Datum vor 90 Tagen?",
+        "en": "How do you calculate the date 90 days ago?"
+      },
+      "options": {
+        "de": [
+          "(Get-Date) - 90",
+          "(Get-Date).AddDays(-90)",
+          "(Get-Date).SubtractDays(90)",
+          "(Get-Date).AddDays(90)"
+        ],
+        "en": [
+          "(Get-Date) - 90",
+          "(Get-Date).AddDays(-90)",
+          "(Get-Date).SubtractDays(90)",
+          "(Get-Date).AddDays(90)"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was ist das Ergebnis, wenn man ein Datum von einem anderen abzieht?",
+        "en": "What is the result of subtracting one date from another?"
+      },
+      "options": {
+        "de": [
+          "Eine Zahl von Tagen",
+          "Ein Datum",
+          "Ein TimeSpan",
+          "Ein Text"
+        ],
+        "en": [
+          "A number of days",
+          "A date",
+          "A TimeSpan",
+          "A text"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Eine Spanne dauert 36 Stunden. Was liefert ihre Eigenschaft Hours?",
+        "en": "A span lasts 36 hours. What does its property Hours return?"
+      },
+      "options": {
+        "de": [
+          "36",
+          "1.5",
+          "0",
+          "12"
+        ],
+        "en": [
+          "36",
+          "1.5",
+          "0",
+          "12"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was liefert ([datetime]'2026-01-31').AddMonths(1)?",
+        "en": "What does ([datetime]'2026-01-31').AddMonths(1) return?"
+      },
+      "options": {
+        "de": [
+          "Den 28. Februar 2026",
+          "Den 3. März 2026",
+          "Einen Fehler",
+          "Den 31. Februar 2026"
+        ],
+        "en": [
+          "28 February 2026",
+          "3 March 2026",
+          "An error",
+          "31 February 2026"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Welcher Aufbau ergibt für den 14. März 2026 den Text 2026-03-14?",
+        "en": "Which layout gives the text 2026-03-14 for 14 March 2026?"
+      },
+      "options": {
+        "de": [
+          "yyyy-mm-dd",
+          "yyyy-MM-dd",
+          "YYYY-MM-DD",
+          "yyyy-MM-DD"
+        ],
+        "en": [
+          "yyyy-mm-dd",
+          "yyyy-MM-dd",
+          "YYYY-MM-DD",
+          "yyyy-MM-DD"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was liefert [datetime]'03.04.2026'?",
+        "en": "What does [datetime]'03.04.2026' return?"
+      },
+      "options": {
+        "de": [
+          "Den 3. April 2026",
+          "Einen Fehler",
+          "Den 4. März 2026, weil der Cast den Monat zuerst liest",
+          "Das hängt von der Systemsprache ab"
+        ],
+        "en": [
+          "3 April 2026",
+          "An error",
+          "4 March 2026, because the cast reads the month first",
+          "That depends on the system language"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Wie liest du den Text 14.03.2026 sicher in ein Datum?",
+        "en": "How do you safely read the text 14.03.2026 into a date?"
+      },
+      "options": {
+        "de": [
+          "[datetime]'14.03.2026'",
+          "Get-Date '14.03.2026'",
+          "'14.03.2026'.ToDate()",
+          "[datetime]::ParseExact('14.03.2026', 'dd.MM.yyyy', $null)"
+        ],
+        "en": [
+          "[datetime]'14.03.2026'",
+          "Get-Date '14.03.2026'",
+          "'14.03.2026'.ToDate()",
+          "[datetime]::ParseExact('14.03.2026', 'dd.MM.yyyy', $null)"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum eignet sich yyyyMMdd-HHmm für Dateinamen?",
+        "en": "Why is yyyyMMdd-HHmm suitable for file names?"
+      },
+      "options": {
+        "de": [
+          "Es ist das kürzeste Format",
+          "Solche Namen sortieren sich von selbst nach der Zeit",
+          "Windows verlangt dieses Format",
+          "Es enthält keine Zahlen"
+        ],
+        "en": [
+          "It is the shortest format",
+          "Such names sort by time by themselves",
+          "Windows requires this format",
+          "It contains no numbers"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

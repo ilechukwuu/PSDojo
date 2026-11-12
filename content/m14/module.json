@@ -1,0 +1,13 @@
+{
+  "id": "m14",
+  "part": 1,
+  "order": 14,
+  "track": "core",
+  "title": {
+    "de": "Strings",
+    "en": "Strings"
+  },
+  "prerequisites": [
+    "m13"
+  ]
+}

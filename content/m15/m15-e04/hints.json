@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Gib $Expires nach der ersten Zeile aus. Welchen Monat zeigt es, und welchen Monat meinte der Text?",
+    "Der Text hat den Aufbau dd.MM.yyyy und braucht ParseExact. Die Warnung beginnt vor dem Ablauf, die Zahl ist also negativ. Der Vergleich muss Daten benutzen, keine Texte.",
+    "$Expires = [datetime]::ParseExact($ExpiryText, 'dd.MM.yyyy', $null), $WarnFrom = $Expires.AddDays(-30) und $ShouldWarn = $Today -ge $WarnFrom"
+  ],
+  "en": [
+    "Print $Expires after the first line. Which month does it show, and which month did the text mean?",
+    "The text has the layout dd.MM.yyyy and needs ParseExact. The warning starts before the expiry, so the number is negative. The comparison must use dates, not texts.",
+    "$Expires = [datetime]::ParseExact($ExpiryText, 'dd.MM.yyyy', $null), $WarnFrom = $Expires.AddDays(-30) and $ShouldWarn = $Today -ge $WarnFrom"
+  ]
+}

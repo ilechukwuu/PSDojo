@@ -1,0 +1,18 @@
+{
+  "id": "m15-e05",
+  "module": "m15",
+  "title": {
+    "de": "Zeitspanne statt Divisionskette",
+    "en": "A time span instead of a chain of divisions"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m15-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ende minus Anfang ist ein TimeSpan. TotalMinutes und TotalHours ersetzen das Umrechnen von Hand mit festen Zahlen.",
+    "en": "End minus start is a TimeSpan. TotalMinutes and TotalHours replace converting by hand with fixed numbers."
+  }
+}

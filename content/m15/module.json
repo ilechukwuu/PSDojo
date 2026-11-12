@@ -1,0 +1,13 @@
+{
+  "id": "m15",
+  "part": 1,
+  "order": 15,
+  "track": "core",
+  "title": {
+    "de": "Datum und Zeitspannen",
+    "en": "Dates and time spans"
+  },
+  "prerequisites": [
+    "m14"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "In die Vergangenheit geht es mit AddDays und einer negativen Zahl. Der Abstand zwischen zwei Daten ist eine einfache Subtraktion.",
+    "Das spätere Datum steht links vom Minuszeichen. Frühere Daten sind kleiner, vorher ist also -lt.",
+    "$Limit = $Today.AddDays(-90), $Age = $Today - $LastLogon, $AgeDays = $Age.Days, $IsStale = $LastLogon -lt $Limit"
+  ],
+  "en": [
+    "Going back in time is AddDays with a negative number. The distance between two dates is a plain subtraction.",
+    "The later date stands on the left of the minus sign. Earlier dates are smaller, so before is -lt.",
+    "$Limit = $Today.AddDays(-90), $Age = $Today - $LastLogon, $AgeDays = $Age.Days, $IsStale = $LastLogon -lt $Limit"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m15-e03",
+  "module": "m15",
+  "title": {
+    "de": "Daten als Text schreiben und aus Text lesen",
+    "en": "Write dates as text and read them from text"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m15-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "ToString('yyyy-MM-dd') schreibt ein Datum in festem Aufbau. [datetime]::ParseExact(Text, Aufbau, $null) liest einen Text mit bekanntem Aufbau.",
+    "en": "ToString('yyyy-MM-dd') writes a date in a fixed layout. [datetime]::ParseExact(text, layout, $null) reads a text with a known layout."
+  }
+}
