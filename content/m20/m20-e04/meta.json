@@ -1,0 +1,18 @@
+{
+  "id": "m20-e04",
+  "module": "m20",
+  "title": {
+    "de": "Select-String: Dateien durchsuchen",
+    "en": "Select-String: search files"
+  },
+  "type": "write",
+  "order": 4,
+  "prerequisites": [
+    "m20-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Select-String -Path -Pattern durchsucht Dateien nach einem Muster. Jeder Treffer kennt Line, LineNumber und Filename.",
+    "en": "Select-String -Path -Pattern searches files for a pattern. Every match knows Line, LineNumber and Filename."
+  }
+}

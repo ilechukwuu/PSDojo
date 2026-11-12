@@ -1,0 +1,14 @@
+{
+  "id": "m20",
+  "part": 1,
+  "order": 20,
+  "track": "core",
+  "title": {
+    "de": "Reguläre Ausdrücke",
+    "en": "Regular expressions"
+  },
+  "prerequisites": [
+    "m14",
+    "m19"
+  ]
+}

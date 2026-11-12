@@ -1,0 +1,18 @@
+{
+  "id": "m20-e05",
+  "module": "m20",
+  "title": {
+    "de": "Drei Musterfehler in der Namensprüfung",
+    "en": "Three pattern mistakes in the name check"
+  },
+  "type": "fix",
+  "order": 5,
+  "prerequisites": [
+    "m20-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Zum Prüfen ganzer Texte gehören ^ und $. Ein gemeinter Punkt wird \\. geschrieben. Der Ersatz mit $1 steht in einfachen Anführungszeichen.",
+    "en": "Checking whole texts needs ^ and $. A dot that means a dot is written \\. and the replacement with $1 goes in single quotes."
+  }
+}

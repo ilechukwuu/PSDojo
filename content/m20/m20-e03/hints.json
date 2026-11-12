@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die Schritte 1 bis 3 sind je ein -replace. Schritt 4 ist ein -match in einem if, danach liest du die benannten Gruppen aus $Matches.",
+    "Der Ersatz mit $2 und $1 muss in einfachen Anführungszeichen stehen. Alles ab dem @ ist das Muster '@.*$'.",
+    "$DisplayName = $Name -replace '^(\\w+), (\\w+)$', '$2 $1' und das Ticketmuster lautet '^(?<Prefix>[A-Za-z]+)-(?<Number>\\d+)$'"
+  ],
+  "en": [
+    "Steps 1 to 3 are one -replace each. Step 4 is a -match inside an if, followed by reading the named groups from $Matches.",
+    "The replacement with $2 and $1 must be in single quotes. Everything from the @ on is the pattern '@.*$'.",
+    "$DisplayName = $Name -replace '^(\\w+), (\\w+)$', '$2 $1' and the ticket pattern is '^(?<Prefix>[A-Za-z]+)-(?<Number>\\d+)$'"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Beschreibe jeden Teil durch sein Aussehen und seine Nachbarn: das Datum am Anfang, die Stufe nach der Uhrzeit, der Server nach dem Wort on, die Zahl vor percent.",
+    "Setze zwischen die festen Punkte .* für beliebigen Text. Ein Muster, das nur jedes Wort durch \\S+ ersetzt, zählt weiter Wörter.",
+    "'^(?<Date>\\d{4}-\\d{2}-\\d{2}) \\S+ (?<Level>\\w+) .* on (?<Server>FS-\\d+) .*?(?<Percent>\\d+) percent' und danach in einem if $Matches.Date, $Matches.Level, $Matches.Server und [int]$Matches.Percent lesen"
+  ],
+  "en": [
+    "Describe each part by what it looks like and what stands next to it: the date at the start, the level after the time, the server after the word on, the number in front of percent.",
+    "Between the fixed points put .* for any text. A pattern that only replaces every word with \\S+ still counts words.",
+    "'^(?<Date>\\d{4}-\\d{2}-\\d{2}) \\S+ (?<Level>\\w+) .* on (?<Server>FS-\\d+) .*?(?<Percent>\\d+) percent' and then read $Matches.Date, $Matches.Level, $Matches.Server and [int]$Matches.Percent inside an if"
+  ]
+}

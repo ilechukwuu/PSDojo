@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schritt 1 ist Select-String mit -Path und -Pattern. Die Schritte 2 bis 4 lesen aus seinem Ergebnis: die Anzahl, eine Eigenschaft des ersten Treffers und eine Eigenschaft aller Treffer.",
+    "Setze das Ergebnis in @( ), damit Count und [0] auch bei genau einem Treffer funktionieren. Für Schritt 5 macht der Schalter -SimpleMatch aus dem Muster reinen Text.",
+    "$Errors = Select-String -Path $LogFile -Pattern 'ERROR', dann @($Errors).Count, @($Errors)[0].LineNumber, @($Errors).Line und Select-String -Path $LogFile -Pattern 'D:\\Backup\\full.bak' -SimpleMatch"
+  ],
+  "en": [
+    "Step 1 is Select-String with -Path and -Pattern. Steps 2 to 4 read from its result: the count, a property of the first match and a property of all matches.",
+    "Wrap the result in @( ) so that Count and [0] also work when there is exactly one match. For step 5 the switch -SimpleMatch turns the pattern into plain text.",
+    "$Errors = Select-String -Path $LogFile -Pattern 'ERROR', then @($Errors).Count, @($Errors)[0].LineNumber, @($Errors).Line and Select-String -Path $LogFile -Pattern 'D:\\Backup\\full.bak' -SimpleMatch"
+  ]
+}

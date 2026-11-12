@@ -1,0 +1,18 @@
+{
+  "id": "m20-e02",
+  "module": "m20",
+  "title": {
+    "de": "Punkt, Anker, Schreibweise: was passt wirklich",
+    "en": "Dot, anchors, case: what really matches"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m20-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Punkt passt auf jedes Zeichen, \\. nur auf einen Punkt. ^ und $ verankern Anfang und Ende. Ohne Anker reicht ein Treffer irgendwo im Text.",
+    "en": "A dot matches any character, \\. only a dot. ^ and $ anchor start and end. Without anchors a match anywhere in the text is enough."
+  }
+}

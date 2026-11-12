@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jedes Muster akzeptiert den guten Standardwert. Probiere Werte, die ähnlich aussehen und abgelehnt werden müssen, etwa XFS-021 oder fs-02.nordwindXexample.",
+    "Das erste Muster braucht Anker an beiden Enden. Das zweite braucht maskierte Punkte und einen Anker am Ende. Beim dritten steht der Ersatz in den falschen Anführungszeichen.",
+    "'^FS-\\d\\d$', dann '\\.nordwind\\.example$', dann der Ersatz '$2 $1' in einfachen Anführungszeichen"
+  ],
+  "en": [
+    "Each pattern accepts the good default value. Try values that look similar and must be rejected, such as XFS-021 or fs-02.nordwindXexample.",
+    "The first pattern needs anchors at both ends. The second needs escaped dots and an anchor at the end. The third has its replacement in the wrong quotes.",
+    "'^FS-\\d\\d$', then '\\.nordwind\\.example$', then the replacement '$2 $1' in single quotes"
+  ]
+}

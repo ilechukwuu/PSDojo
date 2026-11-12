@@ -1,0 +1,18 @@
+{
+  "id": "m20-e06",
+  "module": "m20",
+  "title": {
+    "de": "Ein Muster statt Split und Positionen",
+    "en": "One pattern instead of Split and positions"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m20-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Muster mit benannten Gruppen beschreibt den Aufbau einer Zeile. Es bricht nicht, wenn sich die Zahl der Wörter ändert.",
+    "en": "A pattern with named groups describes the structure of a line. It does not break when the number of words changes."
+  }
+}

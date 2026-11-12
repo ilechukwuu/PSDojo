@@ -1,0 +1,19 @@
+{
+  "id": "m20-e01",
+  "module": "m20",
+  "title": {
+    "de": "-match und $Matches: aus einer Logzeile lesen",
+    "en": "-match and $Matches: read from a log line"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m14-e07",
+    "m19-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "-match prüft Text gegen ein Muster. \\d ist eine Ziffer, + heißt ein- oder mehrmals. Runde Klammern fangen einen Teil, er steht danach in $Matches[1].",
+    "en": "-match tests text against a pattern. \\d is a digit, + means one or more. Parentheses capture a part, which is then in $Matches[1]."
+  }
+}

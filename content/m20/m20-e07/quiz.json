@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was liefert 'FS-0234' -match 'FS-\\d\\d'?",
+        "en": "What does 'FS-0234' -match 'FS-\\d\\d' return?"
+      },
+      "options": {
+        "de": [
+          "False, es sind vier Ziffern",
+          "True, das Muster kommt im Text vor",
+          "Den Text FS-02",
+          "Einen Fehler"
+        ],
+        "en": [
+          "False, there are four digits",
+          "True, the pattern occurs in the text",
+          "The text FS-02",
+          "An error"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Welches Muster passt nur auf Texte, die genau aus FS- und zwei Ziffern bestehen?",
+        "en": "Which pattern matches only texts that consist exactly of FS- and two digits?"
+      },
+      "options": {
+        "de": [
+          "'FS-\\d\\d'",
+          "'FS-..'",
+          "'^FS-\\d\\d$'",
+          "'*FS-\\d\\d*'"
+        ],
+        "en": [
+          "'FS-\\d\\d'",
+          "'FS-..'",
+          "'^FS-\\d\\d$'",
+          "'*FS-\\d\\d*'"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was bedeutet ein Punkt in einem regulären Ausdruck?",
+        "en": "What does a dot mean in a regular expression?"
+      },
+      "options": {
+        "de": [
+          "Einen Punkt",
+          "Das Ende des Musters",
+          "Beliebig viele Zeichen",
+          "Genau ein beliebiges Zeichen"
+        ],
+        "en": [
+          "A dot",
+          "The end of the pattern",
+          "Any number of characters",
+          "Exactly one character of any kind"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Wo steht nach 'Disk on FS-02' -match 'on (FS-\\d+)' der Servername?",
+        "en": "Where is the server name after 'Disk on FS-02' -match 'on (FS-\\d+)'?"
+      },
+      "options": {
+        "de": [
+          "In $Matches[1]",
+          "In $Matches[0]",
+          "In $Match",
+          "In $_"
+        ],
+        "en": [
+          "In $Matches[1]",
+          "In $Matches[0]",
+          "In $Match",
+          "In $_"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Warum liefert 'Keller, Anna' -replace '^(\\w+), (\\w+)$', \"$2 $1\" nicht Anna Keller?",
+        "en": "Why does 'Keller, Anna' -replace '^(\\w+), (\\w+)$', \"$2 $1\" not return Anna Keller?"
+      },
+      "options": {
+        "de": [
+          "Das Muster ist falsch",
+          "In doppelten Anführungszeichen ersetzt PowerShell $2 und $1 selbst, bevor -replace läuft",
+          "-replace kennt keine Gruppen",
+          "Die Gruppen müssten benannt sein"
+        ],
+        "en": [
+          "The pattern is wrong",
+          "In double quotes PowerShell replaces $2 and $1 itself before -replace runs",
+          "-replace does not know groups",
+          "The groups would have to be named"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Du suchst in Logdateien nach dem wörtlichen Text C:\\Temp\\a.log. Welcher Schalter von Select-String hilft?",
+        "en": "You search log files for the literal text C:\\Temp\\a.log. Which switch of Select-String helps?"
+      },
+      "options": {
+        "de": [
+          "-NotMatch",
+          "-CaseSensitive",
+          "-SimpleMatch",
+          "-Context"
+        ],
+        "en": [
+          "-NotMatch",
+          "-CaseSensitive",
+          "-SimpleMatch",
+          "-Context"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Wann wird $Matches aktualisiert?",
+        "en": "When is $Matches refreshed?"
+      },
+      "options": {
+        "de": [
+          "Bei jedem -match, auch wenn es scheitert",
+          "Nur einmal pro Skript",
+          "Bei jedem -replace",
+          "Nur wenn ein -match erfolgreich war"
+        ],
+        "en": [
+          "With every -match, also when it fails",
+          "Only once per script",
+          "With every -replace",
+          "Only when a -match succeeded"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum ist ein Muster mit benannten Gruppen robuster als Split und feste Positionen?",
+        "en": "Why is a pattern with named groups more robust than Split and fixed positions?"
+      },
+      "options": {
+        "de": [
+          "Es ist schneller",
+          "Es findet Teile über ihr Aussehen und ihre Nachbarn, nicht über die Zahl der Wörter davor",
+          "Split funktioniert nur mit Kommas",
+          "Es braucht keine Tests"
+        ],
+        "en": [
+          "It is faster",
+          "It finds parts by what they look like and what stands next to them, not by the number of words in front",
+          "Split only works with commas",
+          "It needs no tests"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

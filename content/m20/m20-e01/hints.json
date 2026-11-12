@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Schritt 1 ist ein einfaches -match mit dem Wort. Die Schritte 2 und 3 brauchen runde Klammern um den gewünschten Teil und ein if um den Treffer.",
+    "Der gefangene Teil ist $Matches[1]. $Matches[0] ist der ganze Treffer einschließlich des Worts on.",
+    "if ($LogLine -match 'on (FS-\\d+)') { $Server = $Matches[1] } und if ($LogLine -match '(\\d+) percent') { $Percent = [int]$Matches[1] }"
+  ],
+  "en": [
+    "Step 1 is a plain -match with the word. Steps 2 and 3 need parentheses around the part you want, and an if around the match.",
+    "The captured part is $Matches[1]. $Matches[0] is the whole match including the word on.",
+    "if ($LogLine -match 'on (FS-\\d+)') { $Server = $Matches[1] } and if ($LogLine -match '(\\d+) percent') { $Percent = [int]$Matches[1] }"
+  ]
+}

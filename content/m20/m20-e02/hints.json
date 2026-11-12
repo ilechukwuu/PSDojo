@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Frage bei jedem -match: Kommt das Muster irgendwo im Text vor, und gibt es einen Anker, der zusätzliche Zeichen verbietet?",
+    "Ohne Anker enthält FS-0234 das Stück FS-02, das genügt. -cmatch unterscheidet Groß- und Kleinschreibung. Ein unmaskierter Punkt steht für jedes Zeichen.",
+    "Zeile 5 ersetzt alle zwanzig Zeichen durch einen Unterstrich. Zeile 6 ersetzt nur die zwei Punkte. Zeile 7 ersetzt jede Zifferngruppe."
+  ],
+  "en": [
+    "For each -match ask: does the pattern occur anywhere in the text, and is there an anchor that forbids extra characters?",
+    "Without anchors FS-0234 contains FS-02, which is enough. -cmatch is case-sensitive. An unescaped dot stands for every character.",
+    "Line 5 replaces all twenty characters with an underscore. Line 6 replaces only the two dots. Line 7 replaces every group of digits."
+  ]
+}
