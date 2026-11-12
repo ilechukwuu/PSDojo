@@ -1,0 +1,52 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  module:
+    name: Module and content (${{ matrix.shell }})
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shell: [powershell, pwsh]
+    defaults:
+      run:
+        shell: ${{ matrix.shell }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pester 5
+        run: Install-Module -Name Pester -MinimumVersion 5.3.0 -Scope CurrentUser -Force -SkipPublisherCheck
+      - name: Run meta, engine, visibility and review tests
+        run: ./tests/Invoke-AllTests.ps1
+
+  web:
+    name: Web app
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Run toggle, visibility and page tests
+        run: dotnet test web/PSDojo.Web.Tests
+
+  runner:
+    name: Runner security
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Install Pester 5
+        shell: pwsh
+        run: Install-Module -Name Pester -MinimumVersion 5.3.0 -Scope CurrentUser -Force -SkipPublisherCheck
+      - name: Build runner image
+        shell: pwsh
+        run: ./runner/Build-RunnerImage.ps1
+      - name: Run container security tests
+        run: dotnet test runner/PSDojo.Runner.Tests
