@@ -1,0 +1,18 @@
+{
+  "id": "m24-e04",
+  "module": "m24",
+  "title": {
+    "de": "Drei Fehler mit Skriptblöcken",
+    "en": "Three mistakes with script blocks"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m24-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Block in einer Variablen braucht & zum Aufruf, mit & aufgerufen bekommt er seine Eingabe über param und nicht über $_, und ein Filter steht in geschweiften Klammern.",
+    "en": "A block in a variable needs & to be invoked, invoked with & it gets its input through param and not through $_, and a filter stands in braces."
+  }
+}

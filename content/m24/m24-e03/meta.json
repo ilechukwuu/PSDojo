@@ -1,0 +1,18 @@
+{
+  "id": "m24-e03",
+  "module": "m24",
+  "title": {
+    "de": "Wann liest ein Block seine Variablen?",
+    "en": "When does a block read its variables?"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m24-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Skriptblock liest Variablen von aussen erst beim Aufruf. GetNewClosure() friert die Werte vom Moment der Definition ein.",
+    "en": "A script block reads outer variables only when it is invoked. GetNewClosure() freezes the values of the moment of definition."
+  }
+}

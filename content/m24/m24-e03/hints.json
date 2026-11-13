@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Frage bei jedem Aufruf, welchen Wert $Limit im Moment des Aufrufs hat, nicht im Moment, in dem der Block geschrieben wurde.",
+    "Die eingefrorene Kopie behält den Wert, den $Limit beim Aufruf von GetNewClosure() hatte. Ein Block, der nur gespeichert wird, läuft nicht.",
+    "12 liegt nicht unter 10, aber unter 20, die eingefrorene Kopie nutzt weiter 20, das Original nun 5. Der Ping-Block wurde nie aufgerufen, und der letzte Block gibt zwei Texte aus."
+  ],
+  "en": [
+    "For every call, ask which value $Limit has at the moment of the call, not at the moment the block was written.",
+    "The frozen copy keeps the value that $Limit had when GetNewClosure() was called. A block that is only stored does not run.",
+    "12 is not below 10, it is below 20, the frozen copy still uses 20, the original now uses 5. The ping block was never invoked, and the last block outputs two texts."
+  ]
+}

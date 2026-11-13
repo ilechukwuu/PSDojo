@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der Block ist ein Paar geschweifter Klammern, zugewiesen an $ToGB. Seine erste Zeile ist param($Bytes), die zweite die Rechnung mit [math]::Round.",
+    "& $ToGB 53687091200 ruft den Block mit einem Wert auf. Für die Liste ruft ihn eine foreach-Schleife einmal pro Wert auf.",
+    "$ToGB = { param($Bytes) [math]::Round($Bytes / 1GB, 1) }, $Size = & $ToGB 53687091200 und $Sizes = foreach ($Value in $VolumeBytes) { & $ToGB $Value }"
+  ],
+  "en": [
+    "The block is a pair of braces assigned to $ToGB. Its first line is param($Bytes), the second the calculation with [math]::Round.",
+    "& $ToGB 53687091200 invokes the block with a value. For the list, a foreach loop invokes it once per value.",
+    "$ToGB = { param($Bytes) [math]::Round($Bytes / 1GB, 1) }, $Size = & $ToGB 53687091200 and $Sizes = foreach ($Value in $VolumeBytes) { & $ToGB $Value }"
+  ]
+}

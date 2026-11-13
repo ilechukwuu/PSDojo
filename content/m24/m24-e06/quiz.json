@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was passiert bei $Check = { Restart-Service -Name Spooler }?",
+        "en": "What happens at $Check = { Restart-Service -Name Spooler }?"
+      },
+      "options": {
+        "de": [
+          "Der Dienst wird neu gestartet",
+          "Nichts wird ausgeführt, der Code wird nur gespeichert",
+          "Es gibt einen Syntaxfehler",
+          "Der Dienst wird beim nächsten Tastendruck neu gestartet"
+        ],
+        "en": [
+          "The service is restarted",
+          "Nothing is run, the code is only stored",
+          "There is a syntax error",
+          "The service is restarted at the next key press"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Wie führst du den Block in $Check aus?",
+        "en": "How do you run the block in $Check?"
+      },
+      "options": {
+        "de": [
+          "$Check",
+          "Run $Check",
+          "& $Check",
+          "$Check.Start()"
+        ],
+        "en": [
+          "$Check",
+          "Run $Check",
+          "& $Check",
+          "$Check.Start()"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was ist $_ in einem Block, den du mit & $Block $Value aufrufst?",
+        "en": "What is $_ in a block that you invoke with & $Block $Value?"
+      },
+      "options": {
+        "de": [
+          "Der Wert von $Value",
+          "Der Block selbst",
+          "Ein Fehler",
+          "Leer, denn kein Cmdlet hat es gesetzt"
+        ],
+        "en": [
+          "The value of $Value",
+          "The block itself",
+          "An error",
+          "Empty, because no cmdlet has set it"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "$IsLow enthält einen Filterblock. Welcher Aufruf filtert richtig?",
+        "en": "$IsLow holds a filter block. Which call filters correctly?"
+      },
+      "options": {
+        "de": [
+          "$Volumes | Where-Object -FilterScript $IsLow",
+          "$Volumes | Where-Object { $IsLow }",
+          "$Volumes | Where-Object ($IsLow) -eq $true",
+          "$Volumes | $IsLow"
+        ],
+        "en": [
+          "$Volumes | Where-Object -FilterScript $IsLow",
+          "$Volumes | Where-Object { $IsLow }",
+          "$Volumes | Where-Object ($IsLow) -eq $true",
+          "$Volumes | $IsLow"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Ein Block nutzt $Limit von aussen. $Limit wird nach der Definition geändert. Welchen Wert sieht der Block beim Aufruf?",
+        "en": "A block uses $Limit from outside. $Limit is changed after the definition. Which value does the block see when invoked?"
+      },
+      "options": {
+        "de": [
+          "Den Wert bei der Definition",
+          "Den Wert zum Zeitpunkt des Aufrufs",
+          "Immer $null",
+          "Beide Werte als Liste"
+        ],
+        "en": [
+          "The value at definition",
+          "The value at the time of the call",
+          "Always $null",
+          "Both values as a list"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was ist der Unterschied zwischen ( ) und { } nach Where-Object?",
+        "en": "What is the difference between ( ) and { } after Where-Object?"
+      },
+      "options": {
+        "de": [
+          "Keiner",
+          "Runde Klammern sind schneller",
+          "Runde Klammern rechnen sofort einmal, geschweifte übergeben Code für später",
+          "Geschweifte Klammern gelten nur in PowerShell 7"
+        ],
+        "en": [
+          "None",
+          "Parentheses are faster",
+          "Parentheses compute once immediately, braces pass code for later",
+          "Braces only work in PowerShell 7"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Wozu dient eine Hashtable mit Skriptblöcken als Werten?",
+        "en": "What is a hashtable with script blocks as values for?"
+      },
+      "options": {
+        "de": [
+          "Sie macht das Skript schneller",
+          "Sie verschlüsselt den Code",
+          "Sie ist nötig für Pipelines",
+          "Sie wählt eine Aktion über ihren Namen aus und ersetzt lange if-Ketten"
+        ],
+        "en": [
+          "It makes the script faster",
+          "It encrypts the code",
+          "It is required for pipelines",
+          "It picks an action by its name and replaces long if chains"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum ist Invoke-Expression mit zusammengebautem Text gefährlich?",
+        "en": "Why is Invoke-Expression with assembled text dangerous?"
+      },
+      "options": {
+        "de": [
+          "Es ist langsam",
+          "Ein Wert im Text kann als zusätzlicher Befehl ausgeführt werden",
+          "Es funktioniert nur als Administrator",
+          "Es löscht Variablen"
+        ],
+        "en": [
+          "It is slow",
+          "A value in the text can be run as an additional command",
+          "It only works as administrator",
+          "It deletes variables"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

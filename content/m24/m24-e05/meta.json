@@ -1,0 +1,18 @@
+{
+  "id": "m24-e05",
+  "module": "m24",
+  "title": {
+    "de": "Eine Tabelle von Prüfungen statt einer if-Kette",
+    "en": "A table of checks instead of an if chain"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m24-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Skriptblöcke als Werte einer Hashtable ergeben eine Tabelle von Aktionen: Der Name wählt den Block, & führt ihn aus.",
+    "en": "Script blocks as values of a hashtable give a table of actions: the name picks the block, & runs it."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jeder Zweig der Kette wird zu einer Zeile einer Hashtable: der Name als Schlüssel, der Vergleich als Skriptblock mit param($Value).",
+    "$Checks[$CheckName] liefert den Block. Setze & davor und $Value dahinter, um ihn auszuführen.",
+    "$Checks = @{ Disk = { param($Value) $Value -ge 15 }; Memory = { param($Value) $Value -ge 10 }; Latency = { param($Value) $Value -le 200 } } und $Healthy = & $Checks[$CheckName] $Value"
+  ],
+  "en": [
+    "Each branch of the chain becomes one line of a hashtable: the name as key, the comparison as a script block with param($Value).",
+    "$Checks[$CheckName] returns the block. Put & in front and $Value behind to run it.",
+    "$Checks = @{ Disk = { param($Value) $Value -ge 15 }; Memory = { param($Value) $Value -ge 10 }; Latency = { param($Value) $Value -le 200 } } and $Healthy = & $Checks[$CheckName] $Value"
+  ]
+}

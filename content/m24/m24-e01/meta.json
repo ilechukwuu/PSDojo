@@ -1,0 +1,18 @@
+{
+  "id": "m24-e01",
+  "module": "m24",
+  "title": {
+    "de": "Code in einer Variablen",
+    "en": "Code in a variable"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m23-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Skriptblock ist Code in geschweiften Klammern, der erst läuft, wenn man ihn mit & aufruft. Mit param nimmt er Eingaben entgegen.",
+    "en": "A script block is code in braces that only runs when it is invoked with &. With param it takes input."
+  }
+}

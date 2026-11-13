@@ -1,0 +1,18 @@
+{
+  "id": "m24-e02",
+  "module": "m24",
+  "title": {
+    "de": "Skriptblöcke als Argumente",
+    "en": "Script blocks as arguments"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m24-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Cmdlets wie Where-Object und ForEach-Object nehmen einen Skriptblock als Parameterwert. Eine Variable mit einem Block wird direkt übergeben, ohne weitere Klammern.",
+    "en": "Cmdlets such as Where-Object and ForEach-Object take a script block as a parameter value. A variable holding a block is passed directly, without further braces."
+  }
+}

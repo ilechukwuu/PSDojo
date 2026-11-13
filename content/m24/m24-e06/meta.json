@@ -1,0 +1,19 @@
+{
+  "id": "m24-e06",
+  "module": "m24",
+  "title": {
+    "de": "Quiz: Skriptblöcke",
+    "en": "Quiz: Script blocks"
+  },
+  "type": "quiz",
+  "order": 6,
+  "prerequisites": [
+    "m24-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

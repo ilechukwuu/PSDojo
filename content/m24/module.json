@@ -1,0 +1,13 @@
+{
+  "id": "m24",
+  "part": 2,
+  "order": 24,
+  "track": "core",
+  "title": {
+    "de": "Skriptblöcke",
+    "en": "Script blocks"
+  },
+  "prerequisites": [
+    "m23"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die erste Fehlermeldung zeigt auf die Zeile, in der der Block wie ein Befehl benutzt wird. Frag dich danach, woher der Block sein Volume bekommt.",
+    "Ein Block in einer Variablen wird mit & ausgeführt. So aufgerufen hat er kein $_, er braucht also param($Volume). Der Filter von Where-Object braucht geschweifte Klammern.",
+    "Ergänze param($Volume) im Block und ersetze darin $_ durch $Volume, schreibe & $GetStatus $Volume in der Schleife und Where-Object { $_.FreePercent -lt 10 } in der letzten Zeile."
+  ],
+  "en": [
+    "The first error message points at the line where the block is used like a command. After that, ask where the block gets its volume from.",
+    "A block in a variable is run with &. Invoked that way it has no $_, so it needs param($Volume). The filter of Where-Object needs braces.",
+    "Add param($Volume) to the block and replace $_ with $Volume in it, write & $GetStatus $Volume in the loop, and Where-Object { $_.FreePercent -lt 10 } in the last line."
+  ]
+}

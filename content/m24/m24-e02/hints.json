@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Beide Blöcke arbeiten mit $_, dem aktuellen Objekt. $IsLow vergleicht $_.FreePercent mit 15, $ToLabel baut einen Text aus $_.Server und $_.Drive.",
+    "Übergib die Variable direkt: Where-Object -FilterScript $IsLow. Keine geschweiften Klammern um die Variable.",
+    "$IsLow = { $_.FreePercent -lt 15 }, $LowFile = $FileVolumes | Where-Object -FilterScript $IsLow, dasselbe für $LowApp, $ToLabel = { \"$($_.Server) $($_.Drive)\" } und $Labels = @($LowFile) + @($LowApp) | ForEach-Object -Process $ToLabel"
+  ],
+  "en": [
+    "Both blocks work with $_, the current object. $IsLow compares $_.FreePercent with 15, $ToLabel builds a text from $_.Server and $_.Drive.",
+    "Pass the variable directly: Where-Object -FilterScript $IsLow. No braces around the variable.",
+    "$IsLow = { $_.FreePercent -lt 15 }, $LowFile = $FileVolumes | Where-Object -FilterScript $IsLow, the same for $LowApp, $ToLabel = { \"$($_.Server) $($_.Drive)\" } and $Labels = @($LowFile) + @($LowApp) | ForEach-Object -Process $ToLabel"
+  ]
+}
