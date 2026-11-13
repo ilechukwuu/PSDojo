@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Get-ChildItem braucht -Path, -Filter '*.log', -File und den Schalter, der in Unterordner hinuntergeht. Die Grenze ist (Get-Date).AddDays(-30).",
+    "Where-Object vergleicht LastWriteTime mit der Grenze über -lt. Measure-Object -Property Length -Sum addiert die Größen, Sort-Object -Property Length -Descending stellt die größte nach vorn.",
+    "$Logs = Get-ChildItem -Path $Root -Filter '*.log' -File -Recurse, $OldLogs = $Logs | Where-Object { $_.LastWriteTime -lt $Limit }, $TotalBytes = ($OldLogs | Measure-Object -Property Length -Sum).Sum und $Largest = ($OldLogs | Sort-Object -Property Length -Descending | Select-Object -First 1).Name"
+  ],
+  "en": [
+    "Get-ChildItem needs -Path, -Filter '*.log', -File and the switch that goes down into subfolders. The limit is (Get-Date).AddDays(-30).",
+    "Where-Object compares LastWriteTime with the limit using -lt. Measure-Object -Property Length -Sum adds the sizes, Sort-Object -Property Length -Descending puts the largest first.",
+    "$Logs = Get-ChildItem -Path $Root -Filter '*.log' -File -Recurse, $OldLogs = $Logs | Where-Object { $_.LastWriteTime -lt $Limit }, $TotalBytes = ($OldLogs | Measure-Object -Property Length -Sum).Sum and $Largest = ($OldLogs | Sort-Object -Property Length -Descending | Select-Object -First 1).Name"
+  ]
+}

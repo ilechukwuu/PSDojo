@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die innere Schleife verschwindet ganz. Ein Aufruf von Test-Path pro Datei beantwortet, was sie ermittelt hat.",
+    "Baue $ConfigDir einmal mit Join-Path, dann den Pfad jeder Datei mit einem zweiten Join-Path in der Schleife.",
+    "$ConfigDir = Join-Path -Path $Root -ChildPath 'config' und $Missing = foreach ($Name in $Required) { $Path = Join-Path -Path $ConfigDir -ChildPath $Name; if (-not (Test-Path -Path $Path)) { $Name } }"
+  ],
+  "en": [
+    "The inner loop disappears completely. One Test-Path call per file answers what it worked out.",
+    "Build $ConfigDir once with Join-Path, then the path of each file with a second Join-Path inside the loop.",
+    "$ConfigDir = Join-Path -Path $Root -ChildPath 'config' and $Missing = foreach ($Name in $Required) { $Path = Join-Path -Path $ConfigDir -ChildPath $Name; if (-not (Test-Path -Path $Path)) { $Name } }"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m22-e05",
+  "module": "m22",
+  "title": {
+    "de": "Aufräumen mit Probelauf",
+    "en": "Cleaning up with a dry run"
+  },
+  "type": "write",
+  "order": 5,
+  "prerequisites": [
+    "m22-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Remove-Item löscht ohne Papierkorb. -WhatIf zeigt, was passieren würde, ohne es zu tun. Ein Skript reicht seinen Schalter mit -WhatIf:$WhatIf weiter.",
+    "en": "Remove-Item deletes without a recycle bin. -WhatIf shows what would happen without doing it. A script hands its switch on with -WhatIf:$WhatIf."
+  }
+}

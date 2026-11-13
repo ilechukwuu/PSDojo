@@ -1,0 +1,19 @@
+{
+  "id": "m22-e01",
+  "module": "m22",
+  "title": {
+    "de": "Pfade bauen, prüfen, anlegen",
+    "en": "Build, test and create paths"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m04-e07",
+    "m19-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Join-Path baut Pfade, Test-Path prüft, ob es sie gibt, New-Item -ItemType Directory legt Ordner an.",
+    "en": "Join-Path builds paths, Test-Path checks whether they exist, New-Item -ItemType Directory creates folders."
+  }
+}

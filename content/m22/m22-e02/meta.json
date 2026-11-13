@@ -1,0 +1,18 @@
+{
+  "id": "m22-e02",
+  "module": "m22",
+  "title": {
+    "de": "Dateien finden: alt und groß",
+    "en": "Find files: old and large"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m22-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Get-ChildItem -Recurse -File -Filter durchsucht Ordnerbäume. LastWriteTime und Length der Dateiobjekte tragen Alter und Größe.",
+    "en": "Get-ChildItem -Recurse -File -Filter searches folder trees. LastWriteTime and Length of the file objects carry age and size."
+  }
+}

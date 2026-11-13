@@ -1,0 +1,18 @@
+{
+  "id": "m22-e06",
+  "module": "m22",
+  "title": {
+    "de": "Join-Path und Test-Path statt Textbastelei",
+    "en": "Join-Path and Test-Path instead of text tinkering"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m22-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Pfade sind kein Text zum Zusammenkleben. Join-Path baut sie, Test-Path beantwortet die Frage nach der Existenz in einem Aufruf.",
+    "en": "Paths are not text to glue together. Join-Path builds them, Test-Path answers the question of existence in one call."
+  }
+}

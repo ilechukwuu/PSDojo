@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Join-Path nimmt den Ordner mit -Path und den Namen mit -ChildPath. Test-Path liefert die Antwort für $Existed, und es muss gefragt werden, bevor New-Item läuft.",
+    "if (-not $Existed) { ... } umschließt den Aufruf von New-Item mit -ItemType Directory. Set-Content schreibt den Text mit -Path und -Value.",
+    "$ReportDir = Join-Path -Path $Root -ChildPath 'Reports', $Existed = Test-Path -Path $ReportDir, if (-not $Existed) { $null = New-Item -Path $ReportDir -ItemType Directory }, $StatusFile = Join-Path -Path $ReportDir -ChildPath 'status.txt' und Set-Content -Path $StatusFile -Value 'ready'"
+  ],
+  "en": [
+    "Join-Path takes the folder with -Path and the name with -ChildPath. Test-Path gives the answer for $Existed, and it has to be asked before New-Item runs.",
+    "if (-not $Existed) { ... } wraps the New-Item call with -ItemType Directory. Set-Content writes the text with -Path and -Value.",
+    "$ReportDir = Join-Path -Path $Root -ChildPath 'Reports', $Existed = Test-Path -Path $ReportDir, if (-not $Existed) { $null = New-Item -Path $ReportDir -ItemType Directory }, $StatusFile = Join-Path -Path $ReportDir -ChildPath 'status.txt' and Set-Content -Path $StatusFile -Value 'ready'"
+  ]
+}

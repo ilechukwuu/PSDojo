@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Warum Join-Path statt Text mit Backslash zusammenzukleben?",
+        "en": "Why Join-Path instead of gluing text together with a backslash?"
+      },
+      "options": {
+        "de": [
+          "Es ist schneller",
+          "Es setzt genau ein passendes Trennzeichen und funktioniert auch unter Linux",
+          "Es prüft, ob der Pfad existiert",
+          "Es legt fehlende Ordner an"
+        ],
+        "en": [
+          "It is faster",
+          "It puts exactly one fitting separator and also works on Linux",
+          "It checks whether the path exists",
+          "It creates missing folders"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Was liefert Test-Path -Path D:\\Logs\\app.log -PathType Container, wenn app.log eine vorhandene Datei ist?",
+        "en": "What does Test-Path -Path D:\\Logs\\app.log -PathType Container return when app.log is an existing file?"
+      },
+      "options": {
+        "de": [
+          "$true",
+          "Einen Fehler",
+          "$false",
+          "Das Dateiobjekt"
+        ],
+        "en": [
+          "$true",
+          "An error",
+          "$false",
+          "The file object"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Welcher Aufruf findet alle .log-Dateien auch in Unterordnern?",
+        "en": "Which call finds all .log files in subfolders too?"
+      },
+      "options": {
+        "de": [
+          "Get-ChildItem -Path D:\\Logs -Filter '.log'",
+          "Get-ChildItem -Path D:\\Logs -Filter '*.log'",
+          "Get-ChildItem -Path D:\\Logs -Directory -Recurse",
+          "Get-ChildItem -Path D:\\Logs -Filter '*.log' -File -Recurse"
+        ],
+        "en": [
+          "Get-ChildItem -Path D:\\Logs -Filter '.log'",
+          "Get-ChildItem -Path D:\\Logs -Filter '*.log'",
+          "Get-ChildItem -Path D:\\Logs -Directory -Recurse",
+          "Get-ChildItem -Path D:\\Logs -Filter '*.log' -File -Recurse"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Welche Eigenschaft eines Dateiobjekts enthält die Größe in Bytes?",
+        "en": "Which property of a file object holds the size in bytes?"
+      },
+      "options": {
+        "de": [
+          "Size",
+          "Length",
+          "Count",
+          "Bytes"
+        ],
+        "en": [
+          "Size",
+          "Length",
+          "Count",
+          "Bytes"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Copy-Item -Path D:\\App\\config -Destination D:\\Backup\\config ohne -Recurse. Was entsteht?",
+        "en": "Copy-Item -Path D:\\App\\config -Destination D:\\Backup\\config without -Recurse. What is created?"
+      },
+      "options": {
+        "de": [
+          "Ein leerer Ordner config",
+          "Eine vollständige Kopie",
+          "Ein Fehler, nichts wird angelegt",
+          "Eine Verknüpfung"
+        ],
+        "en": [
+          "An empty folder config",
+          "A complete copy",
+          "An error, nothing is created",
+          "A shortcut"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Move-Item verschiebt eine Datei nach D:\\Archive, aber diesen Ordner gibt es nicht. Was passiert?",
+        "en": "Move-Item moves a file to D:\\Archive, but that folder does not exist. What happens?"
+      },
+      "options": {
+        "de": [
+          "Der Ordner wird angelegt",
+          "Die Datei wird gelöscht",
+          "Die Datei wird in Archive umbenannt",
+          "Nichts, es gibt nur eine Warnung"
+        ],
+        "en": [
+          "The folder is created",
+          "The file is deleted",
+          "The file is renamed to Archive",
+          "Nothing, there is only a warning"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Was bewirkt -WhatIf bei Remove-Item?",
+        "en": "What does -WhatIf do with Remove-Item?"
+      },
+      "options": {
+        "de": [
+          "Es fragt vor jedem Löschen nach",
+          "Es verschiebt in den Papierkorb",
+          "Es löscht nur leere Ordner",
+          "Es zeigt, was gelöscht würde, und löscht nichts"
+        ],
+        "en": [
+          "It asks before every deletion",
+          "It moves to the recycle bin",
+          "It deletes only empty folders",
+          "It shows what would be deleted and deletes nothing"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Die Datei heisst report.2026.csv.bak. Was ist ihre Extension?",
+        "en": "The file is called report.2026.csv.bak. What is its Extension?"
+      },
+      "options": {
+        "de": [
+          ".2026.csv.bak",
+          ".csv.bak",
+          ".bak",
+          "bak"
+        ],
+        "en": [
+          ".2026.csv.bak",
+          ".csv.bak",
+          ".bak",
+          "bak"
+        ]
+      },
+      "answer": "c"
+    }
+  ]
+}

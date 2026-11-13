@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Sammle zuerst: Get-ChildItem mit -Filter '*.tmp', -File und -Recurse, dann Where-Object mit LastWriteTime und dem Datum vor 7 Tagen.",
+    "Lösche in einer foreach-Schleife mit Remove-Item -LiteralPath und dem FullName der Datei. Der Schalter wird mit -WhatIf:$WhatIf weitergereicht.",
+    "$Candidates = Get-ChildItem -Path $Root -Filter '*.tmp' -File -Recurse | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-7) } und foreach ($File in $Candidates) { Remove-Item -LiteralPath $File.FullName -WhatIf:$WhatIf }"
+  ],
+  "en": [
+    "Collect first: Get-ChildItem with -Filter '*.tmp', -File and -Recurse, then Where-Object with LastWriteTime and the date 7 days ago.",
+    "Delete in a foreach loop with Remove-Item -LiteralPath and the FullName of the file. The switch is handed on with -WhatIf:$WhatIf.",
+    "$Candidates = Get-ChildItem -Path $Root -Filter '*.tmp' -File -Recurse | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-7) } and foreach ($File in $Candidates) { Remove-Item -LiteralPath $File.FullName -WhatIf:$WhatIf }"
+  ]
+}

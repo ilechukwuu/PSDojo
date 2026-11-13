@@ -1,0 +1,18 @@
+{
+  "id": "m22-e04",
+  "module": "m22",
+  "title": {
+    "de": "Kopieren und verschieben: drei Fehler",
+    "en": "Copy and move: three mistakes"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m22-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Copy-Item braucht -Recurse für Ordnerinhalte, -Filter braucht ein Muster wie *.log, und das Ziel von Move-Item muss als Ordner existieren.",
+    "en": "Copy-Item needs -Recurse for folder content, -Filter needs a pattern such as *.log, and the destination of Move-Item has to exist as a folder."
+  }
+}

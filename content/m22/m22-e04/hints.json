@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Prüfe nach einem Lauf drei Dinge: was in backup liegt, was $Logs enthält und ob archive ein Ordner oder eine Datei ist.",
+    "Copy-Item kopiert einen Ordner nur mit -Recurse samt Inhalt. Der Filter braucht einen Stern. Den Ordner archive gibt es noch nicht, wenn die erste Datei verschoben wird.",
+    "Ergänze -Recurse bei Copy-Item, ändere den Filter in '*.log' und setze $null = New-Item -Path \"$Root/archive\" -ItemType Directory -Force vor die Schleife."
+  ],
+  "en": [
+    "Check three things after a run: what is inside backup, what $Logs contains, and whether archive is a folder or a file.",
+    "Copy-Item copies a folder with its content only with -Recurse. The filter needs a star. The folder archive does not exist yet when the first file is moved.",
+    "Add -Recurse to Copy-Item, change the filter to '*.log' and put $null = New-Item -Path \"$Root/archive\" -ItemType Directory -Force in front of the loop."
+  ]
+}

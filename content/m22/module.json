@@ -1,0 +1,14 @@
+{
+  "id": "m22",
+  "part": 1,
+  "order": 22,
+  "track": "core",
+  "title": {
+    "de": "Dateien und Ordner",
+    "en": "Files and folders"
+  },
+  "prerequisites": [
+    "m04",
+    "m19"
+  ]
+}

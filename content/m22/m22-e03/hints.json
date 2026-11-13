@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Leaf ist der Teil nach dem letzten Trennzeichen, Parent alles davor. Für die Endung zählt nur der letzte Punkt.",
+    "Die Datei existiert, aber sie ist eine Datei. Container fragt nach einem Ordner. Join-Path lässt nie zwei Trennzeichen nebeneinander stehen.",
+    "Die Ergebnisse sind nordwind-2026.tar.gz, D:\\Backup\\sql, nordwind-2026.tar, .gz, $false und D:\\Backup\\sql."
+  ],
+  "en": [
+    "Leaf is the part after the last separator, Parent everything before it. For the extension only the last dot counts.",
+    "The file exists, but it is a file. Container asks for a folder. Join-Path never leaves two separators next to each other.",
+    "The results are nordwind-2026.tar.gz, D:\\Backup\\sql, nordwind-2026.tar, .gz, $false and D:\\Backup\\sql."
+  ]
+}

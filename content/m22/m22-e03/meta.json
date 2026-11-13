@@ -1,0 +1,18 @@
+{
+  "id": "m22-e03",
+  "module": "m22",
+  "title": {
+    "de": "Was steckt in einem Pfad?",
+    "en": "What is in a path?"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m22-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Split-Path zerlegt Pfade, Dateiobjekte kennen BaseName und Extension, Test-Path -PathType unterscheidet Datei und Ordner.",
+    "en": "Split-Path takes paths apart, file objects know BaseName and Extension, Test-Path -PathType tells file from folder."
+  }
+}
