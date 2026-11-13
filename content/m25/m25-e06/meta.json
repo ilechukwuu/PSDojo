@@ -1,0 +1,19 @@
+{
+  "id": "m25-e06",
+  "module": "m25",
+  "title": {
+    "de": "Quiz: Funktionen und Parameter",
+    "en": "Quiz: Functions and parameters"
+  },
+  "type": "quiz",
+  "order": 6,
+  "prerequisites": [
+    "m25-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

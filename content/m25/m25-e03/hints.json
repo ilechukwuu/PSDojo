@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Geh Get-ServerCount Zeile für Zeile durch und notiere jeden Wert, der weder zugewiesen noch verworfen wird. Jeder gehört zum Ergebnis.",
+    "Add liefert den Index des neuen Eintrags, 0 und dann 1. return verlässt beim ersten Treffer Schleife und Funktion. Klammern mit Komma bauen ein Array.",
+    "Get-ServerCount liefert 0, 1 und 2, also drei Werte, und der dritte ist 2. Der erste Dateiserver ist FS-02. Mit Namen ist der Text Kiel|FS-01. Mit Klammern landen beide Wörter in $Site: Kiel FS-01|"
+  ],
+  "en": [
+    "Go through Get-ServerCount line by line and note every value that is neither assigned nor discarded. Each one is part of the result.",
+    "Add returns the index of the new entry, 0 and then 1. return leaves the loop and the function at the first match. Parentheses with a comma build one array.",
+    "Get-ServerCount returns 0, 1 and 2, so three values, and the third is 2. The first file server is FS-02. With names the text is Kiel|FS-01. With parentheses both words land in $Site: Kiel FS-01|"
+  ]
+}

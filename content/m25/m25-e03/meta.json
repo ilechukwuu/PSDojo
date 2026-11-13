@@ -1,0 +1,18 @@
+{
+  "id": "m25-e03",
+  "module": "m25",
+  "title": {
+    "de": "Was kommt wirklich zurück?",
+    "en": "What really comes back?"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m25-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Alles, was in einer Funktion ausgegeben und nicht aufgefangen wird, gehört zum Ergebnis. return beendet die Funktion, mehr nicht. Argumente werden mit Leerzeichen getrennt, nicht mit Klammern und Kommas.",
+    "en": "Everything that is output in a function and not captured is part of the result. return ends the function, nothing more. Arguments are separated by spaces, not by parentheses and commas."
+  }
+}

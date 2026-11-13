@@ -1,0 +1,18 @@
+{
+  "id": "m25-e05",
+  "module": "m25",
+  "title": {
+    "de": "Aus drei Kopien eine Funktion",
+    "en": "One function from three copies"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m25-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederholter Code wird zu einer Funktion, die alles Veränderliche als Parameter bekommt und nichts von aussen liest.",
+    "en": "Repeated code becomes one function that receives everything variable as parameters and reads nothing from outside."
+  }
+}

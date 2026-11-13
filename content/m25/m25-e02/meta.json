@@ -1,0 +1,18 @@
+{
+  "id": "m25-e02",
+  "module": "m25",
+  "title": {
+    "de": "Objekte zurückgeben",
+    "en": "Returning objects"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m25-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Eine Funktion gibt Objekte mit Eigenschaften zurück, keinen formatierten Text. Standardwerte machen Parameter optional.",
+    "en": "A function returns objects with properties, not formatted text. Defaults make parameters optional."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Lies die Variablennamen im Vergleich Buchstabe für Buchstabe. Schau dann, wie die Funktion in der letzten Zeile aufgerufen wird.",
+    "Die Schwellwertvariable ist in der Funktion vertippt. Der Aufruf übergibt ein Array statt zweier Argumente. Und Add liefert eine Zahl.",
+    "Korrigiere $WarnPrecent zu $WarnPercent, setze $null = vor $Result.Add(...) und rufe Get-LowVolume -Volumes $Volumes -WarnPercent 30 auf."
+  ],
+  "en": [
+    "Read the variable names in the comparison letter by letter. Then look at how the function is called in the last line.",
+    "The threshold variable is mistyped inside the function. The call passes one array instead of two arguments. And Add returns a number.",
+    "Correct $WarnPrecent to $WarnPercent, put $null = in front of $Result.Add(...), and call Get-LowVolume -Volumes $Volumes -WarnPercent 30."
+  ]
+}

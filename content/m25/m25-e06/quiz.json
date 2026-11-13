@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Welcher Funktionsname folgt den Regeln?",
+        "en": "Which function name follows the rules?"
+      },
+      "options": {
+        "de": [
+          "CheckDisks",
+          "Disk-Get",
+          "Get-DiskStatus",
+          "get_disk_status"
+        ],
+        "en": [
+          "CheckDisks",
+          "Disk-Get",
+          "Get-DiskStatus",
+          "get_disk_status"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Eine Funktion zeigt ihr Ergebnis mit Write-Host. Was erhält $X bei $X = Get-Thing?",
+        "en": "A function shows its result with Write-Host. What does $X receive at $X = Get-Thing?"
+      },
+      "options": {
+        "de": [
+          "Den angezeigten Text",
+          "Nichts",
+          "Einen Fehler",
+          "$true"
+        ],
+        "en": [
+          "The displayed text",
+          "Nothing",
+          "An error",
+          "$true"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Was liefert eine Funktion, deren Rumpf aus den Zeilen 'A' und return 'B' besteht?",
+        "en": "What does a function return whose body consists of the lines 'A' and return 'B'?"
+      },
+      "options": {
+        "de": [
+          "Nur B",
+          "Nur A",
+          "Einen Fehler",
+          "A und B"
+        ],
+        "en": [
+          "Only B",
+          "Only A",
+          "An error",
+          "A and B"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Warum ist ein Objekt als Ergebnis besser als ein formatierter Text?",
+        "en": "Why is an object as a result better than a formatted text?"
+      },
+      "options": {
+        "de": [
+          "Der Aufrufer kann nach Eigenschaften filtern, sortieren und exportieren",
+          "Objekte sind kleiner",
+          "Text ist in Funktionen verboten",
+          "Objekte werden schneller angezeigt"
+        ],
+        "en": [
+          "The caller can filter, sort and export by properties",
+          "Objects are smaller",
+          "Text is forbidden in functions",
+          "Objects are displayed faster"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Wie verhinderst du, dass $List.Add('x') eine Zahl in das Ergebnis der Funktion legt?",
+        "en": "How do you keep $List.Add('x') from putting a number into the result of the function?"
+      },
+      "options": {
+        "de": [
+          "return davor schreiben",
+          "$null = davor schreiben",
+          "Die Zeile in Klammern setzen",
+          "Write-Host davor schreiben"
+        ],
+        "en": [
+          "Write return in front",
+          "Write $null = in front",
+          "Put the line in parentheses",
+          "Write Write-Host in front"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was passiert bei Join-Name('Kiel', 'FS-01') mit den Parametern $Site und $Server?",
+        "en": "What happens at Join-Name('Kiel', 'FS-01') with the parameters $Site and $Server?"
+      },
+      "options": {
+        "de": [
+          "$Site ist Kiel, $Server ist FS-01",
+          "Es gibt einen Syntaxfehler",
+          "$Site erhält ein Array mit beiden Werten, $Server bleibt leer",
+          "Beide Parameter bleiben leer"
+        ],
+        "en": [
+          "$Site is Kiel, $Server is FS-01",
+          "There is a syntax error",
+          "$Site receives an array with both values, $Server stays empty",
+          "Both parameters stay empty"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Warum schreibst du in Skripten die Parameternamen aus?",
+        "en": "Why do you write out the parameter names in scripts?"
+      },
+      "options": {
+        "de": [
+          "Positionen funktionieren in Skripten nicht",
+          "Es ist schneller",
+          "Namen sind kürzer",
+          "Der Aufruf übersteht eine geänderte Reihenfolge der Parameter und ist lesbar"
+        ],
+        "en": [
+          "Positions do not work in scripts",
+          "It is faster",
+          "Names are shorter",
+          "The call survives a changed order of the parameters and is readable"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Eine Funktion liest $Name aus dem umgebenden Skript statt aus einem Parameter. Was ist das Problem?",
+        "en": "A function reads $Name from the surrounding script instead of from a parameter. What is the problem?"
+      },
+      "options": {
+        "de": [
+          "Das ist ein Syntaxfehler",
+          "Sie funktioniert nur, solange der Aufrufer zufällig diese Variable gesetzt hat",
+          "Sie ist langsamer",
+          "Es gibt keines"
+        ],
+        "en": [
+          "That is a syntax error",
+          "It only works as long as the caller happens to have set that variable",
+          "It is slower",
+          "There is none"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

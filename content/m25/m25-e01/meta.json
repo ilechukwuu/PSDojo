@@ -1,0 +1,18 @@
+{
+  "id": "m25-e01",
+  "module": "m25",
+  "title": {
+    "de": "Die erste Funktion",
+    "en": "The first function"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m24-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "function Verb-Nomen { param(...) ... } definiert einen eigenen Befehl. Was die Funktion ausgibt, ist ihr Ergebnis.",
+    "en": "function Verb-Noun { param(...) ... } defines a command of your own. What the function outputs is its result."
+  }
+}

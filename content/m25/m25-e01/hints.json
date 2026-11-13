@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der Rahmen ist function Get-FreePercent { param(...) ... }. Darin steht die Rechnung allein in einer Zeile, ihr Wert wird also ausgegeben.",
+    "Die Rechnung ist [math]::Round($FreeGB / $SizeGB * 100, 1). Der Aufruf nutzt die Parameternamen: Get-FreePercent -FreeGB 120 -SizeGB 480.",
+    "function Get-FreePercent { param([double]$FreeGB, [double]$SizeGB) [math]::Round($FreeGB / $SizeGB * 100, 1) } und $Percent = Get-FreePercent -FreeGB 120 -SizeGB 480"
+  ],
+  "en": [
+    "The frame is function Get-FreePercent { param(...) ... }. Inside, the calculation stands alone on a line, so its value is output.",
+    "The calculation is [math]::Round($FreeGB / $SizeGB * 100, 1). The call uses the parameter names: Get-FreePercent -FreeGB 120 -SizeGB 480.",
+    "function Get-FreePercent { param([double]$FreeGB, [double]$SizeGB) [math]::Round($FreeGB / $SizeGB * 100, 1) } and $Percent = Get-FreePercent -FreeGB 120 -SizeGB 480"
+  ]
+}

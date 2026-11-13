@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Name und freier Platz unterscheiden sich zwischen den Kopien, sie werden also die zwei Parameter. Der Zustand und der Formattext sind gleich und wandern in den Rumpf.",
+    "In der Funktion wird $State aus $FreeGB berechnet, dann folgt die Formatzeile mit $Name, $FreeGB und $State.",
+    "function Format-ServerLine { param([string]$Name, [int]$FreeGB) $State = if ($FreeGB -lt 50) { 'LOW' } else { 'ok' }; '{0}: {1} GB free ({2})' -f $Name, $FreeGB, $State } und drei Aufrufe wie Format-ServerLine -Name 'FS-01' -FreeGB 210 innerhalb von $Lines = @( ... )"
+  ],
+  "en": [
+    "Name and free space differ between the copies, so they become the two parameters. The state and the format text are the same and move into the body.",
+    "Inside the function $State is computed from $FreeGB, then the format line follows with $Name, $FreeGB and $State.",
+    "function Format-ServerLine { param([string]$Name, [int]$FreeGB) $State = if ($FreeGB -lt 50) { 'LOW' } else { 'ok' }; '{0}: {1} GB free ({2})' -f $Name, $FreeGB, $State } and three calls such as Format-ServerLine -Name 'FS-01' -FreeGB 210 inside $Lines = @( ... )"
+  ]
+}

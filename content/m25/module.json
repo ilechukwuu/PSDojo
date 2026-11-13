@@ -1,0 +1,13 @@
+{
+  "id": "m25",
+  "part": 2,
+  "order": 25,
+  "track": "core",
+  "title": {
+    "de": "Funktionen und Parameter",
+    "en": "Functions and parameters"
+  },
+  "prerequisites": [
+    "m24"
+  ]
+}

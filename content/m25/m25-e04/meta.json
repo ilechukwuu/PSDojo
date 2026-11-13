@@ -1,0 +1,18 @@
+{
+  "id": "m25-e04",
+  "module": "m25",
+  "title": {
+    "de": "Drei Fehler in einer Funktion",
+    "en": "Three mistakes in a function"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m25-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein vertippter Variablenname ist eine neue leere Variable, Methoden mit Rückgabewert verschmutzen das Ergebnis, und ein Aufruf mit Klammern übergibt ein einziges Array.",
+    "en": "A mistyped variable name is a new empty variable, methods with a return value pollute the result, and a call with parentheses passes a single array."
+  }
+}
