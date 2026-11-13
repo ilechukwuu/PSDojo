@@ -1,0 +1,18 @@
+{
+  "id": "m23-e05",
+  "module": "m23",
+  "title": {
+    "de": "Drei Strukturfehler in einem Skript",
+    "en": "Three structural mistakes in a script"
+  },
+  "type": "fix",
+  "order": 5,
+  "prerequisites": [
+    "m23-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "param muss die erste Anweisung sein, eine Funktion muss definiert sein, bevor sie aufgerufen wird, und sie schreibt ohne Präfix nur in ihren eigenen Bereich.",
+    "en": "param has to be the first statement, a function has to be defined before it is called, and without a prefix it writes only into its own scope."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "m23",
+  "part": 2,
+  "order": 23,
+  "track": "core",
+  "title": {
+    "de": "Skripte, Ausführungsrichtlinie und Gültigkeitsbereiche",
+    "en": "Scripts, execution policy and scope"
+  },
+  "prerequisites": [
+    "m22"
+  ]
+}

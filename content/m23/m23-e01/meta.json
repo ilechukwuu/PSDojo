@@ -1,0 +1,18 @@
+{
+  "id": "m23-e01",
+  "module": "m23",
+  "title": {
+    "de": "Ein Skript mit Parametern",
+    "en": "A script with parameters"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m22-e07"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein param-Block am Anfang macht ein Skript steuerbar: Name, Typ und Standardwert pro Parameter, [switch] für Ein/Aus.",
+    "en": "A param block at the top makes a script controllable: name, type and default value per parameter, [switch] for on/off."
+  }
+}

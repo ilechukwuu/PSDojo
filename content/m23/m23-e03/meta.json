@@ -1,0 +1,18 @@
+{
+  "id": "m23-e03",
+  "module": "m23",
+  "title": {
+    "de": "Aufrufen oder einbinden",
+    "en": "Call or dot-source"
+  },
+  "type": "write",
+  "order": 3,
+  "prerequisites": [
+    "m23-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Der Aufrufoperator & startet ein Skript in einem eigenen Bereich. Dot-Sourcing mit Punkt und Leerzeichen lässt es im aktuellen Bereich laufen.",
+    "en": "The call operator & runs a script in a scope of its own. Dot-sourcing with a dot and a space runs it in the current scope."
+  }
+}

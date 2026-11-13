@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Wo muss der param-Block eines Skripts stehen?",
+        "en": "Where does the param block of a script have to stand?"
+      },
+      "options": {
+        "de": [
+          "Irgendwo vor der ersten Verwendung der Parameter",
+          "Als erste Anweisung, nur Kommentare dürfen darüber stehen",
+          "Am Ende der Datei",
+          "In einer eigenen Datei"
+        ],
+        "en": [
+          "Anywhere before the first use of the parameters",
+          "As the first statement, only comments may stand above it",
+          "At the end of the file",
+          "In a file of its own"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Ein Skript hat den Parameter [int]$Days. Der Aufrufer schreibt -Days '14'. Was kommt an?",
+        "en": "A script has the parameter [int]$Days. The caller writes -Days '14'. What arrives?"
+      },
+      "options": {
+        "de": [
+          "Der Text 14",
+          "Ein Fehler",
+          "Die Zahl 14",
+          "$null"
+        ],
+        "en": [
+          "The text 14",
+          "An error",
+          "The number 14",
+          "$null"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Eine Funktion enthält $Count = $Count + 1. Aussen ist $Count 5. Was ist $Count aussen nach dem Aufruf?",
+        "en": "A function contains $Count = $Count + 1. Outside $Count is 5. What is $Count outside after the call?"
+      },
+      "options": {
+        "de": [
+          "5",
+          "6",
+          "$null",
+          "1"
+        ],
+        "en": [
+          "5",
+          "6",
+          "$null",
+          "1"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Was ist der Unterschied zwischen & .\\settings.ps1 und . .\\settings.ps1?",
+        "en": "What is the difference between & .\\settings.ps1 and . .\\settings.ps1?"
+      },
+      "options": {
+        "de": [
+          "Es gibt keinen",
+          "Der Punkt startet das Skript als Administrator",
+          "Nur & liefert die Ausgabe",
+          "Mit dem Punkt bleiben Variablen und Funktionen des Skripts im aktuellen Bereich erhalten"
+        ],
+        "en": [
+          "There is none",
+          "The dot runs the script as administrator",
+          "Only & returns the output",
+          "With the dot the variables and functions of the script remain in the current scope"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "Get-ExecutionPolicy -List zeigt MachinePolicy AllSigned und LocalMachine RemoteSigned. Was gilt?",
+        "en": "Get-ExecutionPolicy -List shows MachinePolicy AllSigned and LocalMachine RemoteSigned. What applies?"
+      },
+      "options": {
+        "de": [
+          "RemoteSigned",
+          "AllSigned",
+          "Die strengere der beiden wird ausgewürfelt",
+          "Undefined"
+        ],
+        "en": [
+          "RemoteSigned",
+          "AllSigned",
+          "The stricter one is chosen at random",
+          "Undefined"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Was bedeutet RemoteSigned?",
+        "en": "What does RemoteSigned mean?"
+      },
+      "options": {
+        "de": [
+          "Nur Skripte von entfernten Rechnern laufen",
+          "Jedes Skript braucht eine Signatur",
+          "Lokale Skripte laufen, heruntergeladene brauchen eine Signatur",
+          "Skripte laufen nur über Remoting"
+        ],
+        "en": [
+          "Only scripts from remote machines run",
+          "Every script needs a signature",
+          "Local scripts run, downloaded ones need a signature",
+          "Scripts run only through remoting"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Warum ist die Ausführungsrichtlinie keine Sicherheitsgrenze?",
+        "en": "Why is the execution policy not a security boundary?"
+      },
+      "options": {
+        "de": [
+          "Jeder kann den Skriptinhalt in die Konsole einfügen oder die Richtlinie für seinen Prozess ändern",
+          "Sie gilt nur für Administratoren",
+          "Sie wird nachts zurückgesetzt",
+          "Sie prüft nur Dateinamen"
+        ],
+        "en": [
+          "Anyone can paste the script content into the console or change the policy for their process",
+          "It applies only to administrators",
+          "It is reset at night",
+          "It only checks file names"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Ein Skript läuft am Arbeitsplatz, aber nicht als geplante Aufgabe. Was ist eine typische Ursache?",
+        "en": "A script runs at the desk but not as a scheduled task. What is a typical cause?"
+      },
+      "options": {
+        "de": [
+          "Geplante Aufgaben können keine Skripte starten",
+          "Der param-Block fehlt",
+          "Das Skript ist zu lang",
+          "Es liest eine Variable, die nur in der Sitzung oder im Profil des Administrators existiert"
+        ],
+        "en": [
+          "Scheduled tasks cannot run scripts",
+          "The param block is missing",
+          "The script is too long",
+          "It reads a variable that exists only in the session or profile of the administrator"
+        ]
+      },
+      "answer": "d"
+    }
+  ]
+}

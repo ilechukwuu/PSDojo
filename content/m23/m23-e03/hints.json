@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der Aufrufoperator ist das kaufmännische Und vor der Pfadvariablen. Dot-Sourcing ist ein Punkt, dann ein Leerzeichen, dann die Pfadvariable.",
+    "$Output = & $SettingsFile speichert die Ausgabe. Nach dieser Zeile ist $Site noch leer, genau das soll $AfterCall zeigen.",
+    "$SettingsFile = Join-Path -Path $Folder -ChildPath 'settings.ps1', $Output = & $SettingsFile, $AfterCall = $Site, $null = . $SettingsFile und $AfterDot = $Site"
+  ],
+  "en": [
+    "The call operator is the ampersand in front of the path variable. Dot-sourcing is a dot, then a space, then the path variable.",
+    "$Output = & $SettingsFile stores the output. After that line $Site is still empty, which is exactly what $AfterCall should show.",
+    "$SettingsFile = Join-Path -Path $Folder -ChildPath 'settings.ps1', $Output = & $SettingsFile, $AfterCall = $Site, $null = . $SettingsFile and $AfterDot = $Site"
+  ]
+}

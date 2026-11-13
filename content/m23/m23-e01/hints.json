@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der param-Block ist die erste Anweisung: param( ... ) mit durch Kommas getrennten Parametern. Der Typ steht in eckigen Klammern vor dem Namen.",
+    "[string]$ComputerName = 'FS-01' ist das Muster für einen typisierten Parameter mit Standardwert. Der Schalter ist [switch]$Detailed ohne Standardwert.",
+    "param([string]$ComputerName = 'FS-01', [int]$WarnPercent = 20, [switch]$Detailed) und darunter $Mode = if ($Detailed) { 'detailed' } else { 'short' }"
+  ],
+  "en": [
+    "The param block is the first statement: param( ... ) with the parameters separated by commas. The type stands in square brackets in front of the name.",
+    "[string]$ComputerName = 'FS-01' is the pattern for a typed parameter with a default. The switch is [switch]$Detailed without a default.",
+    "param([string]$ComputerName = 'FS-01', [int]$WarnPercent = 20, [switch]$Detailed) and below it $Mode = if ($Detailed) { 'detailed' } else { 'short' }"
+  ]
+}

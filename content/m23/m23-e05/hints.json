@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Lies die erste Fehlermeldung: Sie nennt den param-Block. Schau danach, wo die Funktion definiert und wo sie aufgerufen wird.",
+    "Verschiebe den param-Block nach oben und die Funktion über die Schleife. Frag dich dann, welches $Checked die Funktion ändert.",
+    "Reihenfolge: param-Block, function Test-Volume, $Checked = 0, die Schleife, das Ergebnisobjekt. In der Funktion lautet die Zeile $script:Checked = $script:Checked + 1."
+  ],
+  "en": [
+    "Read the first error message: it names the param block. After that, look at where the function is defined and where it is called.",
+    "Move the param block to the top and the function above the loop. Then ask yourself which $Checked the function changes.",
+    "Order: param block, function Test-Volume, $Checked = 0, the loop, the result object. Inside the function the line is $script:Checked = $script:Checked + 1."
+  ]
+}

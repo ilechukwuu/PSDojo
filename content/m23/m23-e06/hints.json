@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Die zwei eingetippten Werte wandern in einen param-Block am Anfang und werden zu den Standardwerten. Die dritte globale Variable ist nur ein Helfer und verliert ihr Präfix.",
+    "param([string]$Path = 'D:\\Reports', [int]$Days = 30) ersetzt die ersten zwei Zeilen. Ersetze dann jeden $global:-Namen im Rest.",
+    "param([string]$Path = 'D:\\Reports', [int]$Days = 30), dann $Limit = (Get-Date).AddDays(-$Days) und Get-ChildItem -Path $Path -File | Where-Object { $_.LastWriteTime -lt $Limit } | ForEach-Object { $_.Name }"
+  ],
+  "en": [
+    "The two typed-in values move into a param block at the top and become the defaults. The third global variable is only a helper and loses its prefix.",
+    "param([string]$Path = 'D:\\Reports', [int]$Days = 30) replaces the first two lines. Then replace every $global: name in the rest.",
+    "param([string]$Path = 'D:\\Reports', [int]$Days = 30), then $Limit = (Get-Date).AddDays(-$Days) and Get-ChildItem -Path $Path -File | Where-Object { $_.LastWriteTime -lt $Limit } | ForEach-Object { $_.Name }"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Get-ExecutionPolicy braucht den Schalter -List. Jeder Eintrag hat die Eigenschaften Scope und ExecutionPolicy.",
+    "Filtere mit Where-Object nach Einträgen, deren ExecutionPolicy nicht Undefined ist, und nimm mit Select-Object -First 1 nur den ersten.",
+    "$Winner = $Policies | Where-Object { $_.ExecutionPolicy -ne 'Undefined' } | Select-Object -First 1, $Effective = [string]$Winner.ExecutionPolicy und $SetBy = [string]$Winner.Scope"
+  ],
+  "en": [
+    "Get-ExecutionPolicy needs the switch -List. Each entry has the properties Scope and ExecutionPolicy.",
+    "Filter with Where-Object for entries whose ExecutionPolicy is not Undefined, then take only the first one with Select-Object -First 1.",
+    "$Winner = $Policies | Where-Object { $_.ExecutionPolicy -ne 'Undefined' } | Select-Object -First 1, $Effective = [string]$Winner.ExecutionPolicy and $SetBy = [string]$Winner.Scope"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "m23-e02",
+  "module": "m23",
+  "title": {
+    "de": "Wer sieht welche Variable?",
+    "en": "Who sees which variable?"
+  },
+  "type": "predict",
+  "order": 2,
+  "prerequisites": [
+    "m23-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Funktionen und Skripte lesen Variablen von aussen, schreiben aber in ihren eigenen Bereich. if und Schleifen bilden keinen eigenen Bereich.",
+    "en": "Functions and scripts read variables from outside but write into their own scope. if and loops do not form a scope of their own."
+  }
+}

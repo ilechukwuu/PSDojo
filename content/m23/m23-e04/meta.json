@@ -1,0 +1,18 @@
+{
+  "id": "m23-e04",
+  "module": "m23",
+  "title": {
+    "de": "Welche Ausführungsrichtlinie gilt?",
+    "en": "Which execution policy applies?"
+  },
+  "type": "write",
+  "order": 4,
+  "prerequisites": [
+    "m23-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Get-ExecutionPolicy -List zeigt die Richtlinie pro Bereich. Es gilt der erste Bereich von oben, der nicht Undefined ist.",
+    "en": "Get-ExecutionPolicy -List shows the policy per scope. The first scope from the top that is not Undefined applies."
+  }
+}

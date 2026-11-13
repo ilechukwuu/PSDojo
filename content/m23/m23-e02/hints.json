@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Entscheide bei jeder Zeile in einer Funktion, ob sie liest oder schreibt. Lesen findet die äussere Variable, Schreiben erzeugt eine neue in der Funktion.",
+    "Add-Retry beginnt bei jedem Aufruf mit der äusseren 0, weil die eigene Variable nach jedem Aufruf weg ist. Nur die Funktion mit $script: ändert die äussere Variable.",
+    "$Second ist 1, $AfterLocal ist 0, $AfterScript ist 1, Get-Greeting liefert Site Kiel und $Status ist retried, weil ein if-Block kein eigener Bereich ist."
+  ],
+  "en": [
+    "Decide for each line inside a function whether it reads or writes. Reading finds the outer variable, writing creates a new one inside the function.",
+    "Add-Retry starts from the outer 0 on every call, because its own variable is gone after each call. Only the function with $script: changes the outer variable.",
+    "$Second is 1, $AfterLocal is 0, $AfterScript is 1, Get-Greeting returns Site Kiel and $Status is retried, because an if block is no scope of its own."
+  ]
+}

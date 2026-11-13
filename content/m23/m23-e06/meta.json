@@ -1,0 +1,18 @@
+{
+  "id": "m23-e06",
+  "module": "m23",
+  "title": {
+    "de": "Parameter statt globaler Variablen",
+    "en": "Parameters instead of global variables"
+  },
+  "type": "refactor",
+  "order": 6,
+  "prerequisites": [
+    "m23-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Ein Skript bekommt seine Eingaben über typisierte Parameter mit Standardwerten. Globale Variablen bleiben nach dem Lauf in der Sitzung und beeinflussen andere Skripte.",
+    "en": "A script receives its input through typed parameters with defaults. Global variables stay in the session after the run and influence other scripts."
+  }
+}
