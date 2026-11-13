@@ -1,0 +1,18 @@
+{
+  "id": "m26-e01",
+  "module": "m26",
+  "title": {
+    "de": "CmdletBinding, Pflichtparameter, Write-Verbose",
+    "en": "CmdletBinding, mandatory parameters, Write-Verbose"
+  },
+  "type": "write",
+  "order": 1,
+  "prerequisites": [
+    "m25-e06"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "[CmdletBinding()] macht aus einer Funktion eine erweiterte Funktion mit den allgemeinen Parametern. [Parameter(Mandatory)] erzwingt einen Wert, Write-Verbose meldet Fortschritt nur auf Wunsch.",
+    "en": "[CmdletBinding()] turns a function into an advanced function with the common parameters. [Parameter(Mandatory)] enforces a value, Write-Verbose reports progress only on request."
+  }
+}

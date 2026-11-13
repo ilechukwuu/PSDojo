@@ -1,0 +1,18 @@
+{
+  "id": "m26-e05",
+  "module": "m26",
+  "title": {
+    "de": "Attribute statt handgeschriebener Prüfungen",
+    "en": "Attributes instead of hand-written checks"
+  },
+  "type": "refactor",
+  "order": 5,
+  "prerequisites": [
+    "m26-e04"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Handgeschriebene if-throw-Prüfungen am Anfang einer Funktion werden zu Mandatory, ValidateSet und ValidateRange. Der Rumpf enthält nur noch die eigentliche Arbeit.",
+    "en": "Hand-written if-throw checks at the start of a function become Mandatory, ValidateSet and ValidateRange. The body contains only the real work."
+  }
+}

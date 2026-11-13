@@ -1,0 +1,19 @@
+{
+  "id": "m26-e06",
+  "module": "m26",
+  "title": {
+    "de": "Quiz: Erweiterte Funktionen: CmdletBinding und Validierung",
+    "en": "Quiz: Advanced functions: CmdletBinding and validation"
+  },
+  "type": "quiz",
+  "order": 6,
+  "prerequisites": [
+    "m26-e05"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Wiederhole die Lektionen dieses Moduls. Show-DojoLesson mit der Id einer Übung zeigt sie erneut.",
+    "en": "Review the lessons of this module. Show-DojoLesson with the id of an exercise shows it again."
+  },
+  "passMark": 80
+}

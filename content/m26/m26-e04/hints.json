@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Der Syntaxfehler nennt ein Attribut an der falschen Stelle. Zähle danach die erlaubten Werte von ValidateSet und die Dinge, die die Funktion ausgibt.",
+    "[CmdletBinding()] wandert über param. ValidateSet braucht drei Texte, jeden in eigenen Anführungszeichen. Die Statuszeile wird zu einem Aufruf von Write-Verbose.",
+    "[CmdletBinding()] direkt über param, [ValidateSet('Disk', 'Tape', 'Cloud')] und Write-Verbose -Message \"Preparing restore for $ComputerName\" statt des blanken Textes."
+  ],
+  "en": [
+    "The syntax error names an attribute in the wrong place. After that, count the allowed values of ValidateSet and the things the function outputs.",
+    "[CmdletBinding()] moves above param. ValidateSet needs three texts, each in its own quotes. The status line becomes a Write-Verbose call.",
+    "[CmdletBinding()] directly above param, [ValidateSet('Disk', 'Tape', 'Cloud')], and Write-Verbose -Message \"Preparing restore for $ComputerName\" instead of the bare text."
+  ]
+}

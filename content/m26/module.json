@@ -1,0 +1,13 @@
+{
+  "id": "m26",
+  "part": 2,
+  "order": 26,
+  "track": "core",
+  "title": {
+    "de": "Erweiterte Funktionen: CmdletBinding und Validierung",
+    "en": "Advanced functions: CmdletBinding and validation"
+  },
+  "prerequisites": [
+    "m25"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": {
+        "de": "Was bringt [CmdletBinding()] einer Funktion?",
+        "en": "What does [CmdletBinding()] give a function?"
+      },
+      "options": {
+        "de": [
+          "Sie läuft schneller",
+          "Die allgemeinen Parameter wie -Verbose und -ErrorAction",
+          "Sie wird automatisch exportiert",
+          "Sie läuft mit Administratorrechten"
+        ],
+        "en": [
+          "It runs faster",
+          "The common parameters such as -Verbose and -ErrorAction",
+          "It is exported automatically",
+          "It runs with administrator rights"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 2,
+      "text": {
+        "de": "Wo steht [CmdletBinding()]?",
+        "en": "Where does [CmdletBinding()] stand?"
+      },
+      "options": {
+        "de": [
+          "Über dem Wort function",
+          "Am Ende der Funktion",
+          "In der Funktion direkt vor param",
+          "Hinter dem param-Block"
+        ],
+        "en": [
+          "Above the word function",
+          "At the end of the function",
+          "Inside the function directly in front of param",
+          "Behind the param block"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "text": {
+        "de": "Wie schaltet der Aufrufer die Meldungen von Write-Verbose ein?",
+        "en": "How does the caller switch on the messages of Write-Verbose?"
+      },
+      "options": {
+        "de": [
+          "Mit dem Parameter -Verbose",
+          "Mit Write-Host",
+          "Sie sind immer sichtbar",
+          "Mit -Debug"
+        ],
+        "en": [
+          "With the parameter -Verbose",
+          "With Write-Host",
+          "They are always visible",
+          "With -Debug"
+        ]
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "text": {
+        "de": "Welches Attribut erlaubt nur die Werte Full und Log?",
+        "en": "Which attribute allows only the values Full and Log?"
+      },
+      "options": {
+        "de": [
+          "[ValidateRange('Full', 'Log')]",
+          "[ValidateSet('Full,Log')]",
+          "[ValidatePattern('Full', 'Log')]",
+          "[ValidateSet('Full', 'Log')]"
+        ],
+        "en": [
+          "[ValidateRange('Full', 'Log')]",
+          "[ValidateSet('Full,Log')]",
+          "[ValidatePattern('Full', 'Log')]",
+          "[ValidateSet('Full', 'Log')]"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 5,
+      "text": {
+        "de": "[ValidateRange(1, 90)][int]$Days erhält den Wert 90. Was passiert?",
+        "en": "[ValidateRange(1, 90)][int]$Days receives the value 90. What happens?"
+      },
+      "options": {
+        "de": [
+          "Er wird abgelehnt",
+          "Er wird akzeptiert, die Grenzen gehören dazu",
+          "Er wird auf 89 gesetzt",
+          "Es gibt eine Warnung"
+        ],
+        "en": [
+          "It is rejected",
+          "It is accepted, the limits are included",
+          "It is set to 89",
+          "There is a warning"
+        ]
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "text": {
+        "de": "Wann laufen Validierungsattribute?",
+        "en": "When do validation attributes run?"
+      },
+      "options": {
+        "de": [
+          "Nach dem Rumpf",
+          "Nur mit -Verbose",
+          "Bei der Bindung, bevor die erste Zeile des Rumpfs läuft",
+          "Beim Laden der Datei"
+        ],
+        "en": [
+          "After the body",
+          "Only with -Verbose",
+          "At binding, before the first line of the body runs",
+          "When the file is loaded"
+        ]
+      },
+      "answer": "c"
+    },
+    {
+      "id": 7,
+      "text": {
+        "de": "Ein Pflichtparameter fehlt in einer geplanten Aufgabe ohne -NonInteractive. Was passiert?",
+        "en": "A mandatory parameter is missing in a scheduled task without -NonInteractive. What happens?"
+      },
+      "options": {
+        "de": [
+          "Der Standardwert wird benutzt",
+          "Das Skript endet sofort mit einem Fehler",
+          "Der Parameter bleibt leer und das Skript läuft",
+          "PowerShell wartet auf eine Eingabe, die nie kommt"
+        ],
+        "en": [
+          "The default is used",
+          "The script ends immediately with an error",
+          "The parameter stays empty and the script runs",
+          "PowerShell waits for input that never comes"
+        ]
+      },
+      "answer": "d"
+    },
+    {
+      "id": 8,
+      "text": {
+        "de": "Warum sind Attribute besser als if-throw-Prüfungen im Rumpf?",
+        "en": "Why are attributes better than if-throw checks in the body?"
+      },
+      "options": {
+        "de": [
+          "Sie sind die einzige Möglichkeit",
+          "Sie sind von aussen sichtbar, liefern einheitliche Fehler und laufen vor dem Rumpf",
+          "Sie prüfen strenger",
+          "Sie funktionieren ohne param-Block"
+        ],
+        "en": [
+          "They are the only possibility",
+          "They are visible from outside, give consistent errors and run before the body",
+          "They check more strictly",
+          "They work without a param block"
+        ]
+      },
+      "answer": "b"
+    }
+  ]
+}

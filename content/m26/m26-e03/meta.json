@@ -1,0 +1,18 @@
+{
+  "id": "m26-e03",
+  "module": "m26",
+  "title": {
+    "de": "Welcher Aufruf kommt durch?",
+    "en": "Which call gets through?"
+  },
+  "type": "predict",
+  "order": 3,
+  "prerequisites": [
+    "m26-e02"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Parameterbindung wandelt erst den Typ um und prüft dann die Validierung. ValidateSet ignoriert Groß- und Kleinschreibung, ValidateRange schliesst die Grenzen ein.",
+    "en": "Parameter binding first converts the type and then checks the validation. ValidateSet ignores case, ValidateRange includes its limits."
+  }
+}

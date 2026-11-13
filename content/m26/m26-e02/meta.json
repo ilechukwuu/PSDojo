@@ -1,0 +1,18 @@
+{
+  "id": "m26-e02",
+  "module": "m26",
+  "title": {
+    "de": "Eingaben validieren",
+    "en": "Validating input"
+  },
+  "type": "write",
+  "order": 2,
+  "prerequisites": [
+    "m26-e01"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "Validierungsattribute wie ValidateSet, ValidateRange und ValidatePattern lehnen falsche Werte ab, bevor der Funktionsrumpf läuft.",
+    "en": "Validation attributes such as ValidateSet, ValidateRange and ValidatePattern reject wrong values before the function body runs."
+  }
+}

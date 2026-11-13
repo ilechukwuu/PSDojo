@@ -1,0 +1,18 @@
+{
+  "id": "m26-e04",
+  "module": "m26",
+  "title": {
+    "de": "Drei Fehler in einer erweiterten Funktion",
+    "en": "Three mistakes in an advanced function"
+  },
+  "type": "fix",
+  "order": 4,
+  "prerequisites": [
+    "m26-e03"
+  ],
+  "status": "draft",
+  "concept": {
+    "de": "[CmdletBinding()] steht direkt vor param, ValidateSet braucht jeden Wert als eigenen Text, und Statusmeldungen gehören in Write-Verbose statt in die Ausgabe.",
+    "en": "[CmdletBinding()] stands directly in front of param, ValidateSet needs every value as a text of its own, and status messages belong in Write-Verbose instead of the output."
+  }
+}

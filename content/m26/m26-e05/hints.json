@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede der drei if-Anweisungen wird zu einem Attribut vor ihrem Parameter. Danach baut der Rumpf nur noch das Objekt.",
+    "Leer-Prüfung: [Parameter(Mandatory)]. Zwischen-Prüfung: [ValidateRange(30, 365)]. Eines-von-Prüfung: [ValidateSet('Report', 'Disable')].",
+    "[CmdletBinding()] param([Parameter(Mandatory)][string]$Name, [ValidateRange(30, 365)][int]$Days = 90, [ValidateSet('Report', 'Disable')][string]$Mode = 'Report') und nur das [pscustomobject] im Rumpf"
+  ],
+  "en": [
+    "Each of the three if statements becomes one attribute in front of its parameter. After that the body only builds the object.",
+    "Empty check: [Parameter(Mandatory)]. Between check: [ValidateRange(30, 365)]. One-of check: [ValidateSet('Report', 'Disable')].",
+    "[CmdletBinding()] param([Parameter(Mandatory)][string]$Name, [ValidateRange(30, 365)][int]$Days = 90, [ValidateSet('Report', 'Disable')][string]$Mode = 'Report') and only the [pscustomobject] in the body"
+  ]
+}

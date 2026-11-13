@@ -1,0 +1,12 @@
+{
+  "de": [
+    "[CmdletBinding()] steht in der Funktion, direkt über param. [Parameter(Mandatory)] steht direkt vor dem Parameter, zu dem es gehört.",
+    "Die Meldung wird mit Write-Verbose -Message \"Reading share $Share on $ComputerName\" geschrieben. Das Ergebnis ist ein [pscustomobject] mit zwei Einträgen.",
+    "[CmdletBinding()] param([Parameter(Mandatory)][string]$ComputerName, [string]$Share = 'Data'), dann Write-Verbose -Message \"Reading share $Share on $ComputerName\" und [pscustomobject]@{ ComputerName = $ComputerName; Share = $Share }"
+  ],
+  "en": [
+    "[CmdletBinding()] stands inside the function, directly above param. [Parameter(Mandatory)] stands directly in front of the parameter it belongs to.",
+    "The message is written with Write-Verbose -Message \"Reading share $Share on $ComputerName\". The result is a [pscustomobject] with two entries.",
+    "[CmdletBinding()] param([Parameter(Mandatory)][string]$ComputerName, [string]$Share = 'Data'), then Write-Verbose -Message \"Reading share $Share on $ComputerName\" and [pscustomobject]@{ ComputerName = $ComputerName; Share = $Share }"
+  ]
+}

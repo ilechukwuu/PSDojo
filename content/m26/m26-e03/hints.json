@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Geh für jeden Aufruf die vier Schritte durch: Parameter finden, umwandeln, validieren, Pflichtparameter prüfen.",
+    "ValidateSet kümmert sich nicht um Groß- und Kleinschreibung. Die Grenzen von ValidateRange gehören zum Bereich. Mit CmdletBinding ist ein unbekannter Parametername ein Fehler.",
+    "Die Aufrufe 1, 2 und 4 laufen. Debug steht nicht in der Liste, und -Lines gibt es nicht. 2.7 wird in die ganze Zahl 3 umgewandelt, bevor der Bereich geprüft wird."
+  ],
+  "en": [
+    "Go through the four steps for each call: find the parameter, convert, validate, check mandatory parameters.",
+    "ValidateSet does not care about upper and lower case. The limits of ValidateRange belong to the range. With CmdletBinding an unknown parameter name is an error.",
+    "Calls 1, 2 and 4 run. Debug is not in the list, and -Lines does not exist. 2.7 is converted to the whole number 3 before the range is checked."
+  ]
+}

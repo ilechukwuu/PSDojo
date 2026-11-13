@@ -1,0 +1,12 @@
+{
+  "de": [
+    "Jede Regel ist ein Attribut vor ihrem Parameter: ValidatePattern für den Namen, ValidateSet für den Typ, ValidateRange für die Tage.",
+    "Das Muster muss den ganzen Namen abdecken, es beginnt also mit ^ und endet mit $: ^(FS|APP|WEB)-\\d{2}$",
+    "[Parameter(Mandatory)][ValidatePattern('^(FS|APP|WEB)-\\d{2}$')][string]$ComputerName, [ValidateSet('Full', 'Differential', 'Log')][string]$Type = 'Full', [ValidateRange(1, 90)][int]$RetentionDays = 14 und ein [pscustomobject] mit den drei Werten als Ergebnis"
+  ],
+  "en": [
+    "Each rule is one attribute in front of its parameter: ValidatePattern for the name, ValidateSet for the type, ValidateRange for the days.",
+    "The pattern has to cover the whole name, so it starts with ^ and ends with $: ^(FS|APP|WEB)-\\d{2}$",
+    "[Parameter(Mandatory)][ValidatePattern('^(FS|APP|WEB)-\\d{2}$')][string]$ComputerName, [ValidateSet('Full', 'Differential', 'Log')][string]$Type = 'Full', [ValidateRange(1, 90)][int]$RetentionDays = 14 and a [pscustomobject] with the three values as result"
+  ]
+}
